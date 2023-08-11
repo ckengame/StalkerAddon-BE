@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"animation_controllers": {
+		"controller.animation.gauss": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.gauss" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "gauss": "v.gauss" }
+					],
+					"transitions": [
+						{ "aim": "v.gauss && q.is_sneaking" },
+						{ "reload": "v.gauss && v.reload == true" },
+						{ "default": "!v.gauss" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "gauss_aim": "v.gauss" }
+					],
+					"transitions": [
+						{ "base": "v.gauss && !q.is_sneaking" },
+						{ "reload": "v.gauss && v.reload == true" },
+						{ "default": "!v.gauss" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "gauss_reload": "v.gauss" }
+					],
+					"transitions": [
+						{ "base": "v.gauss && v.reload == false" },
+						{ "default": "!v.gauss" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.art_hand_fp": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": [45, 40, -20],
+					"position": [6.75, 6.75, -7]
+				},
+				"rightArm": {
+					"rotation": [3, 10, 10],
+					"position": [-4, 3.5, -2]
+				}
+			}
+		},
+		"animation.player.art_item_fp": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"position": [-1, 0, 0]
+				},
+				"artifact": {
+					"rotation": [-90, 22.5, 0],
+					"position": [-5.25, 12, -5.25]
+				}
+			}
+		},
+		"animation.player.art_hand_tp": {
+			"loop": true,
+			"bones": {
+				"artifact": {
+					"rotation": [90, 0, 0],
+					"position": [-6, 14, 0]
+				}
+			}
+		}
+	}
+}

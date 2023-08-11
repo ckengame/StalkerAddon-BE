@@ -1,0 +1,36 @@
+// cken:artifact_bubble
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "cken_artifact:af_baloon.01",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/artifact/artifact_mp_green"
+			},
+			"geometry": {
+				"default": "geometry.af_baloon.01"
+			},
+			"particle_effects": {
+				"particle": "ckenp:baloon1"
+			},
+			"animations": {
+				"move": "animation.af_baloon.01"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.silverfish.move"
+				}
+			],
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 12
+			},
+			"render_controllers": [
+				"controller.render.allay"
+			]
+		}
+	}
+}

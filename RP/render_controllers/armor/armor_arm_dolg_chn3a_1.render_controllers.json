@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.arm_dolg_chn3a_1": {
+			"geometry": "geometry.armor_cs3",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.arm_dolg_chn3a_1"
+			]
+		}
+	}
+}

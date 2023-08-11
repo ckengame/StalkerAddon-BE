@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "cken:artifact_flame",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/artifact/artifact_lava",
+				"default2": "textures/models/artifact/artifact_lavahell1"
+			},
+			"geometry": {
+				"default": "geometry.af_fire.01",
+				"default2": "geometry.af_fire.02"
+			},
+			"scripts": {
+				"animate": [
+					{"third_person_main_hand": "!c.is_first_person"},
+					{"first_person_main_hand": "c.is_first_person"}
+				]
+			},
+			"animations": {
+				"third_person_main_hand": "animation.player.art_hand_tp",
+				"first_person_main_hand": "animation.player.art_item_fp"
+			},
+			"render_controllers": [
+				"controller.render.default",
+				"controller.render.default2"
+			]
+		}
+	}
+}

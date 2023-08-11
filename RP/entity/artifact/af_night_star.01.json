@@ -1,0 +1,29 @@
+// cken:artifact_night_star
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "cken_artifact:af_night_star.01",
+			"materials": {
+				"default": "entity_alphatest",
+				"default2": "entity_alphablend"
+			},
+			"textures": {
+				"default": "textures/models/artifact/artifact_myasorubka2",
+				"default2": "textures/models/artifact/artifact_myasorubka3"
+			},
+			"geometry": {
+				"default": "geometry.af_night_star.01",
+				"default2": "geometry.af_night_star.00"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 12
+			},
+			"render_controllers": [
+				"controller.render.allay",
+				"controller.render.allay2m"
+			]
+		}
+	}
+}

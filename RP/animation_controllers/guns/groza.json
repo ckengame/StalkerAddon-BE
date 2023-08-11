@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"animation_controllers": {
+		"controller.animation.groza": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.groza" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "groza": "v.groza" }
+					],
+					"transitions": [
+						{ "aim": "v.groza && q.is_sneaking" },
+						{ "reload": "v.groza && v.reload == true" },
+						{ "default": "!v.groza" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "groza_aim": "v.groza" }
+					],
+					"transitions": [
+						{ "base": "v.groza && !q.is_sneaking" },
+						{ "reload": "v.groza && v.reload == true" },
+						{ "default": "!v.groza" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "groza_reload": "v.groza" }
+					],
+					"transitions": [
+						{ "base": "v.groza && v.reload == false" },
+						{ "default": "!v.groza" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

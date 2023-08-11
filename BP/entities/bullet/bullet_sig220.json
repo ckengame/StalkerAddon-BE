@@ -1,0 +1,71 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ambullet:sig220",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:snowball"
+		},
+		"component_groups": {
+			"am:despawn": {
+				"minecraft:despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"bullet"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.1,
+				"height": 0.1
+			},
+			"minecraft:timer": {
+				"time": [
+					1,
+					1
+				],
+				"looping": false,
+				"time_down_event": {
+					"event": "am:despawn",
+					"target": "self"
+				}
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+						"damage": 6,
+						"knockback": false
+					},
+					"remove_on_hit": {}
+				},
+				"power": 7,
+				"gravity": 0.01,
+				"inertia": 1,
+				"uncertainty_base": 1,
+				"uncertainty_multiplier": 3,
+				"anchor": 1,
+				"offset": [
+					0,
+					0.25,
+					0
+				],
+				"reflect_on_hurt": false,
+				"catch_fire": false
+			},
+			"minecraft:physics": {}
+		},
+		"events": {
+			"am:despawn": {
+				"add": {
+					"component_groups": [
+						"am:despawn"
+					]
+				}
+			}
+		}
+	}
+}

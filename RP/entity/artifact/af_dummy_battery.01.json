@@ -1,0 +1,24 @@
+// cken:artifact_battery
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "cken_artifact:af_dummy_battery.01",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/artifact/artifact_anim_lightning",
+				"default2": "textures/models/artifact/af_dummy_battery"
+			},
+			"geometry": {
+				"default": "geometry.af_dummy_battery.00",
+				"default2": "geometry.af_dummy_battery.01"
+			},
+			"render_controllers": [
+				"controller.render.allay",
+				"controller.render.allay2"
+			]
+		}
+	}
+}

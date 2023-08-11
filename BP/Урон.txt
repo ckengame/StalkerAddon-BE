@@ -1,0 +1,35 @@
+Урон
+akm74u - 4
+akm74 - 5
+abakan - 7
+
+bm16 - 15
+toz34 - 20
+winch - 23
+spas - 26
+prot - 20
+
+pm - 2
+pb - 2
+fort - 3
+colt - 4
+walther - 5
+sig220 - 6 
+hpsa - 7
+deagle - 14
+
+vintorez - 7
+svd - 20
+svu - 25
+gauss - 50
+
+groza - 9
+val - 10
+
+l85 - 5
+lr300 - 6
+sig550 - 7
+
+mp5 - 4
+
+pkm - 5

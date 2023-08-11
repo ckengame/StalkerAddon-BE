@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"animation_controllers": {
+		"controller.animation.vintorez": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.vintorez" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "vintorez": "v.vintorez" }
+					],
+					"transitions": [
+						{ "aim": "v.vintorez && q.is_sneaking" },
+						{ "reload": "v.vintorez && v.reload == true" },
+						{ "default": "!v.vintorez" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "vintorez_aim": "v.vintorez" }
+					],
+					"transitions": [
+						{ "base": "v.vintorez && !q.is_sneaking" },
+						{ "reload": "v.vintorez && v.reload == true" },
+						{ "default": "!v.vintorez" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "vintorez_reload": "v.vintorez" }
+					],
+					"transitions": [
+						{ "base": "v.vintorez && v.reload == false" },
+						{ "default": "!v.vintorez" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

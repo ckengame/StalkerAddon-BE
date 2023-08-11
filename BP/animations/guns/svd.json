@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.player.svd_shoot": {
+			"animation_length": 0.5,
+			"timeline": {
+				"0.0": [
+					"/playsound svd.shoot @s[r=200]",
+					"/camerashake add @s 0.1 0.2 rotational",
+					"/scoreboard players remove @s svd 1",
+					"@s ambullet:svd"
+				]
+			}
+		},
+		"animation.player.svd_reload": {
+			"animation_length": 3.25,
+			"timeline": {
+				"0.0": [
+					"/event entity @s[hasitem={item=scm:ammo_7_62x54mm_7n1, quantity=1..}] gun:reload"
+				],
+				"3.1": [
+					"/scoreboard players set @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=1}] svd 1",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=2}] svd 2",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=3}] svd 3",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=4}] svd 4",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=5}] svd 5",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=6}] svd 6",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=7}] svd 7",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=8}] svd 8",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=9}] svd 9",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=10..}] svd 10",
+
+					"/clear @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=1}] scm:ammo_7_62x54mm_7n1 0 1",
+					"/clear @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=2}] scm:ammo_7_62x54mm_7n1 0 2",
+					"/clear @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=3}] scm:ammo_7_62x54mm_7n1 0 3",
+					"/clear @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=4}] scm:ammo_7_62x54mm_7n1 0 4",
+					"/clear @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=5}] scm:ammo_7_62x54mm_7n1 0 5",
+					"/clear @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=6}] scm:ammo_7_62x54mm_7n1 0 6",
+					"/clear @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=7}] scm:ammo_7_62x54mm_7n1 0 7",
+					"/clear @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=8}] scm:ammo_7_62x54mm_7n1 0 8",
+					"/clear @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=9}] scm:ammo_7_62x54mm_7n1 0 9",
+					"/clear @s[hasitem={item=scm:ammo_7_62x54mm_7n1,quantity=10..}] scm:ammo_7_62x54mm_7n1 0 10"
+				]
+			}
+		}
+	}
+}

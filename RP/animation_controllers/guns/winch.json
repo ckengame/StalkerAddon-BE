@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"animation_controllers": {
+		"controller.animation.winch": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.winch" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "winch": "v.winch" }
+					],
+					"transitions": [
+						{ "aim": "v.winch && q.is_sneaking" },
+						{ "reload": "v.winch && v.reload == true" },
+						{ "default": "!v.winch" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "winch_aim": "v.winch" }
+					],
+					"transitions": [
+						{ "base": "v.winch && !q.is_sneaking" },
+						{ "reload": "v.winch && v.reload == true" },
+						{ "default": "!v.winch" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "winch_reload": "v.winch" }
+					],
+					"transitions": [
+						{ "base": "v.winch && v.reload == false" },
+						{ "default": "!v.winch" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

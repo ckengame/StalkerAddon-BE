@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"animation_controllers": {
+		"controller.animation.bm16": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.bm16" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "bm16": "v.bm16" }
+					],
+					"transitions": [
+						{ "aim": "v.bm16 && q.is_sneaking" },
+						{ "reload": "v.bm16 && v.reload == true" },
+						{ "default": "!v.bm16" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "bm16_aim": "v.bm16" }
+					],
+					"transitions": [
+						{ "base": "v.bm16 && !q.is_sneaking" },
+						{ "reload": "v.bm16 && v.reload == true" },
+						{ "default": "!v.bm16" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "bm16_reload": "v.bm16" }
+					],
+					"transitions": [
+						{ "base": "v.bm16 && v.reload == false" },
+						{ "default": "!v.bm16" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

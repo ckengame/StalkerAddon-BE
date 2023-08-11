@@ -1,0 +1,29 @@
+// cken:artifact_kolobok
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "cken_artifact:af_fuzz_kolobok.01",
+			"materials": {
+				"default": "entity_alphatest",
+				"default2": "entity_alphablend"
+			},
+			"textures": {
+				"default": "textures/models/artifact/artifact_sopli",
+				"default2": "textures/models/artifact/artifact_mp_green"
+			},
+			"geometry": {
+				"default": "geometry.af_fuzz_kolobok.01",
+				"default2": "geometry.af_fuzz_kolobok.00"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 12
+			},
+			"render_controllers": [
+				"controller.render.allay",
+				"controller.render.allay2m"
+			]
+		}
+	}
+}

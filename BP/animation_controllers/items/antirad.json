@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.antirad": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "using": "q.scoreboard('antirad') <= 0 && q.is_item_name_any('slot.weapon.mainhand', 'ckenmed:antirad') && q.is_using_item" },
+						{ "completion": "q.scoreboard('antirad') == 1 && q.is_item_name_any('slot.weapon.mainhand', 'ckenmed:antirad')" },
+						{ "stop": "q.scoreboard('antirad') >= 1 && !q.is_item_name_any('slot.weapon.mainhand', 'ckenmed:antirad')" }
+					]
+				},
+				"using": {
+					"transitions": [ { "default": "(1.0)" } ],
+					"on_entry": [
+						"/scoreboard players set @s antirad 56",
+						"/playsound item.antirad @s",
+						"/playanimation @s animation.antirad.use.fp"
+					]
+				},
+				"completion": {
+					"transitions": [ { "default": "(1.0)" } ],
+					"on_entry": [
+						"/clear @s ckenmed:antirad 0 1"
+					]
+				},
+				"stop": {
+					"transitions": [ { "default": "(1.0)" } ],
+					"on_entry": [
+						"/stopsound @s item.antirad",
+						"/playanimation @s animation.player.first_person.base_pose",
+						"/scoreboard players set @s antirad 0"
+					]
+				}
+			}
+		}
+	}
+}

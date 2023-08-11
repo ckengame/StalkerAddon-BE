@@ -1,0 +1,9 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "cken:anomaly_fireball",
+			"spawn_egg": {"texture": "anomaly_fireball"}
+		}
+	}
+}

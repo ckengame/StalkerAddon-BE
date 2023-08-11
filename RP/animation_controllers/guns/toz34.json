@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"animation_controllers": {
+		"controller.animation.toz34": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.toz34" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "toz34": "v.toz34" }
+					],
+					"transitions": [
+						{ "aim": "v.toz34 && q.is_sneaking" },
+						{ "reload": "v.toz34 && v.reload == true" },
+						{ "default": "!v.toz34" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "toz34_aim": "v.toz34" }
+					],
+					"transitions": [
+						{ "base": "v.toz34 && !q.is_sneaking" },
+						{ "reload": "v.toz34 && v.reload == true" },
+						{ "default": "!v.toz34" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "toz34_reload": "v.toz34" }
+					],
+					"transitions": [
+						{ "base": "v.toz34 && v.reload == false" },
+						{ "default": "!v.toz34" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

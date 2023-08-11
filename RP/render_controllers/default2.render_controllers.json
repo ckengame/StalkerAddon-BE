@@ -1,0 +1,51 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.default2m": {
+			"geometry": "geometry.default2",
+			"materials": [
+				{
+					"*": "material.default2"
+				}
+			],
+			"textures": [
+				"texture.default2"
+			]
+		},
+		"controller.render.default3m": {
+			"geometry": "geometry.default3",
+			"materials": [
+				{
+					"*": "material.default3"
+				}
+			],
+			"textures": [
+				"texture.default3"
+			]
+		},
+		"controller.render.allay2m": {
+			"geometry": "geometry.default2",
+			"materials": [
+				{
+					"*": "material.default2"
+				}
+			],
+			"textures": [
+				"texture.default2"
+			],
+			"ignore_lighting": true
+		},
+		"controller.render.allay3m": {
+			"geometry": "geometry.default3",
+			"materials": [
+				{
+					"*": "material.default3"
+				}
+			],
+			"textures": [
+				"texture.default3"
+			],
+			"ignore_lighting": true
+		}
+	}
+}

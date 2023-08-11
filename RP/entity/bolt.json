@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ambullet:bolt",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/wpn/bolt"
+			},
+			"geometry": {
+				"default": "geometry.cken_bolt"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

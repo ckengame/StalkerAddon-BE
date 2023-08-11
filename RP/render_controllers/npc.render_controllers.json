@@ -1,0 +1,82 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.cken:npc": {
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.npc_1",
+						"Texture.npc_2",
+						"Texture.npc_3",
+						"Texture.npc_4",
+						"Texture.npc_5",
+						"Texture.npc_6",
+						"Texture.npc_7",
+						"Texture.npc_8",
+						"Texture.npc_9",
+						"Texture.npc_10",
+						"Texture.npc_scientist_1",
+						"Texture.npc_scientist_2",
+						"Texture.npc_scientist_3",
+						"Texture.npc_scientist_4",
+						"Texture.npc_scientist_5",
+						"Texture.npc_scientist_6",
+						"Texture.npc_scientist_7",
+						"Texture.npc_scientist_8",
+						"Texture.npc_scientist_9",
+						"Texture.npc_scientist_10",
+						"Texture.npc_apiary_1",
+						"Texture.npc_apiary_2",
+						"Texture.npc_apiary_3",
+						"Texture.npc_apiary_4",
+						"Texture.npc_apiary_5",
+						"Texture.npc_teacher_1",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty",
+						"Texture.empty"
+					]
+				}
+			},
+			"geometry": "geometry.default",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.skins[query.variant]"
+			]
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.arm_cs_seva1": {
+			"geometry": "geometry.armor_seva",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.arm_cs_seva1"
+			]
+		}
+	}
+}

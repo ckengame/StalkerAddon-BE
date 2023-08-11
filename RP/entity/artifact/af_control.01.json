@@ -1,0 +1,25 @@
+// cken:artifact_steering_wheel
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "cken_artifact:af_control.01",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/blocks/prop/prop_pult5"
+			},
+			"geometry": {
+				"default": "geometry.af_control.01"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 12
+			},
+			"render_controllers": [
+				"controller.render.allay"
+			]
+		}
+	}
+}

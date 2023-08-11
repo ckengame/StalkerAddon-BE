@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.player.sig220": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "reload": "q.scoreboard('sig220') == 0 && q.is_item_name_any('slot.weapon.mainhand', 'scm:sig220') && q.is_using_item" },
+						{ "shoot": "q.scoreboard('sig220') >= 1 && q.is_item_name_any('slot.weapon.mainhand', 'scm:sig220') && q.is_using_item" }
+					]
+				},
+				"reload": {
+					"on_exit": ["@s gun:base", "/stopsound @s sig220.reload"],
+					"animations": ["sig220_reload"],
+					"transitions": [
+						{ "default": "q.all_animations_finished || !q.is_item_name_any('slot.weapon.mainhand', 'scm:sig220') || q.mark_variant != 2" }
+					]
+				},
+				"shoot": {
+					"on_entry": ["@s gun:shoot"],
+					"animations": ["sig220_shoot"],
+					"transitions": [
+						{ "default": "q.all_animations_finished" }
+					]
+				}
+			}
+		}
+	}
+}

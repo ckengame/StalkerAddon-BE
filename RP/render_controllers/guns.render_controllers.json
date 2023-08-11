@@ -1,0 +1,335 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.player.binokler": {
+			"geometry": "geometry.binokler",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.binokler"
+			]
+		},
+		"controller.render.player.bolt": {
+			"geometry": "geometry.bolt",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.bolt"
+			]
+		},
+		"controller.render.player.abakan": {
+			"geometry": "geometry.abakan",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.abakan"
+			]
+		},
+		"controller.render.player.akm74": {
+			"geometry": "geometry.akm74",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.akm74"
+			]
+		},
+		"controller.render.player.akm74u": {
+			"geometry": "geometry.akm74u",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.akm74u"
+			]
+		},
+		"controller.render.player.beretta": {
+			"geometry": "geometry.beretta",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.beretta"
+			]
+		},
+		"controller.render.player.bm16": {
+			"geometry": "geometry.bm16",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.bm16"
+			]
+		},
+		"controller.render.player.colt": {
+			"geometry": "geometry.colt",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.colt"
+			]
+		},
+		"controller.render.player.deagle": {
+			"geometry": "geometry.deagle",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.deagle"
+			]
+		},
+		"controller.render.player.fort": {
+			"geometry": "geometry.fort",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.fort"
+			]
+		},
+		"controller.render.player.gauss": {
+			"geometry": "geometry.gauss",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.gauss"
+			]
+		},
+		"controller.render.player.groza": {
+			"geometry": "geometry.groza",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.groza"
+			]
+		},
+		"controller.render.player.hpsa": {
+			"geometry": "geometry.hpsa",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.hpsa"
+			]
+		},
+		"controller.render.player.l85": {
+			"geometry": "geometry.l85",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.l85"
+			]
+		},
+		"controller.render.player.lr300": {
+			"geometry": "geometry.lr300",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.lr300"
+			]
+		},
+		"controller.render.player.mp5": {
+			"geometry": "geometry.mp5",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.mp5"
+			]
+		},
+		"controller.render.player.pb": {
+			"geometry": "geometry.pb",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.pb"
+			]
+		},
+		"controller.render.player.pkm": {
+			"geometry": "geometry.pkm",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.pkm"
+			]
+		},
+		"controller.render.player.pm": {
+			"geometry": "geometry.pm",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.pm"
+			]
+		},
+		"controller.render.player.prot": {
+			"geometry": "geometry.prot",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.prot"
+			]
+		},
+		"controller.render.player.sig220": {
+			"geometry": "geometry.sig220",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.sig220"
+			]
+		},
+		"controller.render.player.sig550": {
+			"geometry": "geometry.sig550",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.sig550"
+			]
+		},
+		"controller.render.player.spas": {
+			"geometry": "geometry.spas",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.spas"
+			]
+		},
+		"controller.render.player.svd": {
+			"geometry": "geometry.svd",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.svd"
+			]
+		},
+		"controller.render.player.svu": {
+			"geometry": "geometry.svu",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.svu"
+			]
+		},
+		"controller.render.player.toz34": {
+			"geometry": "geometry.toz34",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.toz34"
+			]
+		},
+		"controller.render.player.val": {
+			"geometry": "geometry.val",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.vintorez"
+			]
+		},
+		"controller.render.player.vintorez": {
+			"geometry": "geometry.vintorez",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.vintorez"
+			]
+		},
+		"controller.render.player.walther": {
+			"geometry": "geometry.walther",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.walther"
+			]
+		},
+		"controller.render.player.winch": {
+			"geometry": "geometry.winch",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.winch"
+			]
+		}
+	}
+}

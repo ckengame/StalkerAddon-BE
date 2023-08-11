@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.player.pkm_shoot": {
+			"animation_length": 0.07,
+			"timeline": {
+				"0.0": [
+					"/playsound pkm.shoot @s[r=200]",
+					"/camerashake add @s 0.1 0.2 rotational",
+					"/scoreboard players remove @s pkm 1",
+					"@s ambullet:pkm"
+				]
+			}
+		},
+		"animation.player.pkm_reload": {
+			"animation_length": 3.6,
+			"timeline": {
+				"0.0": [
+					"/event entity @s[hasitem={item=scm:ammo_12x70, quantity=1..}] gun:reload"
+				],
+				"3.55": [
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=1}] pkm 1",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=2..}] pkm 2",
+					
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=1}] scm:ammo_12x70 0 1",
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=2..}] scm:ammo_12x70 0 2"
+				]
+			}
+		}
+	}
+}

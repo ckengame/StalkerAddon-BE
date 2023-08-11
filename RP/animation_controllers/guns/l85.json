@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"animation_controllers": {
+		"controller.animation.l85": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.l85" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "l85": "v.l85" }
+					],
+					"transitions": [
+						{ "aim": "v.l85 && q.is_sneaking" },
+						{ "reload": "v.l85 && v.reload == true" },
+						{ "default": "!v.l85" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "l85_aim": "v.l85" }
+					],
+					"transitions": [
+						{ "base": "v.l85 && !q.is_sneaking" },
+						{ "reload": "v.l85 && v.reload == true" },
+						{ "default": "!v.l85" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "l85_reload": "v.l85" }
+					],
+					"transitions": [
+						{ "base": "v.l85 && v.reload == false" },
+						{ "default": "!v.l85" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

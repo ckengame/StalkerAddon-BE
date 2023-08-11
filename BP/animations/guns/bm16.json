@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.player.bm16_shoot": {
+			"animation_length": 0.2,
+			"timeline": {
+				"0.0": [
+					"/playsound toz34.shoot @s[r=200]",
+					"/camerashake add @s 0.1 0.2 rotational",
+					"/scoreboard players remove @s bm16 1",
+					"@s ambullet:bm16"
+				]
+			}
+		},
+		"animation.player.bm16_reload": {
+			"animation_length": 2.3,
+			"timeline": {
+				"0.0": [
+					"/event entity @s[hasitem={item=scm:ammo_12x70, quantity=1..}] gun:reload"
+				],
+				"2.25": [
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=1}] bm16 1",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=2..}] bm16 2",
+
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=1}] scm:ammo_12x70 0 1",
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=2..}] scm:ammo_12x70 0 1"
+				]
+			}
+		}
+	}
+}

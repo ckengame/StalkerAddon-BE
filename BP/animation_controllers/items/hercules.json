@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.hercules": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "using": "q.scoreboard('hercules')<=0 && q.is_item_name_any('slot.weapon.mainhand', 'ckenmed:hercules') && q.is_using_item" },
+						{ "completion": "q.scoreboard('hercules')==1 && q.is_item_name_any('slot.weapon.mainhand', 'ckenmed:hercules')" },
+						{ "stop": "q.scoreboard('hercules')>=1 && !q.is_item_name_any('slot.weapon.mainhand', 'ckenmed:hercules')" }
+					]
+				},
+				"using": {
+					"transitions": [ { "default": "(1.0)" } ],
+					"on_entry": [
+						"/scoreboard players set @s hercules 120",
+						"/playsound item.water_drink_last @s",
+						"/playanimation @s animation.herkules.use.fp"
+					]
+				},
+				"completion": {
+					"transitions": [ { "default": "(1.0)" } ],
+					"on_entry": [
+						"/clear @s ckenmed:hercules 0 1"
+					]
+				},
+				"stop": {
+					"transitions": [ { "default": "(1.0)" } ],
+					"on_entry": [
+						"/stopsound @s item.water_drink_last",
+						"/playanimation @s animation.player.first_person.base_pose",
+						"/scoreboard players set @s hercules 0"
+					]
+				}
+			}
+		}
+	}
+}

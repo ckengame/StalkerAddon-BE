@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"animation_controllers": {
+		"controller.animation.pm": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.pm" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "pm": "v.pm" }
+					],
+					"transitions": [
+						{ "aim": "v.pm && q.is_sneaking" },
+						{ "reload": "v.pm && v.reload == true" },
+						{ "default": "!v.pm" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "pm_aim": "v.pm" }
+					],
+					"transitions": [
+						{ "base": "v.pm && !q.is_sneaking" },
+						{ "reload": "v.pm && v.reload == true" },
+						{ "default": "!v.pm" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "pm_reload": "v.pm" }
+					],
+					"transitions": [
+						{ "base": "v.pm && v.reload == false" },
+						{ "default": "!v.pm" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

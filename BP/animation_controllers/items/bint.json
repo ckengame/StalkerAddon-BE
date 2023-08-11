@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.bint": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "using": "q.scoreboard('bint') <= 0 && q.is_item_name_any('slot.weapon.mainhand', 'ckenmed:bint') && q.is_using_item" },
+						{ "completion": "q.scoreboard('bint') == 1 && q.is_item_name_any('slot.weapon.mainhand', 'ckenmed:bint')" },
+						{ "stop": "q.scoreboard('bint') >= 1 && !q.is_item_name_any('slot.weapon.mainhand', 'ckenmed:bint')" }
+					]
+				},
+				"using": {
+					"transitions": [ { "default": "(1.0)" } ],
+					"on_entry": [
+						"/scoreboard players set @s bint 60",
+						"/playsound item.bandage @s",
+						"/playanimation @s animation.bint.use.fp"
+					]
+				},
+				"completion": {
+					"transitions": [ { "default": "(1.0)" } ],
+					"on_entry": [
+						"/clear @s ckenmed:bint 0 1"
+					]
+				},
+				"stop": {
+					"transitions": [ { "default": "(1.0)" } ],
+					"on_entry": [
+						"/stopsound @s item.bandage",
+						"/playanimation @s animation.player.first_person.base_pose",
+						"/scoreboard players set @s bint 0"
+					]
+				}
+			}
+		}
+	}
+}

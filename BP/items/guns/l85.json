@@ -1,0 +1,36 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "scm:l85",
+			"category": "Equipment"
+		},
+		"components": {
+			"tag:empty_hand": {},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.equipment"
+			},
+			"minecraft:display_name": {
+				"value": "L85\n5,56x45mm"
+			},
+			"minecraft:icon": {
+				"texture": "il86"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:use_duration": 0,
+			"minecraft:food": {
+				"can_always_eat": true
+			},
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"first_person": {
+						"scale": [0, 0, 0]
+					},
+					"third_person": {
+						"scale": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

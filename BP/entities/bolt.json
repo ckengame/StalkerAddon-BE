@@ -1,0 +1,51 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ambullet:bolt",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:snowball"
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.25,
+				"height": 0.25
+			},
+			"minecraft:timer": {
+				"time": 3,
+				"time_down_event": {
+					"event": "despawn",
+					"target": "self"
+				}
+			},
+			"minecraft:projectile": {
+				"onHit": {
+					"stick_in_ground": {
+						"shake_time": 0.35
+					},
+					"arrow_effect": {}
+				},
+				"power": 0.6,
+				"gravity": 0.7,
+				"angle_offset": 0
+			},
+			"minecraft:physics": {}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			}
+		}
+	}
+}

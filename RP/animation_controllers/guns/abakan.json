@@ -1,0 +1,50 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.abakan": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.abakan" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "abakan": "v.abakan" }
+					],
+					"transitions": [
+						{ "aim": "v.abakan && q.is_sneaking" },
+						{ "reload": "v.abakan && v.reload == true" },
+						{ "default": "!v.abakan" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "abakan_aim": "v.abakan" }
+					],
+					"transitions": [
+						{ "base": "v.abakan && !q.is_sneaking" },
+						{ "reload": "v.abakan && v.reload == true" },
+						{ "default": "!v.abakan" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "abakan_reload": "v.abakan" }
+					],
+					"transitions": [
+						{ "base": "v.abakan && v.reload == false" },
+						{ "default": "!v.abakan" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

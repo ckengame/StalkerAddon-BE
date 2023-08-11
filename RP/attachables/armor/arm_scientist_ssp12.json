@@ -1,0 +1,12 @@
+{
+"format_version":"1.8.0",
+"minecraft:attachable":{
+"description":{
+"identifier":"scm:arm_scientist_ssp12",
+"materials":{"default":"armor","enchanted":"armor_enchanted"},
+"textures":{
+"default":"textures/models/armor/arm_scientist_ssp12",
+"enchanted":"textures/misc/enchanted_item_glint"},
+"geometry":{"default":"geometry.player.armor_ecolog"},
+"scripts":{"parent_setup":"variable.chest_layer_visible=0.0;"},
+"render_controllers":["controller.render.armor"]}}}

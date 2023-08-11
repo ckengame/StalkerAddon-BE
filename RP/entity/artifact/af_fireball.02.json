@@ -1,0 +1,31 @@
+// cken:artifact_fireball
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "cken_artifact:af_fireball.02",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/artifact/artifact_simple2",
+				"default2": "textures/models/artifact/artifact_lavahell1",
+				"default3": "textures/models/artifact/artifact_lavahell1"
+			},
+			"geometry": {
+				"default": "geometry.af_fireball.00",
+				"default2": "geometry.af_fireball.01",
+				"default3": "geometry.af_fireball.02"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 12
+			},
+			"render_controllers": [
+				"controller.render.allay",
+				"controller.render.allay2",
+				"controller.render.allay3"
+			]
+		}
+	}
+}

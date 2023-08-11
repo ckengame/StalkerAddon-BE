@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.player.svu": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "reload": "q.scoreboard('svu') == 0 && q.is_item_name_any('slot.weapon.mainhand', 'scm:svu') && q.is_using_item" },
+						{ "shoot": "q.scoreboard('svu') >= 1 && q.is_item_name_any('slot.weapon.mainhand', 'scm:svu') && q.is_using_item" }
+					]
+				},
+				"reload": {
+					"on_exit": ["@s gun:base", "/stopsound @s svu.reload"],
+					"animations": ["svu_reload"],
+					"transitions": [
+						{ "default": "q.all_animations_finished || !q.is_item_name_any('slot.weapon.mainhand', 'scm:svu') || q.mark_variant != 2" }
+					]
+				},
+				"shoot": {
+					"on_entry": ["@s gun:shoot"],
+					"animations": ["svu_shoot"],
+					"transitions": [
+						{ "default": "q.all_animations_finished" }
+					]
+				}
+			}
+		}
+	}
+}

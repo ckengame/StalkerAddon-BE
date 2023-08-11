@@ -1,0 +1,28 @@
+// cken:artifact_stone_flower
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "cken_artifact:af_cristall_flower01",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/artifact/artifact_hell1",
+				"default2": "textures/models/artifact/artifact_myasorubka2"
+			},
+			"geometry": {
+				"default": "geometry.af_cristall_flower.00",
+				"default2": "geometry.af_cristall_flower.01"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 12
+			},
+			"render_controllers": [
+				"controller.render.allay",
+				"controller.render.allay2"
+			]
+		}
+	}
+}

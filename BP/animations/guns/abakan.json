@@ -1,0 +1,87 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.player.abakan_shoot": {
+			"animation_length": 0.09,
+			"timeline": {
+				"0.0": [
+					"/playsound abakan.shoot @s[r=200]",
+					"/camerashake add @s 0.1 0.2 rotational",
+					"/scoreboard players remove @s abakan 1",
+					"@s ambullet:abakan"
+				]
+			}
+		},
+		"animation.player.abakan_reload": {
+			"animation_length": 2.66667,
+			"timeline": {
+				"0.0": [
+					"/event entity @s[hasitem={item=scm:ammo_5_45x39mm, quantity=1..}] gun:reload"
+				],
+				"2.5": [
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=1}] abakan 1",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=2}] abakan 2",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=3}] abakan 3",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=4}] abakan 4",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=5}] abakan 5",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=6}] abakan 6",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=7}] abakan 7",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=8}] abakan 8",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=9}] abakan 9",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=10}] abakan 10",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=11}] abakan 11",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=12}] abakan 12",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=13}] abakan 13",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=14}] abakan 14",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=15}] abakan 15",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=16}] abakan 16",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=17}] abakan 17",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=18}] abakan 18",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=19}] abakan 19",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=20}] abakan 20",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=21}] abakan 21",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=22}] abakan 22",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=23}] abakan 23",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=24}] abakan 24",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=25}] abakan 25",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=26}] abakan 26",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=27}] abakan 27",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=28}] abakan 28",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=29}] abakan 29",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_5_45x39mm, quantity=30..}] abakan 30",
+
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=1}] scm:ammo_5_45x39mm 0 1",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=2}] scm:ammo_5_45x39mm 0 2",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=3}] scm:ammo_5_45x39mm 0 3",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=4}] scm:ammo_5_45x39mm 0 4",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=5}] scm:ammo_5_45x39mm 0 5",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=6}] scm:ammo_5_45x39mm 0 6",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=7}] scm:ammo_5_45x39mm 0 7",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=8}] scm:ammo_5_45x39mm 0 8",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=9}] scm:ammo_5_45x39mm 0 9",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=10}] scm:ammo_5_45x39mm 0 10",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=11}] scm:ammo_5_45x39mm 0 11",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=12}] scm:ammo_5_45x39mm 0 12",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=13}] scm:ammo_5_45x39mm 0 13",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=14}] scm:ammo_5_45x39mm 0 14",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=15}] scm:ammo_5_45x39mm 0 15",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=16}] scm:ammo_5_45x39mm 0 16",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=17}] scm:ammo_5_45x39mm 0 17",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=18}] scm:ammo_5_45x39mm 0 18",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=19}] scm:ammo_5_45x39mm 0 19",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=20}] scm:ammo_5_45x39mm 0 20",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=21}] scm:ammo_5_45x39mm 0 21",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=22}] scm:ammo_5_45x39mm 0 22",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=23}] scm:ammo_5_45x39mm 0 23",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=24}] scm:ammo_5_45x39mm 0 24",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=25}] scm:ammo_5_45x39mm 0 25",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=26}] scm:ammo_5_45x39mm 0 26",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=27}] scm:ammo_5_45x39mm 0 27",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=28}] scm:ammo_5_45x39mm 0 28",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=29}] scm:ammo_5_45x39mm 0 29",
+					"/clear @s[hasitem={item=scm:ammo_5_45x39mm, quantity=30..}] scm:ammo_5_45x39mm 0 30"
+				]
+			}
+		}
+	}
+}

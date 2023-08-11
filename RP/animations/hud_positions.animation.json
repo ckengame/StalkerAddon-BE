@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hud_swimming": {
+			"loop": true,
+			"bones": {
+				"hud": {
+					"position": [0, "(query.is_swimming ? -22.95 : 0.0) + 0", 0],
+					"scale": 1
+				}
+			}
+		}
+	}
+}

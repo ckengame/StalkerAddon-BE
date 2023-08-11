@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.arm_freedom_zarya3": {
+			"geometry": "geometry.armor_zarya0",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.arm_freedom_zarya3"
+			]
+		}
+	}
+}

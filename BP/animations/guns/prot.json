@@ -1,0 +1,51 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.player.prot_shoot": {
+			"animation_length": 0.3,
+			"timeline": {
+				"0.0": [
+					"/playsound prot.shoot @s[r=200]",
+					"/camerashake add @s 0.1 0.2 rotational",
+					"/scoreboard players remove @s prot 1",
+					"@s ambullet:prot"
+				]
+			}
+		},
+		"animation.player.prot_reload": {
+			"animation_length": 5.83,
+			"timeline": {
+				"0.0": [
+					"/event entity @s[hasitem={item=scm:ammo_12x70, quantity=1..}] gun:reload"
+				],
+				"5.7": [
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=1}] prot 1",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=2}] prot 2",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=3}] prot 3",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=4}] prot 4",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=5}] prot 5",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=6}] prot 6",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=7}] prot 7",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=8}] prot 8",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=9}] prot 9",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=10}] prot 10",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=11}] prot 11",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_12x70, quantity=12..}] prot 12",
+
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=1}] scm:ammo_12x70 0 1",
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=2}] scm:ammo_12x70 0 2",
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=3}] scm:ammo_12x70 0 3",
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=4}] scm:ammo_12x70 0 4",
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=5}] scm:ammo_12x70 0 5",
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=6}] scm:ammo_12x70 0 6",
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=7}] scm:ammo_12x70 0 7",
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=8}] scm:ammo_12x70 0 8",
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=9}] scm:ammo_12x70 0 9",
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=10}] scm:ammo_12x70 0 10",
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=11}] scm:ammo_12x70 0 11",
+					"/clear @s[hasitem={item=scm:ammo_12x70, quantity=12..}] scm:ammo_12x70 0 12"
+				]
+			}
+		}
+	}
+}

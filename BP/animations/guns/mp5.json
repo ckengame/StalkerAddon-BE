@@ -1,0 +1,87 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.player.mp5_shoot": {
+			"animation_length": 0.07,
+			"timeline": {
+				"0.0": [
+					"/playsound mp5.shoot @s[r=200]",
+					"/camerashake add @s 0.1 0.2 rotational",
+					"/scoreboard players remove @s mp5 1",
+					"@s ambullet:mp5"
+				]
+			}
+		},
+		"animation.player.mp5_reload": {
+			"animation_length": 2.5,
+			"timeline": {
+				"0.0": [
+					"/event entity @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=1..}] gun:reload"
+				],
+				"2.3": [
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=1}] mp5 1",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=2}] mp5 2",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=3}] mp5 3",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=4}] mp5 4",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=5}] mp5 5",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=6}] mp5 6",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=7}] mp5 7",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=8}] mp5 8",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=9}] mp5 9",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=10}] mp5 10",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=11}] mp5 11",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=12}] mp5 12",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=13}] mp5 13",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=14}] mp5 14",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=15}] mp5 15",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=16}] mp5 16",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=17}] mp5 17",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=18}] mp5 18",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=19}] mp5 19",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=20}] mp5 20",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=21}] mp5 21",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=22}] mp5 22",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=23}] mp5 23",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=24}] mp5 24",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=25}] mp5 25",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=26}] mp5 26",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=27}] mp5 27",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=28}] mp5 28",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=29}] mp5 29",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=30..}] mp5 30",
+
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=1}] scm:ammo_9x19mm_fmj 0 1",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=2}] scm:ammo_9x19mm_fmj 0 2",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=3}] scm:ammo_9x19mm_fmj 0 3",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=4}] scm:ammo_9x19mm_fmj 0 4",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=5}] scm:ammo_9x19mm_fmj 0 5",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=6}] scm:ammo_9x19mm_fmj 0 6",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=7}] scm:ammo_9x19mm_fmj 0 7",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=8}] scm:ammo_9x19mm_fmj 0 8",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=9}] scm:ammo_9x19mm_fmj 0 9",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=10}] scm:ammo_9x19mm_fmj 0 10",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=11}] scm:ammo_9x19mm_fmj 0 11",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=12}] scm:ammo_9x19mm_fmj 0 12",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=13}] scm:ammo_9x19mm_fmj 0 13",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=14}] scm:ammo_9x19mm_fmj 0 14",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=15}] scm:ammo_9x19mm_fmj 0 15",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=16}] scm:ammo_9x19mm_fmj 0 16",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=17}] scm:ammo_9x19mm_fmj 0 17",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=18}] scm:ammo_9x19mm_fmj 0 18",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=19}] scm:ammo_9x19mm_fmj 0 19",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=20}] scm:ammo_9x19mm_fmj 0 20",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=21}] scm:ammo_9x19mm_fmj 0 21",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=22}] scm:ammo_9x19mm_fmj 0 22",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=23}] scm:ammo_9x19mm_fmj 0 23",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=24}] scm:ammo_9x19mm_fmj 0 24",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=25}] scm:ammo_9x19mm_fmj 0 25",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=26}] scm:ammo_9x19mm_fmj 0 26",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=27}] scm:ammo_9x19mm_fmj 0 27",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=28}] scm:ammo_9x19mm_fmj 0 28",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=29}] scm:ammo_9x19mm_fmj 0 29",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=30..}] scm:ammo_9x19mm_fmj 0 30"
+				]
+			}
+		}
+	}
+}

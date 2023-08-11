@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"animation_controllers": {
+		"controller.animation.fort": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.fort" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "fort": "v.fort" }
+					],
+					"transitions": [
+						{ "aim": "v.fort && q.is_sneaking" },
+						{ "reload": "v.fort && v.reload == true" },
+						{ "default": "!v.fort" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "fort_aim": "v.fort" }
+					],
+					"transitions": [
+						{ "base": "v.fort && !q.is_sneaking" },
+						{ "reload": "v.fort && v.reload == true" },
+						{ "default": "!v.fort" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "fort_reload": "v.fort" }
+					],
+					"transitions": [
+						{ "base": "v.fort && v.reload == false" },
+						{ "default": "!v.fort" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+// cken:artifact_eye
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "cken_artifact:af_eye.00",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/artifact/artifact_eye"
+			},
+			"geometry": {
+				"default": "geometry.af_eye.00"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 12
+			},
+			"render_controllers": [
+				"controller.render.allay"
+			]
+		}
+	}
+}

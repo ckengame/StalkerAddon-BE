@@ -1,0 +1,44 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ckendrink:energetic",
+			"category": "Equipment"
+		},
+		"components": {
+			"tag:energetic": {},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.equipment"
+			},
+			"minecraft:display_name": {
+				"value": "Энергетический напиток «Сталкер»\n---------------\nВосст. сил +10\nВремя действия 60сек"
+			},
+			"minecraft:icon": {
+				"texture": "energetic"
+			},
+			"minecraft:max_stack_size": 16,
+			"minecraft:use_duration": 0,
+			"minecraft:food": {
+				"can_always_eat": true
+			},
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"first_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					},
+					"third_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			}
+		}
+	}
+}

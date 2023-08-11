@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"animation_controllers": {
+		"controller.animation.hpsa": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.hpsa" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "hpsa": "v.hpsa" }
+					],
+					"transitions": [
+						{ "aim": "v.hpsa && q.is_sneaking" },
+						{ "reload": "v.hpsa && v.reload == true" },
+						{ "default": "!v.hpsa" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "hpsa_aim": "v.hpsa" }
+					],
+					"transitions": [
+						{ "base": "v.hpsa && !q.is_sneaking" },
+						{ "reload": "v.hpsa && v.reload == true" },
+						{ "default": "!v.hpsa" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "hpsa_reload": "v.hpsa" }
+					],
+					"transitions": [
+						{ "base": "v.hpsa && v.reload == false" },
+						{ "default": "!v.hpsa" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

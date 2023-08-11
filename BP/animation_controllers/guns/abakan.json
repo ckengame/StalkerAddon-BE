@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.player.abakan": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "reload": "q.scoreboard('abakan') == 0 && q.is_item_name_any('slot.weapon.mainhand', 'scm:abakan') && q.is_using_item" },
+						{ "shoot": "q.scoreboard('abakan') >= 1 && q.is_item_name_any('slot.weapon.mainhand', 'scm:abakan') && q.is_using_item" }
+					]
+				},
+				"reload": {
+					"on_exit": ["@s gun:base", "/stopsound @s abakan.reload"],
+					"animations": ["abakan_reload"],
+					"transitions": [
+						{ "default": "q.all_animations_finished || !q.is_item_name_any('slot.weapon.mainhand', 'scm:abakan') || q.mark_variant != 2" }
+					]
+				},
+				"shoot": {
+					"on_entry": ["@s gun:shoot"],
+					"animations": ["abakan_shoot"],
+					"transitions": [
+						{ "default": "q.all_animations_finished" }
+					]
+				}
+			}
+		}
+	}
+}

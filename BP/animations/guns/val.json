@@ -1,0 +1,67 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.player.val_shoot": {
+			"animation_length": 0.07,
+			"timeline": {
+				"0.0": [
+					"/playsound vintorez.shoot @s[r=200]",
+					"/camerashake add @s 0.1 0.2 rotational",
+					"/scoreboard players remove @s val 1",
+					"@s ambullet:val"
+				]
+			}
+		},
+		"animation.player.val_reload": {
+			"animation_length": 2.2917,
+			"timeline": {
+				"0.0": [
+					"/event entity @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=1..}] gun:reload"
+				],
+				"2.1": [
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=1}] val 1",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=2}] val 2",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=3}] val 3",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=4}] val 4",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=5}] val 5",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=6}] val 6",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=7}] val 7",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=8}] val 8",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=9}] val 9",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=10}] val 10",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=11}] val 11",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=12}] val 12",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=13}] val 13",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=14}] val 14",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=15}] val 15",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=16}] val 16",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=17}] val 17",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=18}] val 18",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=19}] val 19",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=20..}] val 20",
+
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=1}] scm:ammo_9x39mm_pab9 0 1",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=2}] scm:ammo_9x39mm_pab9 0 2",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=3}] scm:ammo_9x39mm_pab9 0 3",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=4}] scm:ammo_9x39mm_pab9 0 4",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=5}] scm:ammo_9x39mm_pab9 0 5",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=6}] scm:ammo_9x39mm_pab9 0 6",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=7}] scm:ammo_9x39mm_pab9 0 7",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=8}] scm:ammo_9x39mm_pab9 0 8",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=9}] scm:ammo_9x39mm_pab9 0 9",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=10}] scm:ammo_9x39mm_pab9 0 10",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=11}] scm:ammo_9x39mm_pab9 0 11",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=12}] scm:ammo_9x39mm_pab9 0 12",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=13}] scm:ammo_9x39mm_pab9 0 13",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=14}] scm:ammo_9x39mm_pab9 0 14",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=15}] scm:ammo_9x39mm_pab9 0 15",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=16}] scm:ammo_9x39mm_pab9 0 16",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=17}] scm:ammo_9x39mm_pab9 0 17",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=18}] scm:ammo_9x39mm_pab9 0 18",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=19}] scm:ammo_9x39mm_pab9 0 19",
+					"/clear @s[hasitem={item=scm:ammo_9x39mm_pab9, quantity=20..}] scm:ammo_9x39mm_pab9 0 20"
+				]
+			}
+		}
+	}
+}

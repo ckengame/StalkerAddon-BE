@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.arm_renegat_armorsuit1": {
+			"geometry": "geometry.armor_overall2",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.arm_renegat_armorsuit1"
+			]
+		}
+	}
+}

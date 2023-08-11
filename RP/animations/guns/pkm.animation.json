@@ -1,0 +1,43 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pkm": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"leftArm": {
+					"rotation": [36.34072, -14.39617, -164.29839],
+					"position": [-8.25, -4.25, 8.75],
+					"scale": [1, 1.1, 1]
+				},
+				"rightArm": {
+					"rotation": [90, 0, 180],
+					"position": [7, -0.5, -4]
+				},
+				"gun": {
+					"rotation": [90, 0, 90],
+					"position": [-1, -7.25, -8],
+					"scale": [0.09, 0.1, 0.11]
+				}
+			}
+		},
+		"animation.pkm_aim": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"leftArm": {
+					"rotation": [36.34072, -14.39617, -164.29839],
+					"position": [-11.36, -4.51, 9.75],
+					"scale": [1, 1.1, 1]
+				},
+				"rightArm": {
+					"rotation": [90, 0, 180],
+					"position": [4, 0, -4]
+				},
+				"gun": {
+					"rotation": [90, 0, 90],
+					"position": [-1, -8.25, -7],
+					"scale": [0.09, 0.1, 0.11]
+				}
+			}
+		}
+	}
+}

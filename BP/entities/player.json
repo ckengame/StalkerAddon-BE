@@ -1,0 +1,688 @@
+{
+	"format_version": "1.18.20",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:player",
+			"is_spawnable": false,
+			"is_summonable": false,
+			"is_experimental": false,
+
+			"scripts": {
+				"animate": [
+					"hercules",
+					"antirad",
+					"bint",
+					"vodka",
+					"energy_stalker",
+					
+					"abakan",
+					"akm74",
+					"akm74u",
+					"bm16",
+					"colt",
+					"deagle",
+					"fort",
+					"gauss",
+					"groza",
+					"hpsa",
+					"l85",
+					"lr300",
+					"mp5",
+					"pb",
+					"pkm",
+					"pm",
+					"prot",
+					"sig220",
+					"sig550",
+					"spas",
+					"svd",
+					"svu",
+					"toz34",
+					"val",
+					"vintorez",
+					"walther",
+					"winch",
+
+					"guitar"
+				]
+			},
+			"animations": {
+				"hercules": "controller.animation.hercules",
+				"antirad": "controller.animation.antirad",
+				"bint": "controller.animation.bint",
+				"vodka": "controller.animation.vodka",
+				"energy_stalker": "controller.animation.energy_stalker",
+
+				"abakan_shoot": "animation.player.abakan_shoot",
+				"akm74_shoot": "animation.player.akm74_shoot",
+				"akm74u_shoot": "animation.player.akm74u_shoot",
+				"bm16_shoot": "animation.player.bm16_shoot",
+				"colt_shoot": "animation.player.colt_shoot",
+				"deagle_shoot": "animation.player.deagle_shoot",
+				"fort_shoot": "animation.player.fort_shoot",
+				"gauss_shoot": "animation.player.gauss_shoot",
+				"groza_shoot": "animation.player.groza_shoot",
+				"hpsa_shoot": "animation.player.hpsa_shoot",
+				"l85_shoot": "animation.player.l85_shoot",
+				"lr300_shoot": "animation.player.lr300_shoot",
+				"mp5_shoot": "animation.player.mp5_shoot",
+				"pb_shoot": "animation.player.pb_shoot",
+				"pkm_shoot": "animation.player.pkm_shoot",
+				"pm_shoot": "animation.player.pm_shoot",
+				"prot_shoot": "animation.player.prot_shoot",
+				"sig220_shoot": "animation.player.sig220_shoot",
+				"sig550_shoot": "animation.player.sig550_shoot",
+				"spas_shoot": "animation.player.spas_shoot",
+				"svd_shoot": "animation.player.svd_shoot",
+				"svu_shoot": "animation.player.svu_shoot",
+				"toz34_shoot": "animation.player.toz34_shoot",
+				"val_shoot": "animation.player.val_shoot",
+				"vintorez_shoot": "animation.player.vintorez_shoot",
+				"walther_shoot": "animation.player.walther_shoot",
+				"winch_shoot": "animation.player.winch_shoot",
+				"abakan_reload": "animation.player.abakan_reload",
+				"akm74_reload": "animation.player.akm74_reload",
+				"akm74u_reload": "animation.player.akm74u_reload",
+				"bm16_reload": "animation.player.bm16_reload",
+				"colt_reload": "animation.player.colt_reload",
+				"deagle_reload": "animation.player.deagle_reload",
+				"fort_reload": "animation.player.fort_reload",
+				"gauss_reload": "animation.player.gauss_reload",
+				"groza_reload": "animation.player.groza_reload",
+				"hpsa_reload": "animation.player.hpsa_reload",
+				"l85_reload": "animation.player.l85_reload",
+				"lr300_reload": "animation.player.lr300_reload",
+				"mp5_reload": "animation.player.mp5_reload",
+				"pb_reload": "animation.player.pb_reload",
+				"pkm_reload": "animation.player.pkm_reload",
+				"pm_reload": "animation.player.pm_reload",
+				"prot_reload": "animation.player.prot_reload",
+				"sig220_reload": "animation.player.sig220_reload",
+				"sig550_reload": "animation.player.sig550_reload",
+				"spas_reload": "animation.player.spas_reload",
+				"svd_reload": "animation.player.svd_reload",
+				"svu_reload": "animation.player.svu_reload",
+				"toz34_reload": "animation.player.toz34_reload",
+				"val_reload": "animation.player.val_reload",
+				"vintorez_reload": "animation.player.vintorez_reload",
+				"walther_reload": "animation.player.walther_reload",
+				"winch_reload": "animation.player.winch_reload",
+
+				"abakan": "controller.animation.player.abakan",
+				"akm74": "controller.animation.player.akm74",
+				"akm74u": "controller.animation.player.akm74u",
+				"bm16": "controller.animation.player.bm16",
+				"colt": "controller.animation.player.colt",
+				"deagle": "controller.animation.player.deagle",
+				"fort": "controller.animation.player.fort",
+				"gauss": "controller.animation.player.gauss",
+				"groza": "controller.animation.player.groza",
+				"hpsa": "controller.animation.player.hpsa",
+				"l85": "controller.animation.player.l85",
+				"lr300": "controller.animation.player.lr300",
+				"mp5": "controller.animation.player.mp5",
+				"pb": "controller.animation.player.pb",
+				"pkm": "controller.animation.player.pkm",
+				"pm": "controller.animation.player.pm",
+				"prot": "controller.animation.player.prot",
+				"sig220": "controller.animation.player.sig220",
+				"sig550": "controller.animation.player.sig550",
+				"spas": "controller.animation.player.spas",
+				"svd": "controller.animation.player.svd",
+				"svu": "controller.animation.player.svu",
+				"toz34": "controller.animation.player.toz34",
+				"val": "controller.animation.player.val",
+				"vintorez": "controller.animation.player.vintorez",
+				"walther": "controller.animation.player.walther",
+				"winch": "controller.animation.player.winch",
+
+				"guitar": "controller.animation.player.guitar"
+			}
+		},
+
+		"component_groups": {
+			"gun:base": {
+				"minecraft:mark_variant": { "value": 0 }
+			},
+			"gun:shoot": {
+				"minecraft:mark_variant": { "value": 1 },
+				"minecraft:timer": {
+					"time": 0.01,
+					"looping": true,
+					"time_down_event": {
+						"event": "gun:base",
+						"target": "self"
+					}
+				}
+			},
+			"gun:reload": {
+				"minecraft:mark_variant": { "value": 2 }
+			},
+			"ambullet:bolt": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:pm",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:winch": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:winch",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:deagle": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:deagle",
+						"num_to_spawn": 3
+					}
+				}
+			},
+			"ambullet:walther": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:walther",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:vintorez": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:vintorez",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:val": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:val",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:svu": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:svu",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:svd": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:svd",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:spas": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:spas",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:colt": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:colt",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:sig550": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:sig550",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:sig220": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:sig220",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:prot": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:prot",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:pb": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:pb",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:mp5": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:mp5",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:lr300": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:lr300",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:l85": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:l85",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:hpsa": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:hpsa",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:groza": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:groza",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:fort": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:fort",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:beretta": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:beretta",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:pm": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:pm",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:bm16": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:bm16",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:toz34": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:toz34",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:akm74": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:akm74",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:abakan": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:abakan",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"ambullet:gauss": {
+				"minecraft:spawn_entity": { "entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "ambullet:gauss",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"minecraft:add_bad_omen": {
+				"minecraft:spell_effects": { "add_effects": [{
+						"effect": "bad_omen",
+						"duration": 6000,
+						"visible": false,
+						"display_on_screen_animation": true
+					}] },
+				"minecraft:timer": { "time": [0.0, 0.0],
+					"looping": false,
+					"time_down_event": {
+						"event": "minecraft:clear_add_bad_omen",
+						"target": "self"
+					}
+				}
+			},
+			"minecraft:clear_bad_omen_spell_effect": {
+				"minecraft:spell_effects": {}
+			},
+			"minecraft:raid_trigger": {
+				"minecraft:raid_trigger": { "triggered_event": {
+						"event": "minecraft:remove_raid_trigger",
+						"target": "self"
+					}
+				},
+				"minecraft:spell_effects": { "remove_effects": "bad_omen"
+				}
+			}
+		},
+
+		"components": {
+			"minecraft:experience_reward": {
+				"on_death": "Math.Min(query.player_level * 7, 100)"
+			},
+			"minecraft:type_family": {
+				"family": ["player"]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:can_climb": {},
+			"minecraft:movement": {
+				"value": 0.1
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [{ "filters": {
+						"test": "in_lava",
+						"subject": "self",
+						"operator": "==",
+						"value": true
+					},
+					"cause": "lava",
+					"damage_per_tick": 4
+				}]
+			},
+			"minecraft:attack": {
+				"damage": 1
+			},
+			"minecraft:exhaustion_values": {
+				"heal": 6,
+				"jump": 0.05,
+				"sprint_jump": 0.2,
+				"mine": 0.005,
+				"attack": 0.1,
+				"damage": 0.1,
+				"walk": 0.0,
+				"sprint": 0.1,
+				"swim": 0.01
+			},
+			"minecraft:player.saturation": {
+				"value": 5,
+				"max": 20
+			},
+			"minecraft:player.exhaustion": {
+				"value": 0,
+				"max": 20
+			},
+			"minecraft:player.level": {
+				"value": 0,
+				"max": 24791
+			},
+			"minecraft:player.experience": {
+				"value": 0,
+				"max": 1
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": -1,
+				"inhale_time": 3.75,
+				"generates_bubbles": false
+			},
+			"minecraft:nameable": {
+				"always_show": true,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:insomnia": {
+				"days_until_insomnia": 3
+			},
+			"minecraft:rideable": {
+				"seat_count": 2,
+				"family_types": [
+					"parrot_tame"
+				],
+				"pull_in_entities": true,
+				"seats": [{
+						"position": [0.4, -0.2, -0.1],
+						"min_rider_count": 0,
+						"max_rider_count": 0,
+						"lock_rider_rotation": 0
+					},
+					{
+						"position": [-0.4, -0.2, -0.1],
+						"min_rider_count": 1,
+						"max_rider_count": 2,
+						"lock_rider_rotation": 0
+					}
+				]
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:block_climber": {},
+			"minecraft:environment_sensor": {
+				"triggers": { "filters": {
+						"all_of": [{
+								"test": "has_mob_effect",
+								"subject": "self",
+								"value": "bad_omen"
+							},
+							{
+								"test": "is_in_village",
+								"subject": "self",
+								"value": true
+							}
+						]
+					},
+					"event": "minecraft:trigger_raid"
+				}
+			}
+		},
+
+		"events": {
+			"gun:base": {
+				"remove": { "component_groups": ["gun:shoot", "gun:reload"] },
+				"add": { "component_groups": ["gun:base"] }
+			},
+			"gun:shoot": {
+				"remove": { "component_groups": ["gun:reload", "gun:base"] },
+				"add": { "component_groups": ["gun:shoot"] }
+			},
+			"gun:reload": {
+				"remove": { "component_groups": ["gun:shoot", "gun:base"] },
+				"add": { "component_groups": ["gun:reload"] }
+			},
+			"ambullet:deagle": {
+				"add": { "component_groups": ["ambullet:deagle"] }
+			},
+			"ambullet:winch": {
+				"add": { "component_groups": ["ambullet:winch"] }
+			},
+			"ambullet:mp5": {
+				"add": { "component_groups": ["ambullet:mp5"] }
+			},
+			"ambullet:walther": {
+				"add": { "component_groups": ["ambullet:walther"] }
+			},
+			"ambullet:vintorez": {
+				"add": { "component_groups": ["ambullet:vintorez"] }
+			},
+			"ambullet:val": {
+				"add": { "component_groups": ["ambullet:val"] }
+			},
+			"ambullet:svu": {
+				"add": { "component_groups": ["ambullet:svu"] }
+			},
+			"ambullet:svd": {
+				"add": { "component_groups": ["ambullet:svd"] }
+			},
+			"ambullet:spas": {
+				"add": { "component_groups": ["ambullet:spas"] }
+			},
+			"ambullet:sig550": {
+				"add": { "component_groups": ["ambullet:sig220"] }
+			},
+			"ambullet:sig220": {
+				"add": { "component_groups": ["ambullet:sig220"] }
+			},
+			"ambullet:prot": {
+				"add": { "component_groups": ["ambullet:prot"] }
+			},
+			"ambullet:pb": {
+				"add": { "component_groups": ["ambullet:pb"] }
+			},
+			"ambullet:colt": {
+				"add": { "component_groups": ["ambullet:colt"] }
+			},
+			"ambullet:lr300": {
+				"add": { "component_groups": ["ambullet:lr300"] }
+			},
+			"ambullet:l85": {
+				"add": { "component_groups": ["ambullet:l85"] }
+			},
+			"ambullet:hpsa": {
+				"add": { "component_groups": ["ambullet:hpsa"] }
+			},
+			"ambullet:groza": {
+				"add": { "component_groups": ["ambullet:groza"] }
+			},
+			"ambullet:fort": {
+				"add": { "component_groups": ["ambullet:fort"] }
+			},
+			"ambullet:bm16": {
+				"add": { "component_groups": ["ambullet:bm16"] }
+			},
+			"ambullet:gauss": {
+				"add": { "component_groups": ["ambullet:gauss"] }
+			},
+			"ambullet:beretta": {
+				"add": { "component_groups": ["ambullet:beretta"] }
+			},
+			"ambullet:pm": {
+				"add": { "component_groups": ["ambullet:pm"] }
+			},
+			"ambullet:toz34": {
+				"add": { "component_groups": ["ambullet:toz34"] }
+			},
+			"ambullet:akm74": {
+				"add": { "component_groups": ["ambullet:akm74"] }
+			},
+			"ambullet:abakan": {
+				"add": { "component_groups": ["ambullet:abakan"] }
+			},
+			"ambullet:bolt": {
+				"add": { "component_groups": ["ambullet:bolt"] }
+			},
+			"minecraft:gain_bad_omen": {
+				"add": { "component_groups": ["minecraft:add_bad_omen"] }
+			},
+			"minecraft:clear_add_bad_omen": {
+				"remove": { "component_groups": ["minecraft:add_bad_omen"] },
+				"add": { "component_groups": ["minecraft:clear_bad_omen_spell_effect"] }
+			},
+			"minecraft:trigger_raid": {
+				"add": { "component_groups": ["minecraft:raid_trigger"] }
+			},
+			"minecraft:remove_raid_trigger": {
+				"remove": { "component_groups": ["minecraft:raid_trigger"] }
+			}
+		}
+	}
+}

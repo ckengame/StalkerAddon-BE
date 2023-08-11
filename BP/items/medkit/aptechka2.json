@@ -1,0 +1,61 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ckenmed:aptechka2",
+			"category": "Equipment"
+		},
+		"components": {
+			"tag:aptechka2": {},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.equipment"
+			},
+			"minecraft:cooldown": {
+				"category": "medkit_aptechka",
+				"duration": 3
+			},
+			"minecraft:display_name": {
+				"value": "Армейская аптечка\n---------------\nВосст. здоровья +200\nЗаживление ран +20\nВремя действия 5сек"
+			},
+			"minecraft:icon": {
+				"texture": "aptechka2"
+			},
+			"minecraft:max_stack_size": 16,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "on_use_event"
+				}
+			},
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"third_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					},
+					"first_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			}
+		},
+		"events": {
+			"on_use_event": {
+				"run_command": {
+					"command": [
+						"playsound item.medkit @s",
+						"effect @s regeneration 20 2 true",
+						"clear @s ckenmed:aptechka2 0 1",
+						"effect @s wither 0 0 false"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"format_version": "1.19.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cken:food_sausage",
+			"category": "Equipment"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Колбаса «Диетическая»\n---------------\nВосст. здоровья +20\nНасыщение +10\nВремя действия 5сек"
+			},
+			"minecraft:icon": {
+				"texture": "food_sausage"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.cookedFood"
+			},
+			"minecraft:max_stack_size": 4,
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"first_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					},
+					"third_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			"minecraft:cooldown": {
+				"category": "use_cken",
+				"duration": 3
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "on_use_event"
+				}
+			}
+		},
+		"events": {
+			"on_use_event": {
+				"run_command": {
+					"command": [
+						"playsound cken.inv_food @s",
+						"scoreboard players remove @s Hunger 11",
+						"scoreboard players set @s Time_Hunger 0",
+						"clear @s[m=!c] cken:food_sausage 0 1"
+					]
+				}
+			}
+		}
+	}
+}

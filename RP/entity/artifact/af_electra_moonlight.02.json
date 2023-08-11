@@ -1,0 +1,28 @@
+// cken:artifact_moonlight
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "cken_artifact:af_electra_moonlight.02",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/artifact/artifact_hell1",
+				"default2": "textures/models/artifact/artifact_lighting"
+			},
+			"geometry": {
+				"default": "geometry.af_electra_moonlight.01",
+				"default2": "geometry.af_electra_moonlight.02"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 12
+			},
+			"render_controllers": [
+				"controller.render.default",
+				"controller.render.allay2"
+			]
+		}
+	}
+}

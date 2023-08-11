@@ -1,0 +1,16 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "[CKEN] SCMBE ADDON 14.0 RP",
+		"description": "Офф источник vk.com/scmpe",
+		"uuid": "d86ef1d7-1885-4333-9fbc-ff000713f5b9",
+		"version": [14, 1, 15],
+		"min_engine_version": [1, 19, 51]
+	},
+	"modules": [{
+		"description": "Ресурсы",
+		"type": "resources",
+		"uuid": "8a302488-a8ec-4e9e-ad40-c93691c4d175",
+		"version": [14, 1, 15]
+	}]
+}

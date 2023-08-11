@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.player.gauss": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "reload": "q.scoreboard('gauss') == 0 && q.is_item_name_any('slot.weapon.mainhand', 'scm:gauss') && q.is_using_item" },
+						{ "shoot": "q.scoreboard('gauss') >= 1 && q.is_item_name_any('slot.weapon.mainhand', 'scm:gauss') && q.is_using_item" }
+					]
+				},
+				"reload": {
+					"on_exit": ["@s gun:base", "/stopsound @s gauss.reload"],
+					"animations": ["gauss_reload"],
+					"transitions": [
+						{ "default": "q.all_animations_finished || !q.is_item_name_any('slot.weapon.mainhand', 'scm:gauss') || q.mark_variant != 2" }
+					]
+				},
+				"shoot": {
+					"on_entry": ["@s gun:shoot"],
+					"animations": ["gauss_shoot"],
+					"transitions": [
+						{ "default": "q.all_animations_finished" }
+					]
+				}
+			}
+		}
+	}
+}

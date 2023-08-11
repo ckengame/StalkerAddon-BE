@@ -1,0 +1,53 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.player.hpsa_shoot": {
+			"animation_length": 0.2,
+			"timeline": {
+				"0.0": [
+					"/playsound hpsa.shoot @s[r=200]",
+					"/camerashake add @s 0.1 0.2 rotational",
+					"/scoreboard players remove @s hpsa 1",
+					"@s ambullet:hpsa"
+				]
+			}
+		},
+		"animation.player.hpsa_reload": {
+			"animation_length": 2,
+			"timeline": {
+				"0.0": [
+					"/event entity @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=1..}] gun:reload"
+				],
+				"1.99": [
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=1}] beretta 1",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=2}] beretta 2",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=3}] beretta 3",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=4}] beretta 4",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=5}] beretta 5",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=6}] beretta 6",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=7}] beretta 7",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=8}] beretta 8",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=9}] beretta 9",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=10}] beretta 10",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=11}] beretta 11",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=12}] beretta 12",
+					"/scoreboard players set @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=13..}] beretta 13",
+
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=1}] scm:ammo_9x19mm_fmj 0 1",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=2}] scm:ammo_9x19mm_fmj 0 2",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=3}] scm:ammo_9x19mm_fmj 0 3",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=4}] scm:ammo_9x19mm_fmj 0 4",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=5}] scm:ammo_9x19mm_fmj 0 5",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=6}] scm:ammo_9x19mm_fmj 0 6",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=7}] scm:ammo_9x19mm_fmj 0 7",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=8}] scm:ammo_9x19mm_fmj 0 8",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=9}] scm:ammo_9x19mm_fmj 0 9",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=10}] scm:ammo_9x19mm_fmj 0 10",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=11}] scm:ammo_9x19mm_fmj 0 11",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=12}] scm:ammo_9x19mm_fmj 0 12",
+					"/clear @s[hasitem={item=scm:ammo_9x19mm_fmj, quantity=13..}] scm:ammo_9x19mm_fmj 0 13"
+				]
+			}
+		}
+	}
+}

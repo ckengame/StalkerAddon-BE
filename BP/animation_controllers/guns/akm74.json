@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.player.akm74": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "reload": "q.scoreboard('akm74') == 0 && q.is_item_name_any('slot.weapon.mainhand', 'scm:akm74') && q.is_using_item" },
+						{ "shoot": "q.scoreboard('akm74') >= 1 && q.is_item_name_any('slot.weapon.mainhand', 'scm:akm74') && q.is_using_item" }
+					]
+				},
+				"reload": {
+					"on_exit": ["@s gun:base", "/stopsound @s akm74.reload"],
+					"animations": ["akm74_reload"],
+					"transitions": [
+						{ "default": "q.all_animations_finished || !q.is_item_name_any('slot.weapon.mainhand', 'scm:akm74') || q.mark_variant != 2" }
+					]
+				},
+				"shoot": {
+					"on_entry": ["@s gun:shoot"],
+					"animations": ["akm74_shoot"],
+					"transitions": [
+						{ "default": "q.all_animations_finished" }
+					]
+				}
+			}
+		}
+	}
+}

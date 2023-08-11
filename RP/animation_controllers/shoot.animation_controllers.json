@@ -1,0 +1,257 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.shoot": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        { "abakan": "v.abakan && q.mark_variant == 1" },
+                        { "akm74": "v.akm74 && q.mark_variant == 1" },
+                        { "akm74u": "v.akm74u && q.mark_variant == 1" },
+                        { "bm16": "v.bm16 && q.mark_variant == 1" },
+                        { "colt": "v.colt && q.mark_variant == 1" },
+                        { "deagle": "v.deagle && q.mark_variant == 1" },
+                        { "fort": "v.fort && q.mark_variant == 1" },
+                        { "gauss": "v.gauss && q.mark_variant == 1" },
+                        { "groza": "v.groza && q.mark_variant == 1" },
+                        { "hpsa": "v.hpsa && q.mark_variant == 1" },
+                        { "l85": "v.l85 && q.mark_variant == 1" },
+                        { "lr300": "v.lr300 && q.mark_variant == 1" },
+                        { "mp5": "v.mp5 && q.mark_variant == 1" },
+                        { "pb": "v.pb && q.mark_variant == 1" },
+                        { "pkm": "v.pkm && q.mark_variant == 1" },
+                        { "pm": "v.pm && q.mark_variant == 1" },
+                        { "prot": "v.prot && q.mark_variant == 1" },
+                        { "sig220": "v.sig220 && q.mark_variant == 1" },
+                        { "sig550": "v.sig550 && q.mark_variant == 1" },
+                        { "spas": "v.spas && q.mark_variant == 1" },
+                        { "svd": "v.svd && q.mark_variant == 1" },
+                        { "svu": "v.svu && q.mark_variant == 1" },
+                        { "toz34": "v.toz34 && q.mark_variant == 1" },
+                        { "val": "v.val && q.mark_variant == 1" },
+                        { "vintorez": "v.vintorez && q.mark_variant == 1" },
+                        { "walther": "v.walther && q.mark_variant == 1" },
+                        { "winch": "v.winch && q.mark_variant == 1" }
+                    ]
+                },
+                "abakan": {
+                    "animations": [
+                        { "abakan_shoot": "v.abakan" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "akm74": {
+                    "animations": [
+                        { "akm74_shoot": "v.akm74" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "akm74u": {
+                    "animations": [
+                        { "akm74u_shoot": "v.akm74u" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "bm16": {
+                    "animations": [
+                        { "bm16_shoot": "v.bm16" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "colt": {
+                    "animations": [
+                        { "colt_shoot": "v.colt" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "deagle": {
+                    "animations": [
+                        { "deagle_shoot": "v.deagle" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "fort": {
+                    "animations": [
+                        { "fort_shoot": "v.fort" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "gauss": {
+                    "animations": [
+                        { "gauss_shoot": "v.gauss" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "groza": {
+                    "animations": [
+                        { "groza_shoot": "v.groza" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "hpsa": {
+                    "animations": [
+                        { "hpsa_shoot": "v.hpsa" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "l85": {
+                    "animations": [
+                        { "l85_shoot": "v.l85" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "lr300": {
+                    "animations": [
+                        { "lr300_shoot": "v.lr300" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "mp5": {
+                    "animations": [
+                        { "mp5_shoot": "v.mp5" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "pb": {
+                    "animations": [
+                        { "pb_shoot": "v.pb" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "pkm": {
+                    "animations": [
+                        { "pkm_shoot": "v.pkm" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "pm": {
+                    "animations": [
+                        { "pm_shoot": "v.pm" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "prot": {
+                    "animations": [
+                        { "prot_shoot": "v.prot" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "sig220": {
+                    "animations": [
+                        { "sig220_shoot": "v.sig220" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "sig550": {
+                    "animations": [
+                        { "sig550_shoot": "v.sig550" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "spas": {
+                    "animations": [
+                        { "spas_shoot": "v.spas" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "svd": {
+                    "animations": [
+                        { "svd_shoot": "v.svd" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "svu": {
+                    "animations": [
+                        { "svu_shoot": "v.svu" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "toz34": {
+                    "animations": [
+                        { "toz34_shoot": "v.toz34" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "val": {
+                    "animations": [
+                        { "val_shoot": "v.val" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "vintorez": {
+                    "animations": [
+                        { "vintorez_shoot": "v.vintorez" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "walther": {
+                    "animations": [
+                        { "walther_shoot": "v.walther" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                },
+                "winch": {
+                    "animations": [
+                        { "winch_shoot": "v.winch" }
+                    ],
+                    "transitions": [
+                        { "default": "q.all_animations_finished" }
+                    ]
+                }
+            }
+        }
+    }
+}

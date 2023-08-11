@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.energy_stalker": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "using": "q.scoreboard('energy_stalker')<=0 && q.is_item_name_any('slot.weapon.mainhand', 'ckendrink:energetic') && q.is_using_item" },
+						{ "completion": "q.scoreboard('energy_stalker')==1 && q.is_item_name_any('slot.weapon.mainhand', 'ckendrink:energetic')" },
+						{ "stop": "q.scoreboard('energy_stalker')>=1 && !q.is_item_name_any('slot.weapon.mainhand', 'ckendrink:energetic')" }
+					]
+				},
+				"using": {
+                    "transitions": [ { "default": "(1.0)" } ],
+					"on_entry": [
+						"/scoreboard players set @s energy_stalker 120",
+						"/playsound item.energy_drink @s",
+						"/playanimation @s animation.energy_stalker.use.fp"
+					]
+				},
+				"completion": {
+                    "transitions": [ { "default": "(1.0)" } ],
+					"on_entry": [
+						"/clear @s ckendrink:energetic 0 1"
+					]
+				},
+				"stop": {
+                    "transitions": [ { "default": "(1.0)" } ],
+					"on_entry": [
+						"/stopsound @s item.energy_drink",
+						"/playanimation @s animation.player.first_person.base_pose",
+						"/scoreboard players set @s energy_stalker 0"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.player.energetic": {
+			"geometry": "geometry.energetic",
+			"materials": [
+				{
+					"*default": "material.default"
+				}
+			],
+			"textures": [
+				"texture.energetic"
+			]
+		},
+		"controller.render.player.aptechka1": {
+			"geometry": "geometry.aptechka",
+			"materials": [
+				{
+					"*default": "material.default"
+				}
+			],
+			"textures": [
+				"texture.aptechka1"
+			]
+		},
+		"controller.render.player.aptechka2": {
+			"geometry": "geometry.aptechka",
+			"materials": [
+				{
+					"*default": "material.default"
+				}
+			],
+			"textures": [
+				"texture.aptechka2"
+			]
+		},
+		"controller.render.player.aptechka3": {
+			"geometry": "geometry.aptechka",
+			"materials": [
+				{
+					"*default": "material.default"
+				}
+			],
+			"textures": [
+				"texture.aptechka3"
+			]
+		},
+		"controller.render.player.bint": {
+			"geometry": "geometry.bint",
+			"materials": [
+				{
+					"*default": "material.default"
+				}
+			],
+			"textures": [
+				"texture.bint"
+			]
+		},
+		"controller.render.player.hercules": {
+			"geometry": "geometry.hercules",
+			"materials": [
+				{
+					"*default": "material.default"
+				}
+			],
+			"textures": [
+				"texture.hercules"
+			]
+		},
+		"controller.render.player.antirad": {
+			"geometry": "geometry.antirad",
+			"materials": [
+				{
+					"*default": "material.default"
+				}
+			],
+			"textures": [
+				"texture.antirad"
+			]
+		},
+		"controller.render.player.barvinok": {
+			"geometry": "geometry.barvinok",
+			"materials": [
+				{
+					"*default": "material.default"
+				}
+			],
+			"textures": [
+				"texture.barvinok"
+			]
+		},
+		"controller.render.player.vodka": {
+			"geometry": "geometry.vodka",
+			"materials": [
+				{
+					"*default": "material.default"
+				}
+			],
+			"textures": [
+				"texture.vodka"
+			]
+		}
+	}
+}

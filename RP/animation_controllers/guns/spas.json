@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"animation_controllers": {
+		"controller.animation.spas": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.spas" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "spas": "v.spas" }
+					],
+					"transitions": [
+						{ "aim": "v.spas && q.is_sneaking" },
+						{ "reload": "v.spas && v.reload == true" },
+						{ "default": "!v.spas" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "spas_aim": "v.spas" }
+					],
+					"transitions": [
+						{ "base": "v.spas && !q.is_sneaking" },
+						{ "reload": "v.spas && v.reload == true" },
+						{ "default": "!v.spas" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "spas_reload": "v.spas" }
+					],
+					"transitions": [
+						{ "base": "v.spas && v.reload == false" },
+						{ "default": "!v.spas" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

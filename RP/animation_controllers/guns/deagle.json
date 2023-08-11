@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"animation_controllers": {
+		"controller.animation.deagle": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.deagle" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "deagle": "v.deagle" }
+					],
+					"transitions": [
+						{ "aim": "v.deagle && q.is_sneaking" },
+						{ "reload": "v.deagle && v.reload == true" },
+						{ "default": "!v.deagle" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "deagle_aim": "v.deagle" }
+					],
+					"transitions": [
+						{ "base": "v.deagle && !q.is_sneaking" },
+						{ "reload": "v.deagle && v.reload == true" },
+						{ "default": "!v.deagle" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "deagle_reload": "v.deagle" }
+					],
+					"transitions": [
+						{ "base": "v.deagle && v.reload == false" },
+						{ "default": "!v.deagle" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

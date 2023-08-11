@@ -1,0 +1,30 @@
+{
+	"format_version": "1.19.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cken:artifact_bengal_fire",
+			"category": "Equipment"
+		},
+		"components": {
+			"tag:artifact": {},
+			"minecraft:display_name": {
+				"value": "Артефакт «Бенгальский огонь»\n---------------\nЭлектрозащита +3\nРадиация +1"
+			},
+			"minecraft:icon": {
+				"texture": "artifact_bengal_fire"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.equipment"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"first_person": {"scale": [0,0,0]},
+					"third_person": {"scale": [0,0,0]}},
+				"off_hand": {
+					"first_person": {"scale": [0,0,0]},
+					"third_person": {"scale": [0,0,0]}}
+			}
+		}
+	}
+}

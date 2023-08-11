@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"animation_controllers": {
+		"controller.animation.walther": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.walther" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "walther": "v.walther" }
+					],
+					"transitions": [
+						{ "aim": "v.walther && q.is_sneaking" },
+						{ "reload": "v.walther && v.reload == true" },
+						{ "default": "!v.walther" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "walther_aim": "v.walther" }
+					],
+					"transitions": [
+						{ "base": "v.walther && !q.is_sneaking" },
+						{ "reload": "v.walther && v.reload == true" },
+						{ "default": "!v.walther" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "walther_reload": "v.walther" }
+					],
+					"transitions": [
+						{ "base": "v.walther && v.reload == false" },
+						{ "default": "!v.walther" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

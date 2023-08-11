@@ -1,0 +1,53 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.first_person.empty_hand": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"scale": 0
+				},
+				"hat": {
+					"scale": 0
+				},
+				"rightArm": {
+					"rotation": [85, -4, 153],
+					"position": [12.5, -5, 4]
+				},
+				"rightitem": {
+					"position": [0, "q.get_default_bone_pivot('rightarm',1)-q.get_default_bone_pivot('rightitem',1)-7", "-q.get_default_bone_pivot('rightitem',2)"]
+				},
+				"leftitem": {
+					"position": [0, "q.get_default_bone_pivot('leftarm',1)-q.get_default_bone_pivot('leftitem',1)-7", "-q.get_default_bone_pivot('leftitem',2)"]
+				},
+				"leftArm": {
+					"rotation": [45, -46, -140],
+					"position": [-13.5, -8, 9]
+				}
+			}
+		},
+		"animation.player.binocler": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": [45, 39, -40],
+					"position": [6, 6, -9]
+				},
+				"rightArm": {
+					"rotation": [5, 5, 28],
+					"position": [-4, 3, -4]
+				}
+			}
+		},
+		"animation.player.binocler_item": {
+			"loop": true,
+			"bones": {
+				"binocler": {
+					"rotation": [147.5, 0, 0],
+					"position": [3.5, 1, -2.75],
+					"scale": 1.2
+				}
+			}
+		}
+	}
+}

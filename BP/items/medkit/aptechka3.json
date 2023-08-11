@@ -1,0 +1,61 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ckenmed:aptechka3",
+			"category": "Equipment"
+		},
+		"components": {
+			"tag:aptechka3": {},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.equipment"
+			},
+			"minecraft:cooldown": {
+				"category": "medkit_aptechka",
+				"duration": 3
+			},
+			"minecraft:display_name": {
+				"value": "Научная аптечка\n---------------\nВосст. здоровья +100\nРадиация -10\nЗаживление ран +5\nВремя действия 10сек"
+			},
+			"minecraft:icon": {
+				"texture": "aptechka3"
+			},
+			"minecraft:max_stack_size": 16,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "on_use_event"
+				}
+			},
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"third_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					},
+					"first_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			}
+		},
+		"events": {
+			"on_use_event": {
+				"run_command": {
+					"command": [
+						"playsound item.medkit @s",
+						"effect @s regeneration 10 4 true",
+						"clear @s ckenmed:aptechka3 0 1",
+						"effect @s wither 0 0 false"
+					]
+				}
+			}
+		}
+	}
+}

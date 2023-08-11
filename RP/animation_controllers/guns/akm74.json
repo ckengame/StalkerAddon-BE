@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"animation_controllers": {
+		"controller.animation.akm74": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "base": "v.akm74" }
+					]
+				},
+				"base": {
+					"animations": [
+						{ "akm74": "v.akm74" }
+					],
+					"transitions": [
+						{ "aim": "v.akm74 && q.is_sneaking" },
+						{ "reload": "v.akm74 && v.reload == true" },
+						{ "default": "!v.akm74" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"aim": {
+					"animations": [
+						{ "akm74_aim": "v.akm74" }
+					],
+					"transitions": [
+						{ "base": "v.akm74 && !q.is_sneaking" },
+						{ "reload": "v.akm74 && v.reload == true" },
+						{ "default": "!v.akm74" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"reload": {
+					"animations": [
+						{ "akm74_reload": "v.akm74" }
+					],
+					"transitions": [
+						{ "base": "v.akm74 && v.reload == false" },
+						{ "default": "!v.akm74" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}
