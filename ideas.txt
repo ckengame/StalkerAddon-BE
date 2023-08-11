@@ -1,0 +1,7 @@
+For 15.0
+1. Add more translations to other languages.
+2. Add cigarettes.
+3. Increase weapon damage.
+4. Add textures for blocks.
+5. Add particulars for shots.
+6. Add Mutants.
