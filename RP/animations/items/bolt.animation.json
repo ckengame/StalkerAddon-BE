@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.bolt.hold.fp": {
+			"loop": true,
+			"bones": {
+				"bolt": {
+					"rotation": [0, -137.5, 0],
+					"position": [-3.5, 12, -1.5]
+				}
+			}
+		},
+		"animation.bolt.hold.tp": {
+			"loop": true,
+			"bones": {
+				"bolt": {
+					"rotation": [0, -137.5, 0],
+					"position": [-3.5, 12, -1.5]
+				}
+			}
+		}
+	}
+}

@@ -40,7 +40,6 @@
 				"walther": "textures/models/wpn/walther",
 				"winch": "textures/models/wpn/winch",
 
-				"bolt": "textures/models/wpn/bolt",
 				"antirad": "textures/models/item/antirad",
 				"barvinok": "textures/models/item/barvinok",
 				"bint": "textures/models/item/bint",
@@ -276,7 +275,6 @@
 				"walther": "geometry.player.walther",
 				"winch": "geometry.player.winch",
 
-				"bolt": "geometry.player.bolt",
 				"antirad": "geometry.player.antirad",
 				"barvinok": "geometry.player.barvinok",
 				"bint": "geometry.player.bint",
@@ -461,7 +459,6 @@
 
 				"akm74_animation_controller": "controller.animation.akm74",
 				"akm74": "animation.akm74",
-				"akm74_shoot": "animation.akm74_shoot",
 				"akm74_aim": "animation.akm74_aim",
 				"akm74_shoot": "animation.akm74_shoot",
 				"akm74_reload": "animation.akm74_reload",
@@ -648,8 +645,6 @@
 				{ "controller.render.player.vintorez": "v.vintorez" },
 				{ "controller.render.player.walther": "v.walther" },
 				{ "controller.render.player.winch": "v.winch" },
-
-				{ "controller.render.player.bolt": "q.equipped_item_any_tag('slot.weapon.mainhand', 'bolt')" },
 
 				{ "controller.render.player.energetic": "q.equipped_item_any_tag('slot.weapon.mainhand', 'energetic')" },
 				{ "controller.render.player.aptechka1": "q.equipped_item_any_tag('slot.weapon.mainhand', 'aptechka1')" },

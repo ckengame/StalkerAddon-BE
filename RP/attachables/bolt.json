@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "scm:bolt",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/wpn/bolt"
+			},
+			"geometry": {
+				"default": "geometry.bolt"
+			},
+      "scripts": {
+        "animate": [
+          {"hold_fp": "c.is_first_person == 1.0"},
+          {"hold_tp": "c.is_first_person == 0.0"}
+        ]
+      },
+      "animations": {
+        "hold_fp": "animation.bolt.hold.fp",
+        "hold_tp": "animation.bolt.hold.tp"
+      },
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}
