@@ -7,7 +7,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/blocks/prop/prop_pult5"
+				"default": "textures/models/artifact/prop_pult5"
 			},
 			"geometry": {
 				"default": "geometry.af_control.01"
