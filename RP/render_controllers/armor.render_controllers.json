@@ -1,0 +1,405 @@
+{
+	"format_version": "1.20.81",
+	"render_controllers": {
+		"controller.render.arm_bandit_armorsuit1": {
+			"geometry": "geometry.armor_zarya2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_armorsuit1"]
+		},
+		"controller.render.arm_bandit_armorsuit2": {
+			"geometry": "geometry.armor_overall",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_armorsuit2"]
+		},
+		"controller.render.arm_bandit_armorsuit3": {
+			"geometry": "geometry.armor_overall",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_armorsuit3"]
+		},
+		"controller.render.arm_bandit_armorsuit4": {
+			"geometry": "geometry.armor_overall2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_armorsuit4"]
+		},
+		"controller.render.arm_bandit_beryl1": {
+			"geometry": "geometry.armor_beryl",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_beryl1"]
+		},
+		"controller.render.arm_bandit_exo1": {
+			"geometry": "geometry.armor_exo",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_exo1"]
+		},
+		"controller.render.arm_bandit_exo2": {
+			"geometry": "geometry.armor_exo",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_exo2"]
+		},
+		"controller.render.arm_bandit_exo3": {
+			"geometry": "geometry.armor_exo",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_exo3"]
+		},
+		"controller.render.arm_bandit_jacket1": {
+			"geometry": "geometry.armor_light",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_jacket1"]
+		},
+		"controller.render.arm_bandit_jacket2": {
+			"geometry": "geometry.armor_light",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_jacket2"]
+		},
+		"controller.render.arm_bandit_raincoat1": {
+			"geometry": "geometry.armor_raincoat",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_raincoat1"]
+		},
+		"controller.render.arm_bandit_raincoat2": {
+			"geometry": "geometry.armor_raincoat",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_raincoat2"]
+		},
+		"controller.render.arm_bandit_seva1": {
+			"geometry": "geometry.armor_seva",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_seva1"]
+		},
+		"controller.render.arm_bandit_seva2": {
+			"geometry": "geometry.armor_seva",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_seva2"]
+		},
+		"controller.render.arm_bandit_soldier1": {
+			"geometry": "geometry.armor_scat",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_soldier1"]
+		},
+		"controller.render.arm_bandit_zarya1": {
+			"geometry": "geometry.armor_zarya",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_bandit_zarya1"]
+		},
+		"controller.render.arm_cs_chn1b_1": {
+			"geometry": "geometry.armor_cs1",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_cs_chn1b_1"]
+		},
+		"controller.render.arm_cs_chn1_1": {
+			"geometry": "geometry.armor_cs1",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_cs_chn1_1"]
+		},
+		"controller.render.arm_cs_chn2_1": {
+			"geometry": "geometry.armor_cs2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_cs_chn2_1"]
+		},
+		"controller.render.arm_cs_chn2_2": {
+			"geometry": "geometry.armor_cs2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_cs_chn2_2"]
+		},
+		"controller.render.arm_cs_chn3a_1": {
+			"geometry": "geometry.armor_cs3",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_cs_chn3a_1"]
+		},
+		"controller.render.arm_cs_chn3b_1": {
+			"geometry": "geometry.armor_cs3",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_cs_chn3b_1"]
+		},
+		"controller.render.arm_cs_exo1": {
+			"geometry": "geometry.armor_exo",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_cs_exo1"]
+		},
+		"controller.render.arm_cs_jacket1": {
+			"geometry": "geometry.armor_light",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_cs_jacket1"]
+		},
+		"controller.render.arm_cs_seva1": {
+			"geometry": "geometry.armor_seva",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_cs_seva1"]
+		},
+		"controller.render.arm_cs_seva2": {
+			"geometry": "geometry.armor_seva",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_cs_seva2"]
+		},
+		"controller.render.arm_cs_seva3": {
+			"geometry": "geometry.armor_seva",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_cs_seva3"]
+		},
+		"controller.render.arm_cs_soldier1": {
+			"geometry": "geometry.armor_scat",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_cs_soldier1"]
+		},
+		"controller.render.arm_cs_soldier2": {
+			"geometry": "geometry.armor_scat",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_cs_soldier2"]
+		},
+		"controller.render.arm_cs_zarya1": {
+			"geometry": "geometry.armor_zarya",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_cs_zarya1"]
+		},
+		"controller.render.arm_dolg_beryl1": {
+			"geometry": "geometry.armor_beryl",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_beryl1"]
+		},
+		"controller.render.arm_dolg_beryl2": {
+			"geometry": "geometry.armor_beryl",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_beryl2"]
+		},
+		"controller.render.arm_dolg_chn3a_1": {
+			"geometry": "geometry.armor_cs3",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_chn3a_1"]
+		},
+		"controller.render.arm_dolg_exo1": {
+			"geometry": "geometry.armor_exo",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_exo1"]
+		},
+		"controller.render.arm_dolg_exo2": {
+			"geometry": "geometry.armor_exo",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_exo2"]
+		},
+		"controller.render.arm_dolg_exo3": {
+			"geometry": "geometry.armor_exo",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_exo3"]
+		},
+		"controller.render.arm_dolg_exo4": {
+			"geometry": "geometry.armor_exo",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_exo4"]
+		},
+		"controller.render.arm_dolg_exo6": {
+			"geometry": "geometry.armor_exo",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_exo6"]
+		},
+		"controller.render.arm_dolg_exo7": {
+			"geometry": "geometry.armor_exo",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_exo7"]
+		},
+		"controller.render.arm_dolg_exo8": {
+			"geometry": "geometry.armor_exo",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_exo8"]
+		},
+		"controller.render.arm_dolg_jacket1": {
+			"geometry": "geometry.armor_light",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_jacket1"]
+		},
+		"controller.render.arm_dolg_jacket2": {
+			"geometry": "geometry.armor_light",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_jacket2"]
+		},
+		"controller.render.arm_dolg_raincoat1": {
+			"geometry": "geometry.armor_raincoat",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_raincoat1"]
+		},
+		"controller.render.arm_dolg_seva1": {
+			"geometry": "geometry.armor_seva",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_seva1"]
+		},
+		"controller.render.arm_dolg_seva2": {
+			"geometry": "geometry.armor_seva",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_seva2"]
+		},
+		"controller.render.arm_dolg_seva3": {
+			"geometry": "geometry.armor_seva",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_seva3"]
+		},
+		"controller.render.arm_dolg_soldier1": {
+			"geometry": "geometry.armor_scat",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_soldier1"]
+		},
+		"controller.render.arm_dolg_soldier2": {
+			"geometry": "geometry.armor_scat",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_soldier2"]
+		},
+		"controller.render.arm_dolg_soldier3": {
+			"geometry": "geometry.armor_scat",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_soldier3"]
+		},
+		"controller.render.arm_dolg_zarya1": {
+			"geometry": "geometry.armor_zarya",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_zarya1"]
+		},
+		"controller.render.arm_dolg_zarya2": {
+			"geometry": "geometry.armor_zarya",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_zarya2"]
+		},
+		"controller.render.arm_dolg_zarya3": {
+			"geometry": "geometry.armor_zarya",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_zarya3"]
+		},
+		"controller.render.arm_dolg_zarya4": {
+			"geometry": "geometry.armor_zarya",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_zarya4"]
+		},
+		"controller.render.arm_dolg_zarya5": {
+			"geometry": "geometry.armor_zarya",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_dolg_zarya5"]
+		},
+		"controller.render.arm_freedom_beryl1": {
+			"geometry": "geometry.armor_beryl",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_beryl1"]
+		},
+		"controller.render.arm_freedom_beryl2": {
+			"geometry": "geometry.armor_beryl",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_beryl2"]
+		},
+		"controller.render.arm_freedom_exo1": {
+			"geometry": "geometry.armor_exo",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_exo1"]
+		},
+		"controller.render.arm_freedom_exo2": {
+			"geometry": "geometry.armor_exo",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_exo2"]
+		},
+		"controller.render.arm_freedom_exo3": {
+			"geometry": "geometry.armor_exo",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_exo3"]
+		},
+		"controller.render.arm_freedom_jacket1": {
+			"geometry": "geometry.armor_light",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_jacket1"]
+		},
+		"controller.render.arm_freedom_raincoat1": {
+			"geometry": "geometry.armor_raincoat",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_raincoat1"]
+		},
+		"controller.render.arm_freedom_seva1": {
+			"geometry": "geometry.armor_seva",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_seva1"]
+		},
+		"controller.render.arm_freedom_seva2": {
+			"geometry": "geometry.armor_seva",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_seva2"]
+		},
+		"controller.render.arm_freedom_soldier1": {
+			"geometry": "geometry.armor_scat",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_soldier1"]
+		},
+		"controller.render.arm_freedom_soldier2": {
+			"geometry": "geometry.armor_scat",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_soldier2"]
+		},
+		"controller.render.arm_freedom_zarya1": {
+			"geometry": "geometry.armor_zarya",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_zarya1"]
+		},
+		"controller.render.arm_freedom_zarya2": {
+			"geometry": "geometry.armor_zarya",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_zarya2"]
+		},
+		"controller.render.arm_freedom_zarya3": {
+			"geometry": "geometry.armor_zarya0",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_zarya3"]
+		},
+		"controller.render.arm_freedom_zarya4": {
+			"geometry": "geometry.armor_zarya2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_zarya4"]
+		},
+		"controller.render.arm_freedom_zarya6": {
+			"geometry": "geometry.armor_zarya",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_zarya6"]
+		},
+		"controller.render.arm_freedom_zarya7": {
+			"geometry": "geometry.armor_zarya2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_freedom_zarya7"]
+		},
+		"controller.render.arm_merc_armorsuit1": {
+			"geometry": "geometry.armor_zarya2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_merc_armorsuit1"]
+		},
+		"controller.render.arm_merc_armorsuit10": {
+			"geometry": "geometry.armor_overall2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_merc_armorsuit10"]
+		},
+		"controller.render.arm_merc_armorsuit11": {
+			"geometry": "geometry.armor_overall2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_merc_armorsuit11"]
+		},
+		"controller.render.arm_merc_armorsuit12": {
+			"geometry": "geometry.armor_overall2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_merc_armorsuit12"]
+		},
+		"controller.render.arm_merc_armorsuit2": {
+			"geometry": "geometry.armor_overall2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_merc_armorsuit2"]
+		},
+		"controller.render.arm_merc_armorsuit3": {
+			"geometry": "geometry.armor_zarya2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_merc_armorsuit3"]
+		},
+		"controller.render.arm_merc_armorsuit4": {
+			"geometry": "geometry.armor_overall2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_merc_armorsuit4"]
+		},
+		"controller.render.arm_merc_armorsuit5": {
+			"geometry": "geometry.armor_overall2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_merc_armorsuit5"]
+		},
+		"controller.render.arm_merc_armorsuit6": {
+			"geometry": "geometry.armor_overall2",
+			"materials": [{ "*": "material.default" }],
+			"textures": ["texture.arm_merc_armorsuit6"]
+		}
+	}
+}
