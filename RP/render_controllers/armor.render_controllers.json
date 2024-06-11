@@ -716,11 +716,6 @@
 			"materials": [{ "*": "material.default" }],
 			"textures": ["texture.arm_neutral_soldier1"]
 		},
-		"controller.render.arm_neutral_soldier2": {
-			"geometry": "geometry.armor_beryl",
-			"materials": [{ "*": "material.default" }],
-			"textures": ["texture.arm_neutral_soldier2"]
-		},
 		"controller.render.arm_neutral_solider1": {
 			"geometry": "geometry.armor_beryl",
 			"materials": [{ "*": "material.default" }],
