@@ -122,7 +122,7 @@
 							"first_person_empty_hand" : "query.get_equipped_item_name(0, 1) != 'filled_map' && !v.empty_hand"
 						},
 						{
-							"first_person_walk" : "variable.bob_animation"
+							"first_person_walk" : "variable.bob_animation && !v.empty_hand"
 						},
 						{
 							"first_person_map_controller" : "(query.get_equipped_item_name(0, 1) == 'filled_map' || query.get_equipped_item_name('off_hand') == 'filled_map')"
