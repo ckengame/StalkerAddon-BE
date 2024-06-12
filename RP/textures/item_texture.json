@@ -1,1393 +1,299 @@
 {
 	"resource_pack_name": "vanilla",
 	"texture_data": {
-		"anomaly_electra": {
-			"textures": [
-				"textures/items/anomaly/anomaly_electra"
-			]
-		},
-		"anomaly_jelly": {
-			"textures": [
-				"textures/items/anomaly/anomaly_jelly"
-			]
-		},
-		"anomaly_voronka": {
-			"textures": [
-				"textures/items/anomaly/anomaly_voronka"
-			]
-		},
-		"anomaly_frying": {
-			"textures": [
-				"textures/items/anomaly/anomaly_frying"
-			]
-		},
-		"anomaly_fireball": {
-			"textures": [
-				"textures/items/anomaly/anomaly_fireball"
-			]
-		},
-		"acacia_door": {
-			"textures": "textures/blocks/door_acacia_upper"
-		},
-		"akm74": {
-			"textures": "textures/items/guns/assault_rifles/akm74"
-		},
-		"akm74u": {
-			"textures": "textures/items/guns/assault_rifles/akm74u"
-		},
-		"ammo_12x70_fraction": {
-			"textures": "textures/items/ammo/ammo_12x70_fraction"
-		},
-		"ammo_45acp": {
-			"textures": "textures/items/ammo/ammo_45acp"
-		},
-		"ammo_5_45x39mm": {
-			"textures": "textures/items/ammo/ammo_5_45x39mm"
-		},
-		"ammo_5_56x45mm": {
-			"textures": "textures/items/ammo/ammo_5_56x45mm"
-		},
-		"ammo_7_62x54mm_7n1": {
-			"textures": "textures/items/ammo/ammo_7_62x54mm_7n1"
-		},
-		"ammo_9x18mm": {
-			"textures": "textures/items/ammo/ammo_9x18mm"
-		},
-		"ammo_9x19mm_fmj": {
-			"textures": "textures/items/ammo/ammo_9x19mm_fmj"
-		},
-		"ammo_9x39mm_pab9": {
-			"textures": "textures/items/ammo/ammo_9x39mm_pab9"
-		},
-		"ammo_batteries": {
-			"textures": "textures/items/ammo/ammo_batteries"
-		},
-		"anabiotic": {
-			"textures": "textures/items/medkit/anabiotic"
-		},
-		"antidote": {
-			"textures": "textures/items/medkit/antidote"
-		},
-		"antiradx": {
-			"textures": "textures/items/medkit/antiradx"
-		},
-		"aptechka1": {
-			"textures": "textures/items/medkit/aptechka1"
-		},
-		"aptechka2": {
-			"textures": "textures/items/medkit/aptechka2"
-		},
-		"aptechka3": {
-			"textures": "textures/items/medkit/aptechka3"
-		},
-		"arm_bandit_armorsuit1": {
-			"textures": [
-				"textures/items/armor/arm_bandit_armorsuit1"
-			]
-		},
-		"arm_bandit_armorsuit2": {
-			"textures": [
-				"textures/items/armor/arm_bandit_armorsuit2"
-			]
-		},
-		"arm_bandit_armorsuit3": {
-			"textures": [
-				"textures/items/armor/arm_bandit_armorsuit3"
-			]
-		},
-		"arm_bandit_armorsuit4": {
-			"textures": [
-				"textures/items/armor/arm_bandit_armorsuit4"
-			]
-		},
-		"arm_bandit_beryl1": {
-			"textures": [
-				"textures/items/armor/arm_bandit_beryl1"
-			]
-		},
-		"arm_bandit_exo1": {
-			"textures": [
-				"textures/items/armor/arm_bandit_exo1"
-			]
-		},
-		"arm_bandit_exo2": {
-			"textures": [
-				"textures/items/armor/arm_bandit_exo2"
-			]
-		},
-		"arm_bandit_exo3": {
-			"textures": [
-				"textures/items/armor/arm_bandit_exo3"
-			]
-		},
-		"arm_bandit_jacket1": {
-			"textures": [
-				"textures/items/armor/arm_bandit_jacket1"
-			]
-		},
-		"arm_bandit_jacket2": {
-			"textures": [
-				"textures/items/armor/arm_bandit_jacket2"
-			]
-		},
-		"arm_bandit_raincoat1": {
-			"textures": [
-				"textures/items/armor/arm_bandit_raincoat1"
-			]
-		},
-		"arm_bandit_raincoat2": {
-			"textures": [
-				"textures/items/armor/arm_bandit_raincoat2"
-			]
-		},
-		"arm_bandit_seva1": {
-			"textures": [
-				"textures/items/armor/arm_bandit_seva1"
-			]
-		},
-		"arm_bandit_seva2": {
-			"textures": [
-				"textures/items/armor/arm_bandit_seva2"
-			]
-		},
-		"arm_bandit_soldier1": {
-			"textures": [
-				"textures/items/armor/arm_bandit_soldier1"
-			]
-		},
-		"arm_bandit_zarya1": {
-			"textures": [
-				"textures/items/armor/arm_bandit_zarya1"
-			]
-		},
-		"arm_cs_chn1_1": {
-			"textures": [
-				"textures/items/armor/arm_cs_chn1_1"
-			]
-		},
-		"arm_cs_chn2_1": {
-			"textures": [
-				"textures/items/armor/arm_cs_chn2_1"
-			]
-		},
-		"arm_cs_chn2_2": {
-			"textures": [
-				"textures/items/armor/arm_cs_chn2_2"
-			]
-		},
-		"arm_cs_chn3a_1": {
-			"textures": [
-				"textures/items/armor/arm_cs_chn3a_1"
-			]
-		},
-		"arm_cs_exo1": {
-			"textures": [
-				"textures/items/armor/arm_cs_exo1"
-			]
-		},
-		"arm_cs_jacket1": {
-			"textures": [
-				"textures/items/armor/arm_cs_jacket1"
-			]
-		},
-		"arm_cs_seva1": {
-			"textures": [
-				"textures/items/armor/arm_cs_seva1"
-			]
-		},
-		"arm_cs_seva2": {
-			"textures": [
-				"textures/items/armor/arm_cs_seva2"
-			]
-		},
-		"arm_cs_seva3": {
-			"textures": [
-				"textures/items/armor/arm_cs_seva3"
-			]
-		},
-		"arm_cs_soldier1": {
-			"textures": [
-				"textures/items/armor/arm_cs_soldier1"
-			]
-		},
-		"arm_cs_soldier2": {
-			"textures": [
-				"textures/items/armor/arm_cs_soldier2"
-			]
-		},
-		"arm_cs_zarya1": {
-			"textures": [
-				"textures/items/armor/arm_cs_zarya1"
-			]
-		},
-		"arm_dolg_beryl1": {
-			"textures": [
-				"textures/items/armor/arm_dolg_beryl1"
-			]
-		},
-		"arm_dolg_beryl2": {
-			"textures": [
-				"textures/items/armor/arm_dolg_beryl2"
-			]
-		},
-		"arm_dolg_chn3a_1": {
-			"textures": [
-				"textures/items/armor/arm_dolg_chn3a_1"
-			]
-		},
-		"arm_dolg_exo1": {
-			"textures": [
-				"textures/items/armor/arm_dolg_exo1"
-			]
-		},
-		"arm_dolg_exo2": {
-			"textures": [
-				"textures/items/armor/arm_dolg_exo2"
-			]
-		},
-		"arm_dolg_exo3": {
-			"textures": [
-				"textures/items/armor/arm_dolg_exo3"
-			]
-		},
-		"arm_dolg_exo4": {
-			"textures": [
-				"textures/items/armor/arm_dolg_exo4"
-			]
-		},
-		"arm_dolg_exo6": {
-			"textures": [
-				"textures/items/armor/arm_dolg_exo6"
-			]
-		},
-		"arm_dolg_exo7": {
-			"textures": [
-				"textures/items/armor/arm_dolg_exo7"
-			]
-		},
-		"arm_dolg_exo8": {
-			"textures": [
-				"textures/items/armor/arm_dolg_exo8"
-			]
-		},
-		"arm_dolg_jacket1": {
-			"textures": [
-				"textures/items/armor/arm_dolg_jacket1"
-			]
-		},
-		"arm_dolg_jacket2": {
-			"textures": [
-				"textures/items/armor/arm_dolg_jacket2"
-			]
-		},
-		"arm_dolg_raincoat1": {
-			"textures": [
-				"textures/items/armor/arm_dolg_raincoat1"
-			]
-		},
-		"arm_dolg_seva1": {
-			"textures": [
-				"textures/items/armor/arm_dolg_seva1"
-			]
-		},
-		"arm_dolg_seva2": {
-			"textures": [
-				"textures/items/armor/arm_dolg_seva2"
-			]
-		},
-		"arm_dolg_seva3": {
-			"textures": [
-				"textures/items/armor/arm_dolg_seva3"
-			]
-		},
-		"arm_dolg_soldier1": {
-			"textures": [
-				"textures/items/armor/arm_dolg_soldier1"
-			]
-		},
-		"arm_dolg_soldier2": {
-			"textures": [
-				"textures/items/armor/arm_dolg_soldier2"
-			]
-		},
-		"arm_dolg_soldier3": {
-			"textures": [
-				"textures/items/armor/arm_dolg_soldier3"
-			]
-		},
-		"arm_dolg_zarya1": {
-			"textures": [
-				"textures/items/armor/arm_dolg_zarya1"
-			]
-		},
-		"arm_dolg_zarya2": {
-			"textures": [
-				"textures/items/armor/arm_dolg_zarya2"
-			]
-		},
-		"arm_dolg_zarya3": {
-			"textures": [
-				"textures/items/armor/arm_dolg_zarya3"
-			]
-		},
-		"arm_dolg_zarya4": {
-			"textures": [
-				"textures/items/armor/arm_dolg_zarya4"
-			]
-		},
-		"arm_dolg_zarya5": {
-			"textures": [
-				"textures/items/armor/arm_dolg_zarya5"
-			]
-		},
-		"arm_freedom_beryl1": {
-			"textures": [
-				"textures/items/armor/arm_freedom_beryl1"
-			]
-		},
-		"arm_freedom_beryl2": {
-			"textures": [
-				"textures/items/armor/arm_freedom_beryl2"
-			]
-		},
-		"arm_freedom_exo1": {
-			"textures": [
-				"textures/items/armor/arm_freedom_exo1"
-			]
-		},
-		"arm_freedom_exo2": {
-			"textures": [
-				"textures/items/armor/arm_freedom_exo2"
-			]
-		},
-		"arm_freedom_exo3": {
-			"textures": [
-				"textures/items/armor/arm_freedom_exo3"
-			]
-		},
-		"arm_freedom_jacket1": {
-			"textures": [
-				"textures/items/armor/arm_freedom_jacket1"
-			]
-		},
-		"arm_freedom_raincoat1": {
-			"textures": [
-				"textures/items/armor/arm_freedom_raincoat1"
-			]
-		},
-		"arm_freedom_seva1": {
-			"textures": [
-				"textures/items/armor/arm_freedom_seva1"
-			]
-		},
-		"arm_freedom_seva2": {
-			"textures": [
-				"textures/items/armor/arm_freedom_seva2"
-			]
-		},
-		"arm_freedom_soldier1": {
-			"textures": [
-				"textures/items/armor/arm_freedom_soldier1"
-			]
-		},
-		"arm_freedom_soldier2": {
-			"textures": [
-				"textures/items/armor/arm_freedom_soldier2"
-			]
-		},
-		"arm_freedom_zarya1": {
-			"textures": [
-				"textures/items/armor/arm_freedom_zarya1"
-			]
-		},
-		"arm_freedom_zarya2": {
-			"textures": [
-				"textures/items/armor/arm_freedom_zarya2"
-			]
-		},
-		"arm_freedom_zarya3": {
-			"textures": [
-				"textures/items/armor/arm_freedom_zarya3"
-			]
-		},
-		"arm_freedom_zarya4": {
-			"textures": [
-				"textures/items/armor/arm_freedom_zarya4"
-			]
-		},
-		"arm_freedom_zarya6": {
-			"textures": [
-				"textures/items/armor/arm_freedom_zarya6"
-			]
-		},
-		"arm_freedom_zarya7": {
-			"textures": [
-				"textures/items/armor/arm_freedom_zarya7"
-			]
-		},
-		"arm_merc_armorsuit1": {
-			"textures": [
-				"textures/items/armor/arm_merc_armorsuit1"
-			]
-		},
-		"arm_merc_armorsuit10": {
-			"textures": [
-				"textures/items/armor/arm_merc_armorsuit10"
-			]
-		},
-		"arm_merc_armorsuit11": {
-			"textures": [
-				"textures/items/armor/arm_merc_armorsuit11"
-			]
-		},
-		"arm_merc_armorsuit12": {
-			"textures": [
-				"textures/items/armor/arm_merc_armorsuit12"
-			]
-		},
-		"arm_merc_armorsuit2": {
-			"textures": [
-				"textures/items/armor/arm_merc_armorsuit2"
-			]
-		},
-		"arm_merc_armorsuit3": {
-			"textures": [
-				"textures/items/armor/arm_merc_armorsuit3"
-			]
-		},
-		"arm_merc_armorsuit4": {
-			"textures": [
-				"textures/items/armor/arm_merc_armorsuit4"
-			]
-		},
-		"arm_merc_armorsuit5": {
-			"textures": [
-				"textures/items/armor/arm_merc_armorsuit5"
-			]
-		},
-		"arm_merc_armorsuit6": {
-			"textures": [
-				"textures/items/armor/arm_merc_armorsuit6"
-			]
-		},
-		"arm_merc_armorsuit7": {
-			"textures": [
-				"textures/items/armor/arm_merc_armorsuit7"
-			]
-		},
-		"arm_merc_armorsuit8": {
-			"textures": [
-				"textures/items/armor/arm_merc_armorsuit8"
-			]
-		},
-		"arm_merc_armorsuit9": {
-			"textures": [
-				"textures/items/armor/arm_merc_armorsuit9"
-			]
-		},
-		"arm_merc_beryl1": {
-			"textures": [
-				"textures/items/armor/arm_merc_beryl1"
-			]
-		},
-		"arm_merc_exo1": {
-			"textures": [
-				"textures/items/armor/arm_merc_exo1"
-			]
-		},
-		"arm_merc_exo2": {
-			"textures": [
-				"textures/items/armor/arm_merc_exo2"
-			]
-		},
-		"arm_merc_exo3": {
-			"textures": [
-				"textures/items/armor/arm_merc_exo3"
-			]
-		},
-		"arm_merc_exo4": {
-			"textures": [
-				"textures/items/armor/arm_merc_exo4"
-			]
-		},
-		"arm_merc_jacket1": {
-			"textures": [
-				"textures/items/armor/arm_merc_jacket1"
-			]
-		},
-		"arm_merc_jacket2": {
-			"textures": [
-				"textures/items/armor/arm_merc_jacket2"
-			]
-		},
-		"arm_merc_seva1": {
-			"textures": [
-				"textures/items/armor/arm_merc_seva1"
-			]
-		},
-		"arm_merc_seva2": {
-			"textures": [
-				"textures/items/armor/arm_merc_seva2"
-			]
-		},
-		"arm_merc_soldier1": {
-			"textures": [
-				"textures/items/armor/arm_merc_soldier1"
-			]
-		},
-		"arm_merc_zarya1": {
-			"textures": [
-				"textures/items/armor/arm_merc_zarya1"
-			]
-		},
-		"arm_military_beryl1": {
-			"textures": [
-				"textures/items/armor/arm_military_beryl1"
-			]
-		},
-		"arm_military_beryl2": {
-			"textures": [
-				"textures/items/armor/arm_military_beryl2"
-			]
-		},
-		"arm_military_beryl3": {
-			"textures": [
-				"textures/items/armor/arm_military_beryl3"
-			]
-		},
-		"arm_military_beryl4": {
-			"textures": [
-				"textures/items/armor/arm_military_beryl4"
-			]
-		},
-		"arm_military_beryl5": {
-			"textures": [
-				"textures/items/armor/arm_military_beryl5"
-			]
-		},
-		"arm_military_beryl6": {
-			"textures": [
-				"textures/items/armor/arm_military_beryl6"
-			]
-		},
-		"arm_military_beryl7": {
-			"textures": [
-				"textures/items/armor/arm_military_beryl7"
-			]
-		},
-		"arm_military_beryl8": {
-			"textures": [
-				"textures/items/armor/arm_military_beryl8"
-			]
-		},
-		"arm_military_beryl9": {
-			"textures": [
-				"textures/items/armor/arm_military_beryl9"
-			]
-		},
-		"arm_military_exo1": {
-			"textures": [
-				"textures/items/armor/arm_military_exo1"
-			]
-		},
-		"arm_military_exo2": {
-			"textures": [
-				"textures/items/armor/arm_military_exo2"
-			]
-		},
-		"arm_military_raincoat1": {
-			"textures": [
-				"textures/items/armor/arm_military_raincoat1"
-			]
-		},
-		"arm_military_scat1": {
-			"textures": [
-				"textures/items/armor/arm_military_scat1"
-			]
-		},
-		"arm_military_soldier1": {
-			"textures": [
-				"textures/items/armor/arm_military_soldier1"
-			]
-		},
-		"arm_military_soldier2": {
-			"textures": [
-				"textures/items/armor/arm_military_soldier2"
-			]
-		},
-		"arm_mlitary_jacket1": {
-			"textures": [
-				"textures/items/armor/arm_mlitary_jacket1"
-			]
-		},
-		"arm_monolith_armorsuit1": {
-			"textures": [
-				"textures/items/armor/arm_monolith_armorsuit1"
-			]
-		},
-		"arm_monolith_armorsuit2": {
-			"textures": [
-				"textures/items/armor/arm_monolith_armorsuit2"
-			]
-		},
-		"arm_monolith_armorsuit3": {
-			"textures": [
-				"textures/items/armor/arm_monolith_armorsuit3"
-			]
-		},
-		"arm_monolith_armorsuit4": {
-			"textures": [
-				"textures/items/armor/arm_monolith_armorsuit4"
-			]
-		},
-		"arm_monolith_armorsuit5": {
-			"textures": [
-				"textures/items/armor/arm_monolith_armorsuit5"
-			]
-		},
-		"arm_monolith_armorsuit6": {
-			"textures": [
-				"textures/items/armor/arm_monolith_armorsuit6"
-			]
-		},
-		"arm_monolith_exo1": {
-			"textures": [
-				"textures/items/armor/arm_monolith_exo1"
-			]
-		},
-		"arm_monolith_exo2": {
-			"textures": [
-				"textures/items/armor/arm_monolith_exo2"
-			]
-		},
-		"arm_monolith_exo3": {
-			"textures": [
-				"textures/items/armor/arm_monolith_exo3"
-			]
-		},
-		"arm_monolith_exo4": {
-			"textures": [
-				"textures/items/armor/arm_monolith_exo4"
-			]
-		},
-		"arm_monolith_raincoat1": {
-			"textures": [
-				"textures/items/armor/arm_monolith_raincoat1"
-			]
-		},
-		"arm_monolith_seva1": {
-			"textures": [
-				"textures/items/armor/arm_monolith_seva1"
-			]
-		},
-		"arm_monolith_seva2": {
-			"textures": [
-				"textures/items/armor/arm_monolith_seva2"
-			]
-		},
-		"arm_monolith_seva3": {
-			"textures": [
-				"textures/items/armor/arm_monolith_seva3"
-			]
-		},
-		"arm_monolith_soldier1": {
-			"textures": [
-				"textures/items/armor/arm_monolith_soldier1"
-			]
-		},
-		"arm_monolith_zarya1": {
-			"textures": [
-				"textures/items/armor/arm_monolith_zarya1"
-			]
-		},
-		"arm_neutral_beryl1": {
-			"textures": [
-				"textures/items/armor/arm_neutral_beryl1"
-			]
-		},
-		"arm_neutral_chn1b_1": {
-			"textures": [
-				"textures/items/armor/arm_neutral_chn1b_1"
-			]
-		},
-		"arm_neutral_exo1": {
-			"textures": [
-				"textures/items/armor/arm_neutral_exo1"
-			]
-		},
-		"arm_neutral_exo2": {
-			"textures": [
-				"textures/items/armor/arm_neutral_exo2"
-			]
-		},
-		"arm_neutral_exo3": {
-			"textures": [
-				"textures/items/armor/arm_neutral_exo3"
-			]
-		},
-		"arm_neutral_exo4": {
-			"textures": [
-				"textures/items/armor/arm_neutral_exo4"
-			]
-		},
-		"arm_neutral_jacket1": {
-			"textures": [
-				"textures/items/armor/arm_neutral_jacket1"
-			]
-		},
-		"arm_neutral_jacket2": {
-			"textures": [
-				"textures/items/armor/arm_neutral_jacket2"
-			]
-		},
-		"arm_neutral_jacket3": {
-			"textures": [
-				"textures/items/armor/arm_neutral_jacket3"
-			]
-		},
-		"arm_neutral_jacket4": {
-			"textures": [
-				"textures/items/armor/arm_neutral_jacket4"
-			]
-		},
-		"arm_neutral_jacket5": {
-			"textures": [
-				"textures/items/armor/arm_neutral_jacket5"
-			]
-		},
-		"arm_neutral_jacket6": {
-			"textures": [
-				"textures/items/armor/arm_neutral_jacket6"
-			]
-		},
-		"arm_neutral_jacket7": {
-			"textures": [
-				"textures/items/armor/arm_neutral_jacket7"
-			]
-		},
-		"arm_neutral_jacket8": {
-			"textures": [
-				"textures/items/armor/arm_neutral_jacket8"
-			]
-		},
-		"arm_neutral_jacket9": {
-			"textures": [
-				"textures/items/armor/arm_neutral_jacket9"
-			]
-		},
-		"arm_neutral_seva1": {
-			"textures": [
-				"textures/items/armor/arm_neutral_seva1"
-			]
-		},
-		"arm_neutral_seva2": {
-			"textures": [
-				"textures/items/armor/arm_neutral_seva2"
-			]
-		},
-		"arm_neutral_seva3": {
-			"textures": [
-				"textures/items/armor/arm_neutral_seva3"
-			]
-		},
-		"arm_neutral_soldier1": {
-			"textures": [
-				"textures/items/armor/arm_neutral_soldier1"
-			]
-		},
-		"arm_neutral_solider1": {
-			"textures": [
-				"textures/items/armor/arm_neutral_solider1"
-			]
-		},
-		"arm_neutral_zarya": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya"
-			]
-		},
-		"arm_neutral_zarya1": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya1"
-			]
-		},
-		"arm_neutral_zarya10": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya10"
-			]
-		},
-		"arm_neutral_zarya11": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya11"
-			]
-		},
-		"arm_neutral_zarya12": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya12"
-			]
-		},
-		"arm_neutral_zarya13": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya13"
-			]
-		},
-		"arm_neutral_zarya14": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya14"
-			]
-		},
-		"arm_neutral_zarya15": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya15"
-			]
-		},
-		"arm_neutral_zarya16": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya16"
-			]
-		},
-		"arm_neutral_zarya17": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya17"
-			]
-		},
-		"arm_neutral_zarya2": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya2"
-			]
-		},
-		"arm_neutral_zarya3": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya3"
-			]
-		},
-		"arm_neutral_zarya4": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya4"
-			]
-		},
-		"arm_neutral_zarya5": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya5"
-			]
-		},
-		"arm_neutral_zarya6": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya6"
-			]
-		},
-		"arm_neutral_zarya7": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya7"
-			]
-		},
-		"arm_neutral_zarya8": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya8"
-			]
-		},
-		"arm_neutral_zarya9": {
-			"textures": [
-				"textures/items/armor/arm_neutral_zarya9"
-			]
-		},
-		"arm_renegat_armorsuit1": {
-			"textures": [
-				"textures/items/armor/arm_renegat_armorsuit1"
-			]
-		},
-		"arm_renegat_armorsuit2": {
-			"textures": [
-				"textures/items/armor/arm_renegat_armorsuit2"
-			]
-		},
-		"arm_renegat_armorsuit3": {
-			"textures": [
-				"textures/items/armor/arm_renegat_armorsuit3"
-			]
-		},
-		"arm_renegat_armorsuit4": {
-			"textures": [
-				"textures/items/armor/arm_renegat_armorsuit4"
-			]
-		},
-		"arm_renegat_exo1": {
-			"textures": [
-				"textures/items/armor/arm_renegat_exo1"
-			]
-		},
-		"arm_renegat_exo2": {
-			"textures": [
-				"textures/items/armor/arm_renegat_exo2"
-			]
-		},
-		"arm_renegat_raincoat1": {
-			"textures": [
-				"textures/items/armor/arm_renegat_raincoat1"
-			]
-		},
-		"arm_scientist_beryl1": {
-			"textures": [
-				"textures/items/armor/arm_scientist_beryl1"
-			]
-		},
-		"arm_scientist_exo1": {
-			"textures": [
-				"textures/items/armor/arm_scientist_exo1"
-			]
-		},
-		"arm_scientist_seva1": {
-			"textures": [
-				"textures/items/armor/arm_scientist_seva1"
-			]
-		},
-		"arm_scientist_ssp1": {
-			"textures": [
-				"textures/items/armor/arm_scientist_ssp1"
-			]
-		},
-		"arm_scientist_ssp10": {
-			"textures": [
-				"textures/items/armor/arm_scientist_ssp10"
-			]
-		},
-		"arm_scientist_ssp11": {
-			"textures": [
-				"textures/items/armor/arm_scientist_ssp11"
-			]
-		},
-		"arm_scientist_ssp12": {
-			"textures": [
-				"textures/items/armor/arm_scientist_ssp12"
-			]
-		},
-		"arm_scientist_ssp2": {
-			"textures": [
-				"textures/items/armor/arm_scientist_ssp2"
-			]
-		},
-		"arm_scientist_ssp3": {
-			"textures": [
-				"textures/items/armor/arm_scientist_ssp3"
-			]
-		},
-		"arm_scientist_ssp4": {
-			"textures": [
-				"textures/items/armor/arm_scientist_ssp4"
-			]
-		},
-		"arm_scientist_ssp5": {
-			"textures": [
-				"textures/items/armor/arm_scientist_ssp5"
-			]
-		},
-		"arm_scientist_ssp6": {
-			"textures": [
-				"textures/items/armor/arm_scientist_ssp6"
-			]
-		},
-		"arm_scientist_ssp7": {
-			"textures": [
-				"textures/items/armor/arm_scientist_ssp7"
-			]
-		},
-		"arm_scientist_ssp8": {
-			"textures": [
-				"textures/items/armor/arm_scientist_ssp8"
-			]
-		},
-		"arm_scientist_ssp9": {
-			"textures": [
-				"textures/items/armor/arm_scientist_ssp9"
-			]
-		},
-		"arm_scientist_zarya1": {
-			"textures": [
-				"textures/items/armor/arm_scientist_zarya1"
-			]
-		},
-		"arm_scientist_zarya2": {
-			"textures": [
-				"textures/items/armor/arm_scientist_zarya2"
-			]
-		},
-		"arm_scientist_zarya3": {
-			"textures": [
-				"textures/items/armor/arm_scientist_zarya3"
-			]
-		},
-		"arm_scientist_zarya4": {
-			"textures": [
-				"textures/items/armor/arm_scientist_zarya4"
-			]
-		},
-		"arm_scientist_zarya5": {
-			"textures": [
-				"textures/items/armor/arm_scientist_zarya5"
-			]
-		},
-		"arm_scientist_zarya6": {
-			"textures": [
-				"textures/items/armor/arm_scientist_zarya6"
-			]
-		},
-		"arm_scientist_zarya7": {
-			"textures": [
-				"textures/items/armor/arm_scientist_zarya7"
-			]
-		},
-		"arm_scientist_zarya8": {
-			"textures": [
-				"textures/items/armor/arm_scientist_zarya8"
-			]
-		},
-		"artifact_battery": {
-			"textures": "textures/items/artifact/artifact_battery"
-		},
-		"artifact_bengal_fire": {
-			"textures": "textures/items/artifact/artifact_bengal_fire"
-		},
-		"artifact_bubble": {
-			"textures": "textures/items/artifact/artifact_bubble"
-		},
-		"artifact_compass": {
-			"textures": "textures/items/artifact/artifact_compass"
-		},
-		"artifact_crystal": {
-			"textures": "textures/items/artifact/artifact_crystal"
-		},
-		"artifact_dummy": {
-			"textures": "textures/items/artifact/artifact_dummy"
-		},
-		"artifact_eye": {
-			"textures": "textures/items/artifact/artifact_eye"
-		},
-		"artifact_fireball": {
-			"textures": "textures/items/artifact/artifact_fireball"
-		},
-		"artifact_firefly": {
-			"textures": "textures/items/artifact/artifact_firefly"
-		},
-		"artifact_flame": {
-			"textures": "textures/items/artifact/artifact_flame"
-		},
-		"artifact_flash": {
-			"textures": "textures/items/artifact/artifact_flash"
-		},
-		"artifact_goldfish": {
-			"textures": "textures/items/artifact/artifact_goldfish"
-		},
-		"artifact_gravi": {
-			"textures": "textures/items/artifact/artifact_gravi"
-		},
-		"artifact_Heart_Oasis": {
-			"textures": "textures/items/artifact/artifact_Heart_Oasis"
-		},
-		"artifact_insulator": {
-			"textures": "textures/items/artifact/artifact_insulator"
-		},
-		"artifact_jellyfish": {
-			"textures": "textures/items/artifact/artifact_jellyfish"
-		},
-		"artifact_kolobok": {
-			"textures": "textures/items/artifact/artifact_kolobok"
-		},
-		"artifact_lomot_myasa": {
-			"textures": "textures/items/artifact/artifact_lomot_myasa"
-		},
-		"artifact_moms_beads": {
-			"textures": "textures/items/artifact/artifact_moms_beads"
-		},
-		"artifact_moonlight": {
-			"textures": "textures/items/artifact/artifact_moonlight"
-		},
-		"artifact_night_star": {
-			"textures": "textures/items/artifact/artifact_night_star"
-		},
-		"artifact_snowflake": {
-			"textures": "textures/items/artifact/artifact_snowflake"
-		},
-		"artifact_soul": {
-			"textures": "textures/items/artifact/artifact_soul"
-		},
-		"artifact_steering_wheel": {
-			"textures": "textures/items/artifact/artifact_steering_wheel"
-		},
-		"artifact_stone_flower": {
-			"textures": "textures/items/artifact/artifact_stone_flower"
-		},
-		"artifact_stones_blood": {
-			"textures": "textures/items/artifact/artifact_stones_blood"
-		},
-		"artifact_the_twist": {
-			"textures": "textures/items/artifact/artifact_the_twist"
-		},
-		"as96": {
-			"textures": "textures/items/guns/assault_rifles/as96"
-		},
-		"asval": {
-			"textures": "textures/items/guns/assault_rifles/asval"
-		},
-		"baravinok": {
-			"textures": "textures/items/medkit/baravinok"
-		},
-		"binoculars": {
-			"textures": "textures/items/binoculars"
-		},
-		"bint": {
-			"textures": "textures/items/medkit/bint"
-		},
-		"birch_door": {
-			"textures": "textures/blocks/door_birch_upper"
-		},
-		"bolt": {
-			"textures": "textures/items/bolt"
-		},
-		"buldog6": {
-			"textures": "textures/items/guns/grenade_launchers/buldog6"
-		},
-		"bump": {
-			"textures": "textures/items/guns/shotguns/bump"
-		},
-		"cheyzer13": {
-			"textures": "textures/items/guns/shotguns/cheyzer13"
-		},
-		"cken_barrier": {
-			"textures": "textures/blocks/barrier"
-		},
-		"conserva": {
-			"textures": "textures/items/foods/conserva"
-		},
-		"crimson_door": {
-			"textures": "textures/blocks/huge_fungus/crimson_door_top"
-		},
-		"dark_oak_door": {
-			"textures": "textures/blocks/door_dark_oak_upper"
-		},
-		"deagle": {
-			"textures": "textures/items/guns/pistols/deagle"
-		},
-		"energetic": {
-			"textures": "textures/items/drinks/energetic"
-		},
-		"food_bread": {
-			"textures": "textures/items/foods/bread"
-		},
-		"food_conserva": {
-			"textures": "textures/items/foods/conserva"
-		},
-		"food_sausage": {
-			"textures": "textures/items/foods/sausage"
-		},
-		"food_vodka": {
-			"textures": "textures/items/drinks/vodka"
-		},
-		"fora12": {
-			"textures": "textures/items/guns/pistols/fora12"
-		},
-		"ft200m": {
-			"textures": "textures/items/guns/assault_rifles/ft200m"
-		},
-		"gauss": {
-			"textures": "textures/items/guns/sniper_rifles/gauss"
-		},
-		"gp37": {
-			"textures": "textures/items/guns/assault_rifles/gp37"
-		},
-		"grom-c14": {
-			"textures": "textures/items/guns/assault_rifles/grom-c14"
-		},
-		"guitar": {
-			"textures": "textures/items/guitar"
-		},
-		"hercules": {
-			"textures": "textures/items/medkit/hercules"
-		},
-		"hpss": {
-			"textures": "textures/items/guns/pistols/hpss"
-		},
-		"il86": {
-			"textures": "textures/items/guns/assault_rifles/il86"
-		},
-		"iron_door": {
-			"textures": "textures/blocks/door_iron_upper"
-		},
-		"jungle_door": {
-			"textures": "textures/blocks/door_jungle_upper"
-		},
-		"knife": {
-			"textures": "textures/items/knife"
-		},
-		"knifes": {
-			"textures": "textures/items/knifes/m9"
-		},
-		"kora919": {
-			"textures": "textures/items/guns/pistols/kora919"
-		},
-		"mangrove_door": {
-			"textures": "textures/blocks/mangrove_door_top"
-		},
-		"marth": {
-			"textures": "textures/items/guns/pistols/marth"
-		},
-		"medkit_antirad": {
-			"textures": "textures/items/medkit_antirad"
-		},
-		"medkit_aptechka_1": {
-			"textures": "textures/items/medkit_aptechka_1"
-		},
-		"medkit_aptechka_2": {
-			"textures": "textures/items/medkit_aptechka_2"
-		},
-		"medkit_aptechka_3": {
-			"textures": "textures/items/medkit_aptechka_3"
-		},
-		"medkit_bint": {
-			"textures": "textures/items/medkit_bint"
-		},
-		"medkit_hercules": {
-			"textures": "textures/items/medkit_hercules"
-		},
-		"medkit_periwinkle": {
-			"textures": "textures/items/medkit_periwinkle"
-		},
-		"medkit_psi_blockade": {
-			"textures": "textures/items/medkit_psi_blockade"
-		},
-		"medkit_radioprotector": {
-			"textures": "textures/items/medkit_radioprotector"
-		},
-		"mp5": {
-			"textures": "textures/items/guns/submachine_gun/mp5"
-		},
-		"npc_army1": {
-			"textures": "textures/items/egg_npc_army1"
-		},
-		"npc_bandit1": {
-			"textures": "textures/items/egg_npc_bandit1"
-		},
-		"npc_duty1": {
-			"textures": "textures/items/egg_npc_duty1"
-		},
-		"npc_ecolog1": {
-			"textures": "textures/items/egg_npc_ecolog1"
-		},
-		"npc_freedom1": {
-			"textures": "textures/items/egg_npc_freedom1"
-		},
-		"npc_mercenary1": {
-			"textures": "textures/items/egg_npc_mercenary1"
-		},
-		"npc_monolit1": {
-			"textures": "textures/items/egg_npc_monolit1"
-		},
-		"npc_stalker1": {
-			"textures": "textures/items/egg_npc_stalker1"
-		},
-		"pb": {
-			"textures": "textures/items/guns/pistols/pb"
-		},
-		"pm": {
-			"textures": "textures/items/guns/pistols/pm"
-		},
-		"psiblockada": {
-			"textures": "textures/items/medkit/psiblockada"
-		},
-		"radioprotectant": {
-			"textures": "textures/items/medkit/radioprotectant"
-		},
-		"rp74": {
-			"textures": "textures/items/guns/machine_guns/rp74"
-		},
-		"rpg7u": {
-			"textures": "textures/items/guns/grenade_launchers/rpg7u"
-		},
-		"sausage": {
-			"textures": "textures/items/foods/sausage"
-		},
-		"sgi5k": {
-			"textures": "textures/items/guns/assault_rifles/sgi5k"
-		},
-		"sip-t-m200": {
-			"textures": "textures/items/guns/pistols/sip-t-m200"
-		},
-		"spruce_door": {
-			"textures": "textures/blocks/door_spruce_upper"
-		},
-		"spsa14": {
-			"textures": "textures/items/guns/shotguns/spsa14"
-		},
-		"spyglass": {
-			"textures": "textures/items/binoculars"
-		},
-		"stripe_army": {
-			"textures": "textures/items/stripe_army"
-		},
-		"stripe_bandit": {
-			"textures": "textures/items/stripe_bandit"
-		},
-		"stripe_clearsky": {
-			"textures": "textures/items/stripe_clearsky"
-		},
-		"stripe_duty": {
-			"textures": "textures/items/stripe_duty"
-		},
-		"stripe_freedom": {
-			"textures": "textures/items/stripe_freedom"
-		},
-		"stripe_mercenaries": {
-			"textures": "textures/items/stripe_mercenaries"
-		},
-		"stripe_monolit": {
-			"textures": "textures/items/stripe_monolit"
-		},
-		"stripe_renegat": {
-			"textures": "textures/items/stripe_renegat"
-		},
-		"stripe_scientists": {
-			"textures": "textures/items/stripe_scientists"
-		},
-		"stripe_sin": {
-			"textures": "textures/items/stripe_sin"
-		},
-		"stripe_stalker": {
-			"textures": "textures/items/stripe_stalker"
-		},
-		"svdm2": {
-			"textures": "textures/items/guns/sniper_rifles/svdm2"
-		},
-		"svumk2": {
-			"textures": "textures/items/guns/sniper_rifles/svumk2"
-		},
-		"toz34": {
-			"textures": "textures/items/guns/shotguns/toz34"
-		},
-		"toz66": {
-			"textures": "textures/items/guns/shotguns/toz66"
-		},
-		"trs301": {
-			"textures": "textures/items/guns/assault_rifles/trs301"
-		},
-		"udp": {
-			"textures": "textures/items/guns/pistols/udp"
-		},
-		"vintarez": {
-			"textures": "textures/items/guns/sniper_rifles/vintarez"
-		},
-		"vodka": {
-			"textures": "textures/items/drinks/vodka"
-		},
-		"walker-p9m": {
-			"textures": "textures/items/guns/pistols/walker-p9m"
-		},
-		"warped_door": {
-			"textures": "textures/blocks/huge_fungus/warped_door_top"
-		},
-		"wood_axe": {
-			"textures": "textures/items/wood_axe"
-		},
-		"wooden_door": {
-			"textures": "textures/blocks/door_wood_upper"
-		}
+		"anomaly_electra": {"textures": ["textures/items/anomaly_electra"]},
+		"anomaly_jelly": {"textures": ["textures/items/anomaly_jelly"]},
+		"anomaly_voronka": {"textures": ["textures/items/anomaly_voronka"]},
+		"anomaly_frying": {"textures": ["textures/items/anomaly_frying"]},
+		"anomaly_fireball": {"textures": ["textures/items/anomaly_fireball"]},
+
+		"ammo_12x70_fraction": {"textures": "textures/items/ammo_12x70_fraction"},
+		"ammo_45acp": {"textures": "textures/items/ammo_45acp"},
+		"ammo_5_45x39mm": {"textures": "textures/items/ammo_5_45x39mm"},
+		"ammo_5_56x45mm": {"textures": "textures/items/ammo_5_56x45mm"},
+		"ammo_7_62x54mm_7n1": {"textures": "textures/items/ammo_7_62x54mm_7n1"},
+		"ammo_9x18mm": {"textures": "textures/items/ammo_9x18mm"},
+		"ammo_9x19mm_fmj": {"textures": "textures/items/ammo_9x19mm_fmj"},
+		"ammo_9x39mm_pab9": {"textures": "textures/items/ammo_9x39mm_pab9"},
+		"ammo_batteries": {"textures": "textures/items/ammo_batteries"},
+
+		"med_antirad": {"textures": "textures/items/med_antirad"},
+		"med_aptechka1": {"textures": "textures/items/med_aptechka1"},
+		"med_aptechka2": {"textures": "textures/items/med_aptechka2"},
+		"med_aptechka3": {"textures": "textures/items/med_aptechka3"},
+		"med_bint": {"textures": "textures/items/med_bint"},
+		"med_hercules": {"textures": "textures/items/med_hercules"},
+		"med_vikasol": {"textures": "textures/items/med_vikasol"},
+
+		"guns_abakan": {"textures": "textures/items/guns_abakan"},
+		"guns_akm74": {"textures": "textures/items/guns_akm74"},
+		"guns_akm74u": {"textures": "textures/items/guns_akm74u"},
+		"guns_asval": {"textures": "textures/items/guns_asval"},
+		"guns_bm16": {"textures": "textures/items/guns_bm16"},
+		"guns_colt": {"textures": "textures/items/guns_colt"},
+		"guns_deagle": {"textures": "textures/items/guns_deagle"},
+		"guns_fort": {"textures": "textures/items/guns_fort"},
+		"guns_gauss": {"textures": "textures/items/guns_gauss"},
+		"guns_groza": {"textures": "textures/items/guns_groza"},
+		"guns_hpsa": {"textures": "textures/items/guns_hpsa"},
+		"guns_l85": {"textures": "textures/items/guns_l85"},
+		"guns_lr300": {"textures": "textures/items/guns_lr300"},
+		"guns_mp5": {"textures": "textures/items/guns_mp5"},
+		"guns_pb": {"textures": "textures/items/guns_pb"},
+		"guns_pkm": {"textures": "textures/items/guns_pkm"},
+		"guns_pm": {"textures": "textures/items/guns_pm"},
+		"guns_prot": {"textures": "textures/items/guns_prot"},
+		"guns_sig220": {"textures": "textures/items/guns_sig220"},
+		"guns_sig550": {"textures": "textures/items/guns_sig550"},
+		"guns_spas": {"textures": "textures/items/guns_spas"},
+		"guns_svd": {"textures": "textures/items/guns_svd"},
+		"guns_svu": {"textures": "textures/items/guns_svu"},
+		"guns_toz34": {"textures": "textures/items/guns_toz34"},
+		"guns_vintorez": {"textures": "textures/items/guns_vintorez"},
+		"guns_walther": {"textures": "textures/items/guns_walther"},
+		"guns_winch": {"textures": "textures/items/guns_winch"},
+
+		"artifact_battery": {"textures": "textures/items/artifact_battery"},
+		"artifact_bengal_fire": {"textures": "textures/items/artifact_bengal_fire"},
+		"artifact_bubble": {"textures": "textures/items/artifact_bubble"},
+		"artifact_compass": {"textures": "textures/items/artifact_compass"},
+		"artifact_crystal": {"textures": "textures/items/artifact_crystal"},
+		"artifact_dummy": {"textures": "textures/items/artifact_dummy"},
+		"artifact_eye": {"textures": "textures/items/artifact_eye"},
+		"artifact_fireball": {"textures": "textures/items/artifact_fireball"},
+		"artifact_firefly": {"textures": "textures/items/artifact_firefly"},
+		"artifact_flame": {"textures": "textures/items/artifact_flame"},
+		"artifact_flash": {"textures": "textures/items/artifact_flash"},
+		"artifact_goldfish": {"textures": "textures/items/artifact_goldfish"},
+		"artifact_gravi": {"textures": "textures/items/artifact_gravi"},
+		"artifact_Heart_Oasis": {"textures": "textures/items/artifact_Heart_Oasis"},
+		"artifact_insulator": {"textures": "textures/items/artifact_insulator"},
+		"artifact_jellyfish": {"textures": "textures/items/artifact_jellyfish"},
+		"artifact_kolobok": {"textures": "textures/items/artifact_kolobok"},
+		"artifact_lomot_myasa": {"textures": "textures/items/artifact_lomot_myasa"},
+		"artifact_moms_beads": {"textures": "textures/items/artifact_moms_beads"},
+		"artifact_moonlight": {"textures": "textures/items/artifact_moonlight"},
+		"artifact_night_star": {"textures": "textures/items/artifact_night_star"},
+		"artifact_snowflake": {"textures": "textures/items/artifact_snowflake"},
+		"artifact_soul": {"textures": "textures/items/artifact_soul"},
+		"artifact_steering_wheel": {"textures": "textures/items/artifact_steering_wheel"},
+		"artifact_stone_flower": {"textures": "textures/items/artifact_stone_flower"},
+		"artifact_stones_blood": {"textures": "textures/items/artifact_stones_blood"},
+		"artifact_the_twist": {"textures": "textures/items/artifact_the_twist"},
+		"bolt": {"textures": "textures/items/bolt"},
+
+		"food_bread": {"textures": "textures/items/food_bread"},
+		"food_conserva": {"textures": "textures/items/food_conserva"},
+		"food_sausage": {"textures": "textures/items/food_sausage"},
+		"food_vodka": {"textures": "textures/items/food_vodka"},
+		"food_energetic": {"textures": "textures/items/food_energetic"},
+
+		"guitar": {"textures": "textures/items/guitar"},
+		"spyglass": {"textures": "textures/items/binoculars"},
+
+		"stripe_army": {"textures": "textures/items/stripe_army"},
+		"stripe_bandit": {"textures": "textures/items/stripe_bandit"},
+		"stripe_clearsky": {"textures": "textures/items/stripe_clearsky"},
+		"stripe_duty": {"textures": "textures/items/stripe_duty"},
+		"stripe_freedom": {"textures": "textures/items/stripe_freedom"},
+		"stripe_mercenaries": {"textures": "textures/items/stripe_mercenaries"},
+		"stripe_monolit": {"textures": "textures/items/stripe_monolit"},
+		"stripe_renegat": {"textures": "textures/items/stripe_renegat"},
+		"stripe_scientists": {"textures": "textures/items/stripe_scientists"},
+		"stripe_sin": {"textures": "textures/items/stripe_sin"},
+
+		"arm_bandit_armorsuit1": {"textures": ["textures/items/arm_bandit_armorsuit1"]},
+		"arm_bandit_armorsuit2": {"textures": ["textures/items/arm_bandit_armorsuit2"]},
+		"arm_bandit_armorsuit3": {"textures": ["textures/items/arm_bandit_armorsuit3"]},
+		"arm_bandit_armorsuit4": {"textures": ["textures/items/arm_bandit_armorsuit4"]},
+		"arm_bandit_beryl1": {"textures": ["textures/items/arm_bandit_beryl1"]},
+		"arm_bandit_exo1": {"textures": ["textures/items/arm_bandit_exo1"]},
+		"arm_bandit_exo2": {"textures": ["textures/items/arm_bandit_exo2"]},
+		"arm_bandit_exo3": {"textures": ["textures/items/arm_bandit_exo3"]},
+		"arm_bandit_jacket1": {"textures": ["textures/items/arm_bandit_jacket1"]},
+		"arm_bandit_jacket2": {"textures": ["textures/items/arm_bandit_jacket2"]},
+		"arm_bandit_raincoat1": {"textures": ["textures/items/arm_bandit_raincoat1"]},
+		"arm_bandit_raincoat2": {"textures": ["textures/items/arm_bandit_raincoat2"]},
+		"arm_bandit_seva1": {"textures": ["textures/items/arm_bandit_seva1"]},
+		"arm_bandit_seva2": {"textures": ["textures/items/arm_bandit_seva2"]},
+		"arm_bandit_soldier1": {"textures": ["textures/items/arm_bandit_soldier1"]},
+		"arm_bandit_zarya1": {"textures": ["textures/items/arm_bandit_zarya1"]},
+		"arm_cs_chn1_1": {"textures": ["textures/items/arm_cs_chn1_1"]},
+		"arm_cs_chn2_1": {"textures": ["textures/items/arm_cs_chn2_1"]},
+		"arm_cs_chn2_2": {"textures": ["textures/items/arm_cs_chn2_2"]},
+		"arm_cs_chn3a_1": {"textures": ["textures/items/arm_cs_chn3a_1"]},
+		"arm_cs_exo1": {"textures": ["textures/items/arm_cs_exo1"]},
+		"arm_cs_jacket1": {"textures": ["textures/items/arm_cs_jacket1"]},
+		"arm_cs_seva1": {"textures": ["textures/items/arm_cs_seva1"]},
+		"arm_cs_seva2": {"textures": ["textures/items/arm_cs_seva2"]},
+		"arm_cs_seva3": {"textures": ["textures/items/arm_cs_seva3"]},
+		"arm_cs_soldier1": {"textures": ["textures/items/arm_cs_soldier1"]},
+		"arm_cs_soldier2": {"textures": ["textures/items/arm_cs_soldier2"]},
+		"arm_cs_zarya1": {"textures": ["textures/items/arm_cs_zarya1"]},
+		"arm_dolg_beryl1": {"textures": ["textures/items/arm_dolg_beryl1"]},
+		"arm_dolg_beryl2": {"textures": ["textures/items/arm_dolg_beryl2"]},
+		"arm_dolg_chn3a_1": {"textures": ["textures/items/arm_dolg_chn3a_1"]},
+		"arm_dolg_exo1": {"textures": ["textures/items/arm_dolg_exo1"]},
+		"arm_dolg_exo2": {"textures": ["textures/items/arm_dolg_exo2"]},
+		"arm_dolg_exo3": {"textures": ["textures/items/arm_dolg_exo3"]},
+		"arm_dolg_exo4": {"textures": ["textures/items/arm_dolg_exo4"]},
+		"arm_dolg_exo6": {"textures": ["textures/items/arm_dolg_exo6"]},
+		"arm_dolg_exo7": {"textures": ["textures/items/arm_dolg_exo7"]},
+		"arm_dolg_exo8": {"textures": ["textures/items/arm_dolg_exo8"]},
+		"arm_dolg_jacket1": {"textures": ["textures/items/arm_dolg_jacket1"]},
+		"arm_dolg_jacket2": {"textures": ["textures/items/arm_dolg_jacket2"]},
+		"arm_dolg_raincoat1": {"textures": ["textures/items/arm_dolg_raincoat1"]},
+		"arm_dolg_seva1": {"textures": ["textures/items/arm_dolg_seva1"]},
+		"arm_dolg_seva2": {"textures": ["textures/items/arm_dolg_seva2"]},
+		"arm_dolg_seva3": {"textures": ["textures/items/arm_dolg_seva3"]},
+		"arm_dolg_soldier1": {"textures": ["textures/items/arm_dolg_soldier1"]},
+		"arm_dolg_soldier2": {"textures": ["textures/items/arm_dolg_soldier2"]},
+		"arm_dolg_soldier3": {"textures": ["textures/items/arm_dolg_soldier3"]},
+		"arm_dolg_zarya1": {"textures": ["textures/items/arm_dolg_zarya1"]},
+		"arm_dolg_zarya2": {"textures": ["textures/items/arm_dolg_zarya2"]},
+		"arm_dolg_zarya3": {"textures": ["textures/items/arm_dolg_zarya3"]},
+		"arm_dolg_zarya4": {"textures": ["textures/items/arm_dolg_zarya4"]},
+		"arm_dolg_zarya5": {"textures": ["textures/items/arm_dolg_zarya5"]},
+		"arm_freedom_beryl1": {"textures": ["textures/items/arm_freedom_beryl1"]},
+		"arm_freedom_beryl2": {"textures": ["textures/items/arm_freedom_beryl2"]},
+		"arm_freedom_exo1": {"textures": ["textures/items/arm_freedom_exo1"]},
+		"arm_freedom_exo2": {"textures": ["textures/items/arm_freedom_exo2"]},
+		"arm_freedom_exo3": {"textures": ["textures/items/arm_freedom_exo3"]},
+		"arm_freedom_jacket1": {"textures": ["textures/items/arm_freedom_jacket1"]},
+		"arm_freedom_raincoat1": {"textures": ["textures/items/arm_freedom_raincoat1"]},
+		"arm_freedom_seva1": {"textures": ["textures/items/arm_freedom_seva1"]},
+		"arm_freedom_seva2": {"textures": ["textures/items/arm_freedom_seva2"]},
+		"arm_freedom_soldier1": {"textures": ["textures/items/arm_freedom_soldier1"]},
+		"arm_freedom_soldier2": {"textures": ["textures/items/arm_freedom_soldier2"]},
+		"arm_freedom_zarya1": {"textures": ["textures/items/arm_freedom_zarya1"]},
+		"arm_freedom_zarya2": {"textures": ["textures/items/arm_freedom_zarya2"]},
+		"arm_freedom_zarya3": {"textures": ["textures/items/arm_freedom_zarya3"]},
+		"arm_freedom_zarya4": {"textures": ["textures/items/arm_freedom_zarya4"]},
+		"arm_freedom_zarya6": {"textures": ["textures/items/arm_freedom_zarya6"]},
+		"arm_freedom_zarya7": {"textures": ["textures/items/arm_freedom_zarya7"]},
+		"arm_merc_armorsuit1": {"textures": ["textures/items/arm_merc_armorsuit1"]},
+		"arm_merc_armorsuit10": {"textures": ["textures/items/arm_merc_armorsuit10"]},
+		"arm_merc_armorsuit11": {"textures": ["textures/items/arm_merc_armorsuit11"]},
+		"arm_merc_armorsuit12": {"textures": ["textures/items/arm_merc_armorsuit12"]},
+		"arm_merc_armorsuit2": {"textures": ["textures/items/arm_merc_armorsuit2"]},
+		"arm_merc_armorsuit3": {"textures": ["textures/items/arm_merc_armorsuit3"]},
+		"arm_merc_armorsuit4": {"textures": ["textures/items/arm_merc_armorsuit4"]},
+		"arm_merc_armorsuit5": {"textures": ["textures/items/arm_merc_armorsuit5"]},
+		"arm_merc_armorsuit6": {"textures": ["textures/items/arm_merc_armorsuit6"]},
+		"arm_merc_armorsuit7": {"textures": ["textures/items/arm_merc_armorsuit7"]},
+		"arm_merc_armorsuit8": {"textures": ["textures/items/arm_merc_armorsuit8"]},
+		"arm_merc_armorsuit9": {"textures": ["textures/items/arm_merc_armorsuit9"]},
+		"arm_merc_beryl1": {"textures": ["textures/items/arm_merc_beryl1"]},
+		"arm_merc_exo1": {"textures": ["textures/items/arm_merc_exo1"]},
+		"arm_merc_exo2": {"textures": ["textures/items/arm_merc_exo2"]},
+		"arm_merc_exo3": {"textures": ["textures/items/arm_merc_exo3"]},
+		"arm_merc_exo4": {"textures": ["textures/items/arm_merc_exo4"]},
+		"arm_merc_jacket1": {"textures": ["textures/items/arm_merc_jacket1"]},
+		"arm_merc_jacket2": {"textures": ["textures/items/arm_merc_jacket2"]},
+		"arm_merc_seva1": {"textures": ["textures/items/arm_merc_seva1"]},
+		"arm_merc_seva2": {"textures": ["textures/items/arm_merc_seva2"]},
+		"arm_merc_soldier1": {"textures": ["textures/items/arm_merc_soldier1"]},
+		"arm_merc_zarya1": {"textures": ["textures/items/arm_merc_zarya1"]},
+		"arm_military_beryl1": {"textures": ["textures/items/arm_military_beryl1"]},
+		"arm_military_beryl2": {"textures": ["textures/items/arm_military_beryl2"]},
+		"arm_military_beryl3": {"textures": ["textures/items/arm_military_beryl3"]},
+		"arm_military_beryl4": {"textures": ["textures/items/arm_military_beryl4"]},
+		"arm_military_beryl5": {"textures": ["textures/items/arm_military_beryl5"]},
+		"arm_military_beryl6": {"textures": ["textures/items/arm_military_beryl6"]},
+		"arm_military_beryl7": {"textures": ["textures/items/arm_military_beryl7"]},
+		"arm_military_beryl8": {"textures": ["textures/items/arm_military_beryl8"]},
+		"arm_military_beryl9": {"textures": ["textures/items/arm_military_beryl9"]},
+		"arm_military_exo1": {"textures": ["textures/items/arm_military_exo1"]},
+		"arm_military_exo2": {"textures": ["textures/items/arm_military_exo2"]},
+		"arm_military_raincoat1": {"textures": ["textures/items/arm_military_raincoat1"]},
+		"arm_military_scat1": {"textures": ["textures/items/arm_military_scat1"]},
+		"arm_military_soldier1": {"textures": ["textures/items/arm_military_soldier1"]},
+		"arm_military_soldier2": {"textures": ["textures/items/arm_military_soldier2"]},
+		"arm_mlitary_jacket1": {"textures": ["textures/items/arm_mlitary_jacket1"]},
+		"arm_monolith_armorsuit1": {"textures": ["textures/items/arm_monolith_armorsuit1"]},
+		"arm_monolith_armorsuit2": {"textures": ["textures/items/arm_monolith_armorsuit2"]},
+		"arm_monolith_armorsuit3": {"textures": ["textures/items/arm_monolith_armorsuit3"]},
+		"arm_monolith_armorsuit4": {"textures": ["textures/items/arm_monolith_armorsuit4"]},
+		"arm_monolith_armorsuit5": {"textures": ["textures/items/arm_monolith_armorsuit5"]},
+		"arm_monolith_armorsuit6": {"textures": ["textures/items/arm_monolith_armorsuit6"]},
+		"arm_monolith_exo1": {"textures": ["textures/items/arm_monolith_exo1"]},
+		"arm_monolith_exo2": {"textures": ["textures/items/arm_monolith_exo2"]},
+		"arm_monolith_exo3": {"textures": ["textures/items/arm_monolith_exo3"]},
+		"arm_monolith_exo4": {"textures": ["textures/items/arm_monolith_exo4"]},
+		"arm_monolith_raincoat1": {"textures": ["textures/items/arm_monolith_raincoat1"]},
+		"arm_monolith_seva1": {"textures": ["textures/items/arm_monolith_seva1"]},
+		"arm_monolith_seva2": {"textures": ["textures/items/arm_monolith_seva2"]},
+		"arm_monolith_seva3": {"textures": ["textures/items/arm_monolith_seva3"]},
+		"arm_monolith_soldier1": {"textures": ["textures/items/arm_monolith_soldier1"]},
+		"arm_monolith_zarya1": {"textures": ["textures/items/arm_monolith_zarya1"]},
+		"arm_neutral_beryl1": {"textures": ["textures/items/arm_neutral_beryl1"]},
+		"arm_neutral_chn1b_1": {"textures": ["textures/items/arm_neutral_chn1b_1"]},
+		"arm_neutral_exo1": {"textures": ["textures/items/arm_neutral_exo1"]},
+		"arm_neutral_exo2": {"textures": ["textures/items/arm_neutral_exo2"]},
+		"arm_neutral_exo3": {"textures": ["textures/items/arm_neutral_exo3"]},
+		"arm_neutral_exo4": {"textures": ["textures/items/arm_neutral_exo4"]},
+		"arm_neutral_jacket1": {"textures": ["textures/items/arm_neutral_jacket1"]},
+		"arm_neutral_jacket2": {"textures": ["textures/items/arm_neutral_jacket2"]},
+		"arm_neutral_jacket3": {"textures": ["textures/items/arm_neutral_jacket3"]},
+		"arm_neutral_jacket4": {"textures": ["textures/items/arm_neutral_jacket4"]},
+		"arm_neutral_jacket5": {"textures": ["textures/items/arm_neutral_jacket5"]},
+		"arm_neutral_jacket6": {"textures": ["textures/items/arm_neutral_jacket6"]},
+		"arm_neutral_jacket7": {"textures": ["textures/items/arm_neutral_jacket7"]},
+		"arm_neutral_jacket8": {"textures": ["textures/items/arm_neutral_jacket8"]},
+		"arm_neutral_jacket9": {"textures": ["textures/items/arm_neutral_jacket9"]},
+		"arm_neutral_seva1": {"textures": ["textures/items/arm_neutral_seva1"]},
+		"arm_neutral_seva2": {"textures": ["textures/items/arm_neutral_seva2"]},
+		"arm_neutral_seva3": {"textures": ["textures/items/arm_neutral_seva3"]},
+		"arm_neutral_soldier1": {"textures": ["textures/items/arm_neutral_soldier1"]},
+		"arm_neutral_solider1": {"textures": ["textures/items/arm_neutral_solider1"]},
+		"arm_neutral_zarya": {"textures": ["textures/items/arm_neutral_zarya"]},
+		"arm_neutral_zarya1": {"textures": ["textures/items/arm_neutral_zarya1"]},
+		"arm_neutral_zarya10": {"textures": ["textures/items/arm_neutral_zarya10"]},
+		"arm_neutral_zarya11": {"textures": ["textures/items/arm_neutral_zarya11"]},
+		"arm_neutral_zarya12": {"textures": ["textures/items/arm_neutral_zarya12"]},
+		"arm_neutral_zarya13": {"textures": ["textures/items/arm_neutral_zarya13"]},
+		"arm_neutral_zarya14": {"textures": ["textures/items/arm_neutral_zarya14"]},
+		"arm_neutral_zarya15": {"textures": ["textures/items/arm_neutral_zarya15"]},
+		"arm_neutral_zarya16": {"textures": ["textures/items/arm_neutral_zarya16"]},
+		"arm_neutral_zarya17": {"textures": ["textures/items/arm_neutral_zarya17"]},
+		"arm_neutral_zarya2": {"textures": ["textures/items/arm_neutral_zarya2"]},
+		"arm_neutral_zarya3": {"textures": ["textures/items/arm_neutral_zarya3"]},
+		"arm_neutral_zarya4": {"textures": ["textures/items/arm_neutral_zarya4"]},
+		"arm_neutral_zarya5": {"textures": ["textures/items/arm_neutral_zarya5"]},
+		"arm_neutral_zarya6": {"textures": ["textures/items/arm_neutral_zarya6"]},
+		"arm_neutral_zarya7": {"textures": ["textures/items/arm_neutral_zarya7"]},
+		"arm_neutral_zarya8": {"textures": ["textures/items/arm_neutral_zarya8"]},
+		"arm_neutral_zarya9": {"textures": ["textures/items/arm_neutral_zarya9"]},
+		"arm_renegat_armorsuit1": {"textures": ["textures/items/arm_renegat_armorsuit1"]},
+		"arm_renegat_armorsuit2": {"textures": ["textures/items/arm_renegat_armorsuit2"]},
+		"arm_renegat_armorsuit3": {"textures": ["textures/items/arm_renegat_armorsuit3"]},
+		"arm_renegat_armorsuit4": {"textures": ["textures/items/arm_renegat_armorsuit4"]},
+		"arm_renegat_exo1": {"textures": ["textures/items/arm_renegat_exo1"]},
+		"arm_renegat_exo2": {"textures": ["textures/items/arm_renegat_exo2"]},
+		"arm_renegat_raincoat1": {"textures": ["textures/items/arm_renegat_raincoat1"]},
+		"arm_scientist_beryl1": {"textures": ["textures/items/arm_scientist_beryl1"]},
+		"arm_scientist_exo1": {"textures": ["textures/items/arm_scientist_exo1"]},
+		"arm_scientist_seva1": {"textures": ["textures/items/arm_scientist_seva1"]},
+		"arm_scientist_ssp1": {"textures": ["textures/items/arm_scientist_ssp1"]},
+		"arm_scientist_ssp10": {"textures": ["textures/items/arm_scientist_ssp10"]},
+		"arm_scientist_ssp11": {"textures": ["textures/items/arm_scientist_ssp11"]},
+		"arm_scientist_ssp12": {"textures": ["textures/items/arm_scientist_ssp12"]},
+		"arm_scientist_ssp2": {"textures": ["textures/items/arm_scientist_ssp2"]},
+		"arm_scientist_ssp3": {"textures": ["textures/items/arm_scientist_ssp3"]},
+		"arm_scientist_ssp4": {"textures": ["textures/items/arm_scientist_ssp4"]},
+		"arm_scientist_ssp5": {"textures": ["textures/items/arm_scientist_ssp5"]},
+		"arm_scientist_ssp6": {"textures": ["textures/items/arm_scientist_ssp6"]},
+		"arm_scientist_ssp7": {"textures": ["textures/items/arm_scientist_ssp7"]},
+		"arm_scientist_ssp8": {"textures": ["textures/items/arm_scientist_ssp8"]},
+		"arm_scientist_ssp9": {"textures": ["textures/items/arm_scientist_ssp9"]},
+		"arm_scientist_zarya1": {"textures": ["textures/items/arm_scientist_zarya1"]},
+		"arm_scientist_zarya2": {"textures": ["textures/items/arm_scientist_zarya2"]},
+		"arm_scientist_zarya3": {"textures": ["textures/items/arm_scientist_zarya3"]},
+		"arm_scientist_zarya4": {"textures": ["textures/items/arm_scientist_zarya4"]},
+		"arm_scientist_zarya5": {"textures": ["textures/items/arm_scientist_zarya5"]},
+		"arm_scientist_zarya6": {"textures": ["textures/items/arm_scientist_zarya6"]},
+		"arm_scientist_zarya7": {"textures": ["textures/items/arm_scientist_zarya7"]},
+		"arm_scientist_zarya8": {"textures": ["textures/items/arm_scientist_zarya8"]}
 	},
 	"texture_name": "atlas.items"
 }
