@@ -8,9 +8,6 @@
 		"components": {
 			"tag:artifact": {},
 			"tag:af_dummy_battery.01": {},
-			"minecraft:display_name": {
-				"value": "Артефакт «Батарейка»\n---------------\nВосст. сил +2\nРадиация +1"
-			},
 			"minecraft:icon": {
 				"texture": "artifact_battery"
 			},
@@ -20,11 +17,37 @@
 			"minecraft:max_stack_size": 1,
 			"minecraft:render_offsets": {
 				"main_hand": {
-					"first_person": {"scale": [0,0,0]},
-					"third_person": {"scale": [0,0,0]}},
+					"first_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					},
+					"third_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					}
+				},
 				"off_hand": {
-					"first_person": {"scale": [0,0,0]},
-					"third_person": {"scale": [0,0,0]}}
+					"first_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					},
+					"third_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					}
+				}
 			},
 			"minecraft:entity_placer": {
 				"entity": "cken_artifact:af_dummy_battery.01"

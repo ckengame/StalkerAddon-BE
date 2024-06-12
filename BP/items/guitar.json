@@ -6,9 +6,6 @@
 			"category": "equipment"
 		},
 		"components": {
-			"minecraft:display_name": {
-				"value": "Гитара"
-			},
 			"minecraft:cooldown": {
 				"category": "reload",
 				"duration": 1

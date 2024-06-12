@@ -7,9 +7,6 @@
 		},
 		"components": {
 			"tag:artifact": {},
-			"minecraft:display_name": {
-				"value": "Артефакт «Душа»\n---------------\nВосст. здоровья +2\nРадиация +2"
-			},
 			"minecraft:icon": {
 				"texture": "artifact_soul"
 			},
@@ -19,11 +16,37 @@
 			"minecraft:max_stack_size": 1,
 			"minecraft:render_offsets": {
 				"main_hand": {
-					"first_person": {"scale": [0,0,0]},
-					"third_person": {"scale": [0,0,0]}},
+					"first_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					},
+					"third_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					}
+				},
 				"off_hand": {
-					"first_person": {"scale": [0,0,0]},
-					"third_person": {"scale": [0,0,0]}}
+					"first_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					},
+					"third_person": {
+						"scale": [
+							0,
+							0,
+							0
+						]
+					}
+				}
 			},
 			"minecraft:entity_placer": {
 				"entity": "cken_artifact:af_soul.02"

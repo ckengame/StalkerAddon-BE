@@ -10,24 +10,29 @@
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.equipment"
 			},
-			"minecraft:display_name": {
-				"value": "Desert Eagle\n.45 ACP"
-			},
 			"minecraft:icon": {
-				"texture": "deagle"
+				"texture": "guns_deagle"
 			},
 			"minecraft:max_stack_size": 1,
-			"minecraft:use_duration": 0,
+			"minecraft:use_duration": 999999,
 			"minecraft:food": {
 				"can_always_eat": true
 			},
 			"minecraft:render_offsets": {
 				"main_hand": {
 					"first_person": {
-						"scale": [0, 0, 0]
+						"scale": [
+							0,
+							0,
+							0
+						]
 					},
 					"third_person": {
-						"scale": [0, 0, 0]
+						"scale": [
+							0,
+							0,
+							0
+						]
 					}
 				}
 			}

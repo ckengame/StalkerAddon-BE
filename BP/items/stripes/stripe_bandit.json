@@ -7,9 +7,6 @@
 		},
 		"components": {
 			"minecraft:max_stack_size": 16,
-			"minecraft:display_name": {
-				"value": "item.scm:stripe_bandit.name"
-			},
 			"minecraft:icon": {
 				"texture": "stripe_bandit"
 			},

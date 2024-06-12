@@ -11,13 +11,10 @@
 				"parent": "itemGroup.name.equipment"
 			},
 			"minecraft:icon": {
-				"texture": "antiradx"
-			},
-			"minecraft:display_name": {
-				"value": "Противорадиационный препарат\n---------------\nРадиация -10\nВремя 10сек"
+				"texture": "med_antirad"
 			},
 			"minecraft:max_stack_size": 16,
-			"minecraft:use_duration": 0,
+			"minecraft:use_duration": 999999,
 			"minecraft:food": {
 				"can_always_eat": true
 			},

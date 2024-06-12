@@ -6,9 +6,6 @@
 			"category": "Equipment"
 		},
 		"components": {
-			"minecraft:display_name": {
-				"value": "Консервы «Завтрак туриста»\n---------------\nВосст. здоровья +20\nНасыщение +10\nВремя действия 5сек"
-			},
 			"minecraft:icon": {
 				"texture": "food_conserva"
 			},

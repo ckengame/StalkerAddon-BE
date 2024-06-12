@@ -11,13 +11,10 @@
 				"parent": "itemGroup.name.equipment"
 			},
 			"minecraft:icon": {
-				"texture": "baravinok"
-			},
-			"minecraft:display_name": {
-				"value": "«Барвинок»\n---------------\nЗаживление +30\nВремя действия 20сек"
+				"texture": "med_vikasol"
 			},
 			"minecraft:max_stack_size": 16,
-			"minecraft:use_duration": 0,
+			"minecraft:use_duration": 999999,
 			"minecraft:food": {
 				"can_always_eat": true
 			},

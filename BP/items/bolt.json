@@ -6,9 +6,6 @@
 			"category": "equipment"
 		},
 		"components": {
-			"minecraft:display_name": {
-				"value": "Болт"
-			},
 			"minecraft:icon": {
 				"texture": "bolt"
 			},
@@ -24,10 +21,18 @@
 			"minecraft:render_offsets": {
 				"main_hand": {
 					"third_person": {
-						"scale": [0, 0, 0]
+						"scale": [
+							0,
+							0,
+							0
+						]
 					},
 					"first_person": {
-						"scale": [0, 0, 0]
+						"scale": [
+							0,
+							0,
+							0
+						]
 					}
 				}
 			},

@@ -14,11 +14,8 @@
 				"category": "medkit_aptechka",
 				"duration": 3
 			},
-			"minecraft:display_name": {
-				"value": "Аптечка\n---------------\nВосст. здоровья +100\nЗаживление ран +5\nВремя действия 10сек"
-			},
 			"minecraft:icon": {
-				"texture": "aptechka1"
+				"texture": "med_aptechka1"
 			},
 			"minecraft:max_stack_size": 16,
 			"minecraft:on_use": {

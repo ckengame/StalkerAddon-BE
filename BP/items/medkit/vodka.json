@@ -10,14 +10,11 @@
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.equipment"
 			},
-			"minecraft:display_name": {
-				"value": "Водка «Казаки»\nРадиация -5\n---------------\nНасыщение -2\nВремя действия 5сек"
-			},
 			"minecraft:icon": {
-				"texture": "vodka"
+				"texture": "food_vodka"
 			},
 			"minecraft:max_stack_size": 16,
-			"minecraft:use_duration": 0,
+			"minecraft:use_duration": 999999,
 			"minecraft:food": {
 				"can_always_eat": true
 			},

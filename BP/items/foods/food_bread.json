@@ -6,9 +6,6 @@
 			"category": "Equipment"
 		},
 		"components": {
-			"minecraft:display_name": {
-				"value": "Хлеб\n---------------\nВосст. здоровья +20\nНасыщение +6\nВремя действия 5сек"
-			},
 			"minecraft:icon": {
 				"texture": "food_bread"
 			},

@@ -11,19 +11,24 @@
 				"parent": "itemGroup.name.equipment"
 			},
 			"minecraft:max_stack_size": 30,
-			"minecraft:display_name": {
-				"value": "7,62x54mm"
-			},
 			"minecraft:icon": {
 				"texture": "ammo_7_62x54mm_7n1"
 			},
 			"minecraft:render_offsets": {
 				"main_hand": {
 					"third_person": {
-						"scale": [0, 0, 0]
+						"scale": [
+							0,
+							0,
+							0
+						]
 					},
 					"first_person": {
-						"scale": [0, 0, 0]
+						"scale": [
+							0,
+							0,
+							0
+						]
 					}
 				}
 			}

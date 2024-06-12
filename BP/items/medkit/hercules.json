@@ -11,13 +11,10 @@
 				"parent": "itemGroup.name.equipment"
 			},
 			"minecraft:icon": {
-				"texture": "hercules"
-			},
-			"minecraft:display_name": {
-				"value": "«Геркулес»\n---------------\nПереносимый вес +10кг\nВремя действия 300сек"
+				"texture": "med_hercules"
 			},
 			"minecraft:max_stack_size": 16,
-			"minecraft:use_duration": 0,
+			"minecraft:use_duration": 999999,
 			"minecraft:food": {
 				"can_always_eat": true
 			},
