@@ -1,0 +1,286 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"brick": {
+			"textures": [
+				{
+					"variations": [
+						{ "path": "textures/blocks/brick" },
+						{ "path": "textures/blocks/brick1" },
+						{ "path": "textures/blocks/brick2" },
+						{ "path": "textures/blocks/brick3" },
+						{ "path": "textures/blocks/brick4" },
+						{ "path": "textures/blocks/brick5" },
+						{ "path": "textures/blocks/brick6" },
+						{ "path": "textures/blocks/brick7" },
+						{ "path": "textures/blocks/brick8" },
+						{ "path": "textures/blocks/brick9" },
+						{ "path": "textures/blocks/brick10" },
+						{ "path": "textures/blocks/brick11" },
+						{ "path": "textures/blocks/brick12" },
+						{ "path": "textures/blocks/brick13" },
+						{ "path": "textures/blocks/brick14" },
+						{ "path": "textures/blocks/brick15" }
+					]
+				}
+			]
+		},
+		"cobblestone": {
+			"textures": [
+				{
+					"variations": [
+						{ "path": "textures/blocks/cobblestone" },
+						{ "path": "textures/blocks/cobblestone1" },
+						{ "path": "textures/blocks/cobblestone2" },
+						{ "path": "textures/blocks/cobblestone3" },
+						{ "path": "textures/blocks/cobblestone4" },
+						{ "path": "textures/blocks/cobblestone5" },
+						{ "path": "textures/blocks/cobblestone6" },
+						{ "path": "textures/blocks/cobblestone7" },
+						{ "path": "textures/blocks/cobblestone8" },
+						{ "path": "textures/blocks/cobblestone9" },
+						{ "path": "textures/blocks/cobblestone10" },
+						{ "path": "textures/blocks/cobblestone11" },
+						{ "path": "textures/blocks/cobblestone12" },
+						{ "path": "textures/blocks/cobblestone13" },
+						{ "path": "textures/blocks/cobblestone14" },
+						{ "path": "textures/blocks/cobblestone15" }
+					]
+				}
+			]
+		},
+		"cobblestone_wall": {
+			"textures": [
+				{
+					"variations": [
+						{ "path": "textures/blocks/cobblestone" },
+						{ "path": "textures/blocks/cobblestone1" },
+						{ "path": "textures/blocks/cobblestone2" },
+						{ "path": "textures/blocks/cobblestone3" },
+						{ "path": "textures/blocks/cobblestone4" },
+						{ "path": "textures/blocks/cobblestone5" },
+						{ "path": "textures/blocks/cobblestone6" },
+						{ "path": "textures/blocks/cobblestone7" },
+						{ "path": "textures/blocks/cobblestone8" },
+						{ "path": "textures/blocks/cobblestone9" },
+						{ "path": "textures/blocks/cobblestone10" },
+						{ "path": "textures/blocks/cobblestone11" },
+						{ "path": "textures/blocks/cobblestone12" },
+						{ "path": "textures/blocks/cobblestone13" },
+						{ "path": "textures/blocks/cobblestone14" },
+						{ "path": "textures/blocks/cobblestone15" }
+					]
+				},
+				"textures/blocks/cobblestone_mossy",
+				"textures/blocks/stone_granite",
+				"textures/blocks/stone_diorite",
+				"textures/blocks/stone_andesite",
+				"textures/blocks/sandstone_normal",
+				{
+					"variations": [
+						{ "path": "textures/blocks/brick" },
+						{ "path": "textures/blocks/brick1" },
+						{ "path": "textures/blocks/brick2" },
+						{ "path": "textures/blocks/brick3" },
+						{ "path": "textures/blocks/brick4" },
+						{ "path": "textures/blocks/brick5" },
+						{ "path": "textures/blocks/brick6" },
+						{ "path": "textures/blocks/brick7" },
+						{ "path": "textures/blocks/brick8" },
+						{ "path": "textures/blocks/brick9" },
+						{ "path": "textures/blocks/brick10" },
+						{ "path": "textures/blocks/brick11" },
+						{ "path": "textures/blocks/brick12" },
+						{ "path": "textures/blocks/brick13" },
+						{ "path": "textures/blocks/brick14" },
+						{ "path": "textures/blocks/brick15" }
+					]
+				},
+				"textures/blocks/stonebrick",
+				"textures/blocks/stonebrick_mossy",
+				"textures/blocks/nether_brick",
+				"textures/blocks/end_bricks",
+				"textures/blocks/prismarine_rough",
+				"textures/blocks/red_sandstone_normal",
+				"textures/blocks/red_nether_brick"
+			]
+		},
+		"lever_particle": {
+			"textures": [
+				{
+					"variations": [
+						{ "path": "textures/blocks/cobblestone" },
+						{ "path": "textures/blocks/cobblestone1" },
+						{ "path": "textures/blocks/cobblestone2" },
+						{ "path": "textures/blocks/cobblestone3" },
+						{ "path": "textures/blocks/cobblestone4" },
+						{ "path": "textures/blocks/cobblestone5" },
+						{ "path": "textures/blocks/cobblestone6" },
+						{ "path": "textures/blocks/cobblestone7" },
+						{ "path": "textures/blocks/cobblestone8" },
+						{ "path": "textures/blocks/cobblestone9" },
+						{ "path": "textures/blocks/cobblestone10" },
+						{ "path": "textures/blocks/cobblestone11" },
+						{ "path": "textures/blocks/cobblestone12" },
+						{ "path": "textures/blocks/cobblestone13" },
+						{ "path": "textures/blocks/cobblestone14" },
+						{ "path": "textures/blocks/cobblestone15" }
+					]
+				}
+			]
+		},
+		"stone_slab_bottom": {
+			"textures": [
+				"textures/blocks/stone_slab_top",
+				"textures/blocks/sandstone_bottom",
+				"textures/blocks/planks_oak",
+				{
+					"variations": [
+						{ "path": "textures/blocks/cobblestone" },
+						{ "path": "textures/blocks/cobblestone1" },
+						{ "path": "textures/blocks/cobblestone2" },
+						{ "path": "textures/blocks/cobblestone3" },
+						{ "path": "textures/blocks/cobblestone4" },
+						{ "path": "textures/blocks/cobblestone5" },
+						{ "path": "textures/blocks/cobblestone6" },
+						{ "path": "textures/blocks/cobblestone7" },
+						{ "path": "textures/blocks/cobblestone8" },
+						{ "path": "textures/blocks/cobblestone9" },
+						{ "path": "textures/blocks/cobblestone10" },
+						{ "path": "textures/blocks/cobblestone11" },
+						{ "path": "textures/blocks/cobblestone12" },
+						{ "path": "textures/blocks/cobblestone13" },
+						{ "path": "textures/blocks/cobblestone14" },
+						{ "path": "textures/blocks/cobblestone15" }
+					]
+				},
+				{
+					"variations": [
+						{ "path": "textures/blocks/brick" },
+						{ "path": "textures/blocks/brick1" },
+						{ "path": "textures/blocks/brick2" },
+						{ "path": "textures/blocks/brick3" },
+						{ "path": "textures/blocks/brick4" },
+						{ "path": "textures/blocks/brick5" },
+						{ "path": "textures/blocks/brick6" },
+						{ "path": "textures/blocks/brick7" },
+						{ "path": "textures/blocks/brick8" },
+						{ "path": "textures/blocks/brick9" },
+						{ "path": "textures/blocks/brick10" },
+						{ "path": "textures/blocks/brick11" },
+						{ "path": "textures/blocks/brick12" },
+						{ "path": "textures/blocks/brick13" },
+						{ "path": "textures/blocks/brick14" },
+						{ "path": "textures/blocks/brick15" }
+					]
+				},
+				"textures/blocks/stonebrick",
+				"textures/blocks/quartz_block_top",
+				"textures/blocks/nether_brick"
+			]
+		},
+		"stone_slab_side": {
+			"textures": [
+				"textures/blocks/stone_slab_side",
+				"textures/blocks/sandstone_normal",
+				"textures/blocks/planks_oak",
+				{
+					"variations": [
+						{ "path": "textures/blocks/cobblestone" },
+						{ "path": "textures/blocks/cobblestone1" },
+						{ "path": "textures/blocks/cobblestone2" },
+						{ "path": "textures/blocks/cobblestone3" },
+						{ "path": "textures/blocks/cobblestone4" },
+						{ "path": "textures/blocks/cobblestone5" },
+						{ "path": "textures/blocks/cobblestone6" },
+						{ "path": "textures/blocks/cobblestone7" },
+						{ "path": "textures/blocks/cobblestone8" },
+						{ "path": "textures/blocks/cobblestone9" },
+						{ "path": "textures/blocks/cobblestone10" },
+						{ "path": "textures/blocks/cobblestone11" },
+						{ "path": "textures/blocks/cobblestone12" },
+						{ "path": "textures/blocks/cobblestone13" },
+						{ "path": "textures/blocks/cobblestone14" },
+						{ "path": "textures/blocks/cobblestone15" }
+					]
+				},
+				{
+					"variations": [
+						{ "path": "textures/blocks/brick" },
+						{ "path": "textures/blocks/brick1" },
+						{ "path": "textures/blocks/brick2" },
+						{ "path": "textures/blocks/brick3" },
+						{ "path": "textures/blocks/brick4" },
+						{ "path": "textures/blocks/brick5" },
+						{ "path": "textures/blocks/brick6" },
+						{ "path": "textures/blocks/brick7" },
+						{ "path": "textures/blocks/brick8" },
+						{ "path": "textures/blocks/brick9" },
+						{ "path": "textures/blocks/brick10" },
+						{ "path": "textures/blocks/brick11" },
+						{ "path": "textures/blocks/brick12" },
+						{ "path": "textures/blocks/brick13" },
+						{ "path": "textures/blocks/brick14" },
+						{ "path": "textures/blocks/brick15" }
+					]
+				},
+				"textures/blocks/stonebrick",
+				"textures/blocks/quartz_block_side",
+				"textures/blocks/nether_brick"
+			]
+		},
+		"stone_slab_top": {
+			"textures": [
+				"textures/blocks/stone_slab_top",
+				"textures/blocks/sandstone_top",
+				"textures/blocks/planks_oak",
+				{
+					"variations": [
+						{ "path": "textures/blocks/cobblestone" },
+						{ "path": "textures/blocks/cobblestone1" },
+						{ "path": "textures/blocks/cobblestone2" },
+						{ "path": "textures/blocks/cobblestone3" },
+						{ "path": "textures/blocks/cobblestone4" },
+						{ "path": "textures/blocks/cobblestone5" },
+						{ "path": "textures/blocks/cobblestone6" },
+						{ "path": "textures/blocks/cobblestone7" },
+						{ "path": "textures/blocks/cobblestone8" },
+						{ "path": "textures/blocks/cobblestone9" },
+						{ "path": "textures/blocks/cobblestone10" },
+						{ "path": "textures/blocks/cobblestone11" },
+						{ "path": "textures/blocks/cobblestone12" },
+						{ "path": "textures/blocks/cobblestone13" },
+						{ "path": "textures/blocks/cobblestone14" },
+						{ "path": "textures/blocks/cobblestone15" }
+					]
+				},
+				{
+					"variations": [
+						{ "path": "textures/blocks/brick" },
+						{ "path": "textures/blocks/brick1" },
+						{ "path": "textures/blocks/brick2" },
+						{ "path": "textures/blocks/brick3" },
+						{ "path": "textures/blocks/brick4" },
+						{ "path": "textures/blocks/brick5" },
+						{ "path": "textures/blocks/brick6" },
+						{ "path": "textures/blocks/brick7" },
+						{ "path": "textures/blocks/brick8" },
+						{ "path": "textures/blocks/brick9" },
+						{ "path": "textures/blocks/brick10" },
+						{ "path": "textures/blocks/brick11" },
+						{ "path": "textures/blocks/brick12" },
+						{ "path": "textures/blocks/brick13" },
+						{ "path": "textures/blocks/brick14" },
+						{ "path": "textures/blocks/brick15" }
+					]
+				},
+				"textures/blocks/stonebrick",
+				"textures/blocks/quartz_block_top",
+				"textures/blocks/nether_brick"
+			]
+		}
+	}
+}
