@@ -692,6 +692,92 @@
 				"sounds/silent"
 			]
 		},
+      "music.game" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "music",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/amb1",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/amb2",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/amb3",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/amb4",
+               "stream" : true,
+               "volume" : 0.10
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/amb5",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/amb6",
+               "stream" : true,
+               "volume" : 0.10
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/amb7",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/amb8",
+               "stream" : true,
+               "volume" : 0.30
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/amb9",
+               "stream" : true,
+               "volume" : 0.30
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/amb10",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/amb11",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/amb12",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/amb13",
+               "stream" : true,
+               "volume" : 0.20
+            }
+         ]
+      },
 		"cken.guitar": {
 			"category": "music",
 			"sounds": [
