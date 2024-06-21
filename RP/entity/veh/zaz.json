@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "yg:zaz",
+			"materials": {
+				"default": "bed"
+			},
+			"textures": {
+				"default": "textures/veh/zaz"
+			},
+			"geometry": {
+				"default": "geometry.zaz"
+			},
+			"scripts": {
+				"scale": "1.5",
+				"animate": ["basic"]
+			},
+			"animations": {
+				"basic": "animation.cube.rotation"
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}

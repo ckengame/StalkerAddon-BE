@@ -291,3 +291,25 @@ item.scm:arm_scientist_zarya5=
 item.scm:arm_scientist_zarya6=
 item.scm:arm_scientist_zarya7=
 item.scm:arm_scientist_zarya8=
+
+## AUTO
+item.spawn_egg.entity.yg:autobus.name=Автобус
+entity.yg:autobus.name=Автобус
+item.spawn_egg.entity.yg:benzovoz_zil.name=Бензовоз Зил
+entity.yg:benzovoz_zil.name=Бензовоз Зил
+item.spawn_egg.entity.yg:bochka_pricep.name=Бочка с прицепом
+entity.yg:bochka_pricep.name=Бочка с прицепом
+item.spawn_egg.entity.yg:btr.name=БТР
+entity.yg:btr.name=БТР
+item.spawn_egg.entity.yg:bulldozer.name=Бульдозер
+entity.yg:bulldozer.name=Бульдозер
+item.spawn_egg.entity.yg:ekskavator.name=Экскаватор
+entity.yg:ekskavator.name=Экскаватор
+item.spawn_egg.entity.yg:moskvich.name=Москвич
+entity.yg:moskvich.name=Москвич
+item.spawn_egg.entity.yg:traktor.name=Трактор
+entity.yg:traktor.name=Трактор
+item.spawn_egg.entity.yg:zaz.name=Заз
+entity.yg:zaz.name=Заз
+item.spawn_egg.entity.yg:zil.name=Зил
+entity.yg:zil.name=Зил

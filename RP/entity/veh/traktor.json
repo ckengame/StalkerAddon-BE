@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "yg:traktor",
+			"materials": {
+				"default": "bed"
+			},
+			"textures": {
+				"default": "textures/veh/traktor"
+			},
+			"geometry": {
+				"default": "geometry.traktor"
+			},
+			"scripts": {
+				"scale": "1.2",
+				"animate": ["basic"]
+			},
+			"animations": {
+				"basic": "animation.cube.rotation"
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}

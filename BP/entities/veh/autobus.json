@@ -1,0 +1,52 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "yg:autobus",
+			"runtime_identifier": "minecraft:armor_stand",
+			"is_spawnable": true,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": ["veh"]
+			},
+			"minecraft:scale": {
+				"value": 1.5
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_ability",
+										"subject": "other",
+										"value": "instabuild"
+									}
+								]
+							}
+						},
+						"deals_damage": true
+					},
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 0.1
+			},
+			"minecraft:health": {
+				"value": 30,
+				"max": 30
+			},
+			"minecraft:physics": {}
+		},
+		"component_groups": {},
+		"events": {}
+	}
+}

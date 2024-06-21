@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "yg:bulldozer",
+			"materials": {
+				"default": "entity"
+			},
+			"textures": {
+				"default": "textures/veh/bulldozer"
+			},
+			"geometry": {
+				"default": "geometry.bulldozer"
+			},
+			"scripts": {
+				"scale": "1.0",
+				"animate": ["basic"]
+			},
+			"animations": {
+				"basic": "animation.cube.rotation"
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}
