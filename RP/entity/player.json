@@ -358,13 +358,12 @@
 					"v.vodka = q.equipped_item_any_tag('slot.weapon.mainhand', 'vodka');",
 
 					"v.empty_hand = q.equipped_item_any_tag('slot.weapon.mainhand', 'empty_hand');",
-					"v.empty_hand_tp = v.empty_hand && !v.is_first_person;",
 					"v.reload = q.mark_variant == 2 ? true : false;"
 				],
 				"animate": [
 					"root",
 					{"shoot": "v.empty_hand && v.is_first_person"},
-					{"guns_tp": "v.empty_hand_tp"},
+					{"guns_tp": "v.empty_hand && !v.is_first_person"},
 					{"artifact_hand.fp":"q.equipped_item_any_tag('slot.weapon.mainhand', 'artifact') && v.is_first_person"},
 
 					{"abakan_animation_controller":"v.abakan && v.is_first_person"},
