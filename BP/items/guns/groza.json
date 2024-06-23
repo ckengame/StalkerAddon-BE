@@ -6,7 +6,7 @@
 			"category": "Equipment"
 		},
 		"components": {
-			"tag:empty_hand": {},
+			"tag:guns": {},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.equipment"
 			},

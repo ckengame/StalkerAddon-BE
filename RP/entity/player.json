@@ -357,13 +357,14 @@
 					"v.barvinok = q.equipped_item_any_tag('slot.weapon.mainhand', 'barvinok');",
 					"v.vodka = q.equipped_item_any_tag('slot.weapon.mainhand', 'vodka');",
 
-					"v.empty_hand = q.equipped_item_any_tag('slot.weapon.mainhand', 'empty_hand');",
+					"v.guns = q.equipped_item_any_tag('slot.weapon.mainhand', 'guns');",
+					"v.threed = v.guns || v.energetic || v.aptechka1 || v.aptechka2 || v.aptechka3 || v.bint || v.hercules || v.antirad || v.barvinok || v.vodka;",
 					"v.reload = q.mark_variant == 2 ? true : false;"
 				],
 				"animate": [
 					"root",
-					{"shoot": "v.empty_hand && v.is_first_person"},
-					{"guns_tp": "v.empty_hand && !v.is_first_person"},
+					{"shoot": "v.guns && v.is_first_person"},
+					{"guns_tp": "v.guns && !v.is_first_person"},
 					{"artifact_hand.fp":"q.equipped_item_any_tag('slot.weapon.mainhand', 'artifact') && v.is_first_person"},
 
 					{"abakan_animation_controller":"v.abakan && v.is_first_person"},

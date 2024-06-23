@@ -7,21 +7,21 @@
 				"charge": {
 					"animations": ["third_person_crossbow_equipped"],
 					"transitions": [
-						{"default": "v.empty_hand || (q.get_equipped_item_name != 'crossbow' || (q.item_remaining_use_duration <= 0.0 && !q.item_is_charged))"},
+						{"default": "v.guns || (q.get_equipped_item_name != 'crossbow' || (q.item_remaining_use_duration <= 0.0 && !q.item_is_charged))"},
 						{"hold": "q.item_is_charged"}
 					]
 				},
 				"default": {
 					"transitions": [
-						{"hold": "v.empty_hand || (q.get_equipped_item_name == 'crossbow' && q.item_is_charged)"},
-						{"charge": "!v.empty_hand && (q.get_equipped_item_name == 'crossbow' && q.item_remaining_use_duration > 0.0)"}
+						{"hold": "v.guns || (q.get_equipped_item_name == 'crossbow' && q.item_is_charged)"},
+						{"charge": "!v.guns && (q.get_equipped_item_name == 'crossbow' && q.item_remaining_use_duration > 0.0)"}
 					]
 				},
 				"hold": {
 					"animations": ["crossbow_hold"],
 					"transitions": [
-						{"default": "(q.get_equipped_item_name != 'crossbow' || (q.item_remaining_use_duration <= 0.0 && !q.item_is_charged)) && !v.empty_hand"},
-						{"charge": "!v.empty_hand && (q.get_equipped_item_name == 'crossbow' && q.item_remaining_use_duration > 0.0)"}
+						{"default": "(q.get_equipped_item_name != 'crossbow' || (q.item_remaining_use_duration <= 0.0 && !q.item_is_charged)) && !v.guns"},
+						{"charge": "!v.guns && (q.get_equipped_item_name == 'crossbow' && q.item_remaining_use_duration > 0.0)"}
 					]
 				}
 			}
@@ -115,15 +115,14 @@
 			"states": {
 				"first_person": {
 					"animations": [
-						{"first_person_swap_item": "!query.blocking && !v.empty_hand"},
-						{"first_person_shield_block": "query.blocking && !v.empty_hand"},
-						{"first_person_attack_controller": "variable.attack_time > 0.0f && query.get_equipped_item_name != 'filled_map' && !v.empty_hand"},
+						{"first_person_swap_item": "!query.blocking && !v.guns"},
+						{"first_person_shield_block": "query.blocking && !v.guns"},
+						{"first_person_attack_controller": "variable.attack_time > 0.0f && query.get_equipped_item_name != 'filled_map' && !v.guns"},
 						"first_person_base_pose",
-						{"first_person_empty_hand": "query.get_equipped_item_name(0, 1) != 'filled_map' && !v.empty_hand"},
-						// {"first_person_walk": "variable.bob_animation && !v.empty_hand"},
-						{"first_person_walk": "0.0"},
-						{"first_person_move_controller": "1"},
-						{"first_person_sprint_controller": "1"},
+						{"first_person_empty_hand": "query.get_equipped_item_name(0, 1) != 'filled_map' && !v.guns"},
+						{"first_person_walk": "variable.bob_animation && !v.is_first_person"},
+						{"first_person_move_controller": "!v.guns"},
+						{"first_person_sprint_controller": "!v.guns"},
 						{"first_person_map_controller": "(query.get_equipped_item_name(0, 1) == 'filled_map' || query.get_equipped_item_name('off_hand') == 'filled_map')"},
 						{"first_person_crossbow_equipped": "query.get_equipped_item_name == 'crossbow' && (variable.item_use_normalized > 0 && variable.item_use_normalized < 1.0)"},
 						{"first_person_breathing_bob": "variable.attack_time <= 0.0"}
@@ -159,27 +158,27 @@
 					"animations": [
 						"humanoid_base_pose",
 						{"look_at_target": "!query.is_sleeping && !query.is_emoting"},
-						{"move.arms": "!v.empty_hand_tp"},
+						{"move.arms": "!v.guns_tp"},
 						"move.legs",
 						"cape",
-						{"riding.arms": "query.is_riding && !v.empty_hand_tp"},
+						{"riding.arms": "query.is_riding && !v.guns_tp"},
 						{"riding.legs": "query.is_riding"},
 						"holding",
 						{"brandish_spear": "variable.is_brandishing_spear"},
 						{"holding_spyglass": "variable.is_holding_spyglass"},
 						{"charging": "query.is_charging"},
-						{"sneaking": "query.is_sneaking && !query.is_sleeping && !v.empty_hand_tp"},
-						{"bob": "!variable.is_holding_spyglass && !variable.is_tooting_goat_horn && !v.empty_hand_tp"},
+						{"sneaking": "query.is_sneaking && !query.is_sleeping && !v.guns_tp"},
+						{"bob": "!variable.is_holding_spyglass && !variable.is_tooting_goat_horn && !v.guns_tp"},
 						{"damage_nearby_mobs": "variable.damage_nearby_mobs"},
 						{"swimming": "variable.swim_amount > 0.0"},
 						{"swimming.legs": "variable.swim_amount > 0.0"},
-						{"use_item_progress": "( variable.use_item_interval_progress > 0.0 ) || ( variable.use_item_startup_progress > 0.0 ) && !variable.is_brandishing_spear && !variable.is_holding_spyglass && !variable.is_tooting_goat_horn && !query.is_item_name_any('slot.weapon.mainhand', 'minecraft:bow') && !v.empty_hand_tp"},
+						{"use_item_progress": "( variable.use_item_interval_progress > 0.0 ) || ( variable.use_item_startup_progress > 0.0 ) && !variable.is_brandishing_spear && !variable.is_holding_spyglass && !variable.is_tooting_goat_horn && !query.is_item_name_any('slot.weapon.mainhand', 'minecraft:bow') && !v.guns_tp"},
 						{"sleeping": "query.is_sleeping && query.is_alive"},
-						{"attack.positions": "variable.attack_time >= 0.0 && !v.empty_hand_tp"},
-						{"attack.rotations": "variable.attack_time >= 0.0 && !v.empty_hand_tp"},
+						{"attack.positions": "variable.attack_time >= 0.0 && !v.guns_tp"},
+						{"attack.rotations": "variable.attack_time >= 0.0 && !v.guns_tp"},
 						{"shield_block_main_hand": "query.blocking && query.get_equipped_item_name('off_hand') != 'shield' && query.get_equipped_item_name == 'shield'"},
 						{"shield_block_off_hand": "query.blocking && query.get_equipped_item_name('off_hand') == 'shield'"},
-						{"crossbow_controller": "query.get_equipped_item_name == 'crossbow' || v.empty_hand"},
+						{"crossbow_controller": "query.get_equipped_item_name == 'crossbow' || v.guns"},
 						{"third_person_bow_equipped": "query.get_equipped_item_name == 'bow' && (variable.item_use_normalized > 0 && variable.item_use_normalized < 1.0)"},
 						{"tooting_goat_horn": "variable.is_tooting_goat_horn"}
 					],
