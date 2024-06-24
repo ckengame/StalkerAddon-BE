@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "ckendrink:vodka",
+      "materials": {
+        "default": "entity"
+      },
+      "textures": {
+        "default": "textures/models/item/vodka"
+      },
+      "geometry": {
+        "default": "geometry.player.vodka"
+      },
+      "scripts": {
+        "animate": ["root"]
+      },
+      "animations": {
+        "root": "controller.animation.item.vodka",
+        "use": "animation.vodka.using_attach"
+      },
+      "render_controllers": ["controller.render.default"]
+    }
+  }
+}

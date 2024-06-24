@@ -48,7 +48,6 @@
 				"aptechka1": "textures/models/item/aptechka1",
 				"aptechka2": "textures/models/item/aptechka2",
 				"aptechka3": "textures/models/item/aptechka3",
-				"vodka": "textures/models/item/vodka",
 
 				"arm_military_beryl5": "textures/models/armor/arm_military_beryl5",
 				"arm_military_beryl4": "textures/models/armor/arm_military_beryl4",
@@ -281,7 +280,6 @@
 				"energetic": "geometry.player.energetic",
 				"hercules": "geometry.player.hercules",
 				"aptechka": "geometry.player.aptechka",
-				"vodka": "geometry.player.vodka",
 				"armor_beryl": "geometry.player.armor_beryl",
 				"armor_cs1": "geometry.player.armor_cs1",
 				"armor_cs2": "geometry.player.armor_cs2",
@@ -367,6 +365,7 @@
 					{"guns_tp": "v.guns && !v.is_first_person"},
 					{"artifact_hand.fp":"q.equipped_item_any_tag('slot.weapon.mainhand', 'artifact') && v.is_first_person"},
 
+					{"vodka_controller": "v.vodka"},
 					{"abakan_animation_controller":"v.abakan && v.is_first_person"},
 					{"akm74_animation_controller":"v.akm74 && v.is_first_person"},
 					{"akm74u_animation_controller":"v.akm74u && v.is_first_person"},
@@ -446,6 +445,10 @@
 				"shield_block_main_hand": "animation.player.shield_block_main_hand",
 				"shield_block_off_hand": "animation.player.shield_block_off_hand",
 				"blink": "controller.animation.persona.blink",
+
+				"vodka_controller": "controller.animation.vodka",
+				"vodka_using": "animation.vodka.using",
+
 				"first_person_move": "animation.player.first_person.move",
 				"first_person_sprint": "animation.player.first_person.sprint",
 				"first_person_move_controller": "controller.animation.player.moving",
@@ -658,7 +661,6 @@
 				{ "controller.render.player.hercules": "q.equipped_item_any_tag('slot.weapon.mainhand', 'hercules')" },
 				{ "controller.render.player.antirad": "q.equipped_item_any_tag('slot.weapon.mainhand', 'antirad')" },
 				{ "controller.render.player.barvinok": "q.equipped_item_any_tag('slot.weapon.mainhand', 'barvinok')" },
-				{ "controller.render.player.vodka": "q.equipped_item_any_tag('slot.weapon.mainhand', 'vodka')" },
 
 				{ "controller.render.arm_military_beryl5": "q.equipped_item_any_tag('slot.armor.chest', 'arm_military_beryl5') && v.is_first_person" },
 				{ "controller.render.arm_military_beryl4": "q.equipped_item_any_tag('slot.armor.chest', 'arm_military_beryl4') && v.is_first_person" },
