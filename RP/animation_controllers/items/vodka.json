@@ -1,50 +1,48 @@
 {
-  "format_version": "1.20.81",
-  "animation_controllers": {
-    "controller.animation.item.vodka": {
-      "initial_state": "default",
-      "states": {
-        "default": {
+	"format_version": "1.20.50",
+	"animation_controllers": {
+		"controller.animation.vodka": {
+			"initial_state": "default",
+			"states": {
+				"default": {
           "transitions": [
-            {"using": "q.is_using_item"}
+            { "draw": "v.vodka" }
           ]
         },
-        "using": {
-          "animations": ["use"],
-          "transitions": [
-            {"default": "q.all_animations_finished"},
-            {"default": "!q.equipped_item_any_tag('slot.weapon.mainhand', 'vodka')"}
-          ]
-        }
-      }
-    },
-    "controller.animation.vodka": {
-      "initial_state": "default",
-      "states": {
-        "default": {
-          "transitions": [
-            {"hold": "v.vodka"}
-          ]
-        },
-        "hold": {
-          "animations": [
-            {"first_person_empty_hand": "v.is_first_person"}
+				"draw": {
+					"animations": [
+            "vodka_hold",
+            "vodka_draw"
           ],
-          "transitions": [
-            {"using": "q.is_using_item"},
-            {"default": "!v.vodka"}
-          ]
-        },
-        "using": {
-          "animations": [
-            {"vodka_using": "v.is_first_person"}
+					"transitions": [
+            { "hold": "q.all_animations_finished" }
           ],
-          "transitions": [
-            {"hold": "q.all_animations_finished"},
-            {"default": "!v.vodka"}
-          ]
-        }
-      }
-    }
-  }
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"hold": {
+					"animations": [
+            "vodka_hold"
+          ],
+					"transitions": [
+						{ "using": "q.is_using_item" },
+						{ "default": "!v.vodka" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"using": {
+					"animations": [
+            "vodka_using"
+          ],
+					"transitions": [
+						{ "draw": "q.all_animations_finished" },
+						{ "default": "!v.vodka" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
 }

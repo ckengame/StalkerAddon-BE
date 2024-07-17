@@ -1,22 +1,50 @@
 {
-	"format_version": "1.20.81",
-	"animation_controllers": {
-		"controller.animation.revolver": {
-			"initial_state": "default",
-			"states": {
-				"default": {
-					"transitions": [
-						{ "shoot": "q.is_item_name_any('slot.weapon.mainhand', 0, 'mlg:revolver') && q.is_using_item && q.scoreboard('revolver') > 0" }
-					]
-				},
-				"shoot": {
-					"on_entry": [
-						"@s mlg:revolver",
-						"/playsound revolver.shoot @s ~ ~ ~ 1"
-					],
-					"transitions": [{ "default": "1.0" }]
-				}
-			}
-		}
-	}
+  "format_version": "1.20.50",
+  "animation_controllers": {
+    "controller.animation.vodka": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "drink": "q.is_item_name_any('slot.weapon.mainhand', 0, 'ckendrink:vodka') && q.is_using_item"
+            }
+          ]
+        },
+        "drink": {
+          "on_entry": [
+            "v.timer = q.life_time;"
+          ],
+          "transitions": [
+            {
+              "great": "q.is_item_name_any('slot.weapon.mainhand', 0, 'ckendrink:vodka') && (v.timer - q.life_time) >= 3.0"
+            },
+            {
+              "error": "!q.is_item_name_any('slot.weapon.mainhand', 0, 'ckendrink:vodka')"
+            }
+          ]
+        },
+        "error": {
+          "on_entry": [
+            "/stopsound @s item.vodka_drink"
+          ],
+          "transitions": [
+            {
+              "default": "(1.0)"
+            }
+          ]
+        },
+        "great": {
+          "on_entry": [
+            "/clear @s ckendrink:vodka 0 1"
+          ],
+          "transitions": [
+            {
+              "default": "(1.0)"
+            }
+          ]
+        }
+      }
+    }
+  }
 }
