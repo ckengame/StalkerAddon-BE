@@ -692,12 +692,6 @@
 				"sounds/anomaly/fireball_blow"
 			]
 		},
-		"empty.silent": {
-			"category": "neutral",
-			"sounds": [
-				"sounds/silent"
-			]
-		},
       "music.game" : {
          "__use_legacy_max_distance" : "true",
          "category" : "music",
