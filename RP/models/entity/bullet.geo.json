@@ -1,9 +1,9 @@
 {
-	"format_version": "1.20.81",
+	"format_version": "1.12.0",
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.bullet0",
+				"identifier": "geometry.bullet",
 				"texture_width": 16,
 				"texture_height": 16,
 				"visible_bounds_width": 2,
@@ -13,9 +13,30 @@
 			"bones": [
 				{
 					"name": "root",
-					"pivot": [0, 0, 0],
+					"pivot": [0, 0.8, 0]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 0.8, 0]
+				},
+				{
+					"name": "bullet",
+					"parent": "body",
+					"pivot": [0, 0.8, 0],
 					"cubes": [
-						{"origin": [-0.5, 0, -0.5], "size": [1, 1, 1], "uv": [0, 0]}
+						{
+							"origin": [-1.2, 0, 0],
+							"size": [2.4, 2.4, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
+								"south": {"uv": [0, 0], "uv_size": [16, 16]},
+								"west": {"uv": [0, 0], "uv_size": [16, 16]},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16]},
+								"down": {"uv": [16, 16], "uv_size": [-16, -16]}
+							}
+						}
 					]
 				}
 			]

@@ -11,6 +11,7 @@
 		"anomaly/anomaly_voronka",
 		"player",
 		"guns",
-		"start"
+		"start",
+		"barikada"
 	]
 }

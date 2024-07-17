@@ -115,12 +115,12 @@
 			"states": {
 				"first_person": {
 					"animations": [
-						{"first_person_swap_item": "!query.blocking && !v.guns"},
+						{"first_person_swap_item": "!query.blocking && !v.guns && !v.threed"},
 						{"first_person_shield_block": "query.blocking && !v.guns"},
 						{"first_person_attack_controller": "variable.attack_time > 0.0f && query.get_equipped_item_name != 'filled_map' && !v.guns"},
 						"first_person_base_pose",
-						{"first_person_empty_hand": "query.get_equipped_item_name(0, 1) != 'filled_map' && !v.guns && !v.vodka"},
-						{"first_person_walk": "variable.bob_animation && !v.guns && !v.vodka"},
+						{"first_person_empty_hand": "query.get_equipped_item_name(0, 1) != 'filled_map' && !v.threed"},
+						{"first_person_walk": "variable.bob_animation && !v.threed"},
 						// {"first_person_move_controller": "!v.guns && !v.vodka"},
 						// {"first_person_sprint_controller": "!v.guns && !v.vodka"},
 						{"first_person_map_controller": "(query.get_equipped_item_name(0, 1) == 'filled_map' || query.get_equipped_item_name('off_hand') == 'filled_map')"},

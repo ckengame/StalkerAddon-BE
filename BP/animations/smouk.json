@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.smouk": {
+			"loop": false,
+			"animation_length": 0.1,
+			"timeline": {
+				"0.0": ["/particle scm:particle_smouk ~~~"],
+				"0.05": ["@s scm:despawn"]
+			}
+		}
+	}
+}

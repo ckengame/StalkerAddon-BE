@@ -53,88 +53,105 @@
 				"vodka": "controller.animation.vodka",
 				"energy_stalker": "controller.animation.energy_stalker",
 
-				"abakan_shoot": "animation.player.abakan_shoot",
-				"akm74_shoot": "animation.player.akm74_shoot",
-				"akm74u_shoot": "animation.player.akm74u_shoot",
-				"bm16_shoot": "animation.player.bm16_shoot",
-				"colt_shoot": "animation.player.colt_shoot",
-				"deagle_shoot": "animation.player.deagle_shoot",
-				"fort_shoot": "animation.player.fort_shoot",
-				"gauss_shoot": "animation.player.gauss_shoot",
-				"groza_shoot": "animation.player.groza_shoot",
-				"hpsa_shoot": "animation.player.hpsa_shoot",
-				"l85_shoot": "animation.player.l85_shoot",
-				"lr300_shoot": "animation.player.lr300_shoot",
-				"mp5_shoot": "animation.player.mp5_shoot",
-				"pb_shoot": "animation.player.pb_shoot",
-				"pkm_shoot": "animation.player.pkm_shoot",
-				"pm_shoot": "animation.player.pm_shoot",
-				"prot_shoot": "animation.player.prot_shoot",
-				"sig220_shoot": "animation.player.sig220_shoot",
-				"sig550_shoot": "animation.player.sig550_shoot",
-				"spas_shoot": "animation.player.spas_shoot",
-				"svd_shoot": "animation.player.svd_shoot",
-				"svu_shoot": "animation.player.svu_shoot",
-				"toz34_shoot": "animation.player.toz34_shoot",
-				"val_shoot": "animation.player.val_shoot",
-				"vintorez_shoot": "animation.player.vintorez_shoot",
-				"walther_shoot": "animation.player.walther_shoot",
-				"winch_shoot": "animation.player.winch_shoot",
-				"abakan_reload": "animation.player.abakan_reload",
-				"akm74_reload": "animation.player.akm74_reload",
-				"akm74u_reload": "animation.player.akm74u_reload",
-				"bm16_reload": "animation.player.bm16_reload",
-				"colt_reload": "animation.player.colt_reload",
-				"deagle_reload": "animation.player.deagle_reload",
-				"fort_reload": "animation.player.fort_reload",
-				"gauss_reload": "animation.player.gauss_reload",
-				"groza_reload": "animation.player.groza_reload",
-				"hpsa_reload": "animation.player.hpsa_reload",
-				"l85_reload": "animation.player.l85_reload",
-				"lr300_reload": "animation.player.lr300_reload",
-				"mp5_reload": "animation.player.mp5_reload",
-				"pb_reload": "animation.player.pb_reload",
-				"pkm_reload": "animation.player.pkm_reload",
-				"pm_reload": "animation.player.pm_reload",
-				"prot_reload": "animation.player.prot_reload",
-				"sig220_reload": "animation.player.sig220_reload",
-				"sig550_reload": "animation.player.sig550_reload",
-				"spas_reload": "animation.player.spas_reload",
-				"svd_reload": "animation.player.svd_reload",
-				"svu_reload": "animation.player.svu_reload",
-				"toz34_reload": "animation.player.toz34_reload",
-				"val_reload": "animation.player.val_reload",
-				"vintorez_reload": "animation.player.vintorez_reload",
-				"walther_reload": "animation.player.walther_reload",
-				"winch_reload": "animation.player.winch_reload",
-
-				"abakan": "controller.animation.player.abakan",
-				"akm74": "controller.animation.player.akm74",
-				"akm74u": "controller.animation.player.akm74u",
+				"abakan": "controller.animation.abakan",
+				"akm74": "controller.animation.akm74",
+				"akm74u": "controller.animation.akm74u",
+				
 				"bm16": "controller.animation.player.bm16",
+				"bm16_reload": "animation.player.bm16_reload",
+				"bm16_shoot": "animation.player.bm16_shoot",
+				
 				"colt": "controller.animation.player.colt",
+				"colt_reload": "animation.player.colt_reload",
+				"colt_shoot": "animation.player.colt_shoot",
+				
 				"deagle": "controller.animation.player.deagle",
+				"deagle_reload": "animation.player.deagle_reload",
+				"deagle_shoot": "animation.player.deagle_shoot",
+				
 				"fort": "controller.animation.player.fort",
+				"fort_reload": "animation.player.fort_reload",
+				"fort_shoot": "animation.player.fort_shoot",
+				
 				"gauss": "controller.animation.player.gauss",
+				"gauss_reload": "animation.player.gauss_reload",
+				"gauss_shoot": "animation.player.gauss_shoot",
+				
 				"groza": "controller.animation.player.groza",
+				"groza_reload": "animation.player.groza_reload",
+				"groza_shoot": "animation.player.groza_shoot",
+				
 				"hpsa": "controller.animation.player.hpsa",
+				"hpsa_reload": "animation.player.hpsa_reload",
+				"hpsa_shoot": "animation.player.hpsa_shoot",
+				
 				"l85": "controller.animation.player.l85",
+				"l85_reload": "animation.player.l85_reload",
+				"l85_shoot": "animation.player.l85_shoot",
+				
 				"lr300": "controller.animation.player.lr300",
+				"lr300_reload": "animation.player.lr300_reload",
+				"lr300_shoot": "animation.player.lr300_shoot",
+				
 				"mp5": "controller.animation.player.mp5",
+				"mp5_reload": "animation.player.mp5_reload",
+				"mp5_shoot": "animation.player.mp5_shoot",
+				
 				"pb": "controller.animation.player.pb",
+				"pb_reload": "animation.player.pb_reload",
+				"pb_shoot": "animation.player.pb_shoot",
+				
 				"pkm": "controller.animation.player.pkm",
+				"pkm_reload": "animation.player.pkm_reload",
+				"pkm_shoot": "animation.player.pkm_shoot",
+				
 				"pm": "controller.animation.player.pm",
+				"pm_reload": "animation.player.pm_reload",
+				"pm_shoot": "animation.player.pm_shoot",
+				
 				"prot": "controller.animation.player.prot",
+				"prot_reload": "animation.player.prot_reload",
+				"prot_shoot": "animation.player.prot_shoot",
+				
 				"sig220": "controller.animation.player.sig220",
+				"sig220_reload": "animation.player.sig220_reload",
+				"sig220_shoot": "animation.player.sig220_shoot",
+				
 				"sig550": "controller.animation.player.sig550",
+				"sig550_reload": "animation.player.sig550_reload",
+				"sig550_shoot": "animation.player.sig550_shoot",
+				
 				"spas": "controller.animation.player.spas",
+				"spas_reload": "animation.player.spas_reload",
+				"spas_shoot": "animation.player.spas_shoot",
+				
 				"svd": "controller.animation.player.svd",
+				"svd_reload": "animation.player.svd_reload",
+				"svd_shoot": "animation.player.svd_shoot",
+				
 				"svu": "controller.animation.player.svu",
+				"svu_reload": "animation.player.svu_reload",
+				"svu_shoot": "animation.player.svu_shoot",
+				
 				"toz34": "controller.animation.player.toz34",
+				"toz34_reload": "animation.player.toz34_reload",
+				"toz34_shoot": "animation.player.toz34_shoot",
+				
 				"val": "controller.animation.player.val",
+				"val_reload": "animation.player.val_reload",
+				"val_shoot": "animation.player.val_shoot",
+				
 				"vintorez": "controller.animation.player.vintorez",
+				"vintorez_reload": "animation.player.vintorez_reload",
+				"vintorez_shoot": "animation.player.vintorez_shoot",
+				
 				"walther": "controller.animation.player.walther",
+				"walther_reload": "animation.player.walther_reload",
+				"walther_shoot": "animation.player.walther_shoot",
+				
 				"winch": "controller.animation.player.winch",
+				"winch_reload": "animation.player.winch_reload",
+				"winch_shoot": "animation.player.winch_shoot",
 
 				"guitar": "controller.animation.player.guitar"
 			}
@@ -157,6 +174,12 @@
 			},
 			"gun:reload": {
 				"minecraft:mark_variant": { "value": 2 }
+			},
+			"gun:barikada_default": {
+				"minecraft:variant": { "value": 0 }
+			},
+			"gun:barikada": {
+				"minecraft:variant": { "value": 1 }
 			},
 			"ambullet:bolt": {
 				"minecraft:spawn_entity": { "entities": {
@@ -669,6 +692,12 @@
 			},
 			"ambullet:bolt": {
 				"add": { "component_groups": ["ambullet:bolt"] }
+			},
+			"gun:barikada": {
+				"add": { "component_groups": ["gun:barikada"] }
+			},
+			"gun:barikada_default": {
+				"add": { "component_groups": ["gun:barikada_default"] }
 			},
 			"minecraft:gain_bad_omen": {
 				"add": { "component_groups": ["minecraft:add_bad_omen"] }

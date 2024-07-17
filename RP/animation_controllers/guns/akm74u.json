@@ -1,12 +1,22 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.50",
 	"animation_controllers": {
 		"controller.animation.akm74u": {
 			"initial_state": "default",
 			"states": {
 				"default": {
 					"transitions": [
-						{ "base": "v.akm74u" }
+						{ "draw": "v.akm74u" }
+					]
+				},
+				"draw": {
+					"animations": [
+						{ "akm74u": "v.akm74u" },
+						{ "akm74u_draw": "v.akm74u" }
+					],
+					"transitions": [
+						{ "base": "q.all_animations_finished" },
+						{ "default": "!v.akm74u" }
 					]
 				},
 				"base": {
@@ -16,9 +26,10 @@
 					"transitions": [
 						{ "aim": "v.akm74u && q.is_sneaking" },
 						{ "reload": "v.akm74u && v.reload == true" },
+						{ "sprint": "q.is_sprinting" },
 						{ "default": "!v.akm74u" }
 					],
-					"blend_transition": 0.1,
+					"blend_transition": 0.15,
 					"blend_via_shortest_path": true
 				},
 				"aim": {
@@ -30,7 +41,7 @@
 						{ "reload": "v.akm74u && v.reload == true" },
 						{ "default": "!v.akm74u" }
 					],
-					"blend_transition": 0.1,
+					"blend_transition": 0.15,
 					"blend_via_shortest_path": true
 				},
 				"reload": {
@@ -40,6 +51,30 @@
 					"transitions": [
 						{ "base": "v.akm74u && v.reload == false" },
 						{ "default": "!v.akm74u" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"sprint": {
+					"animations": [
+						{ "weaponbig_sprint": "v.akm74u" },
+						{ "akm74u": "v.akm74u" }
+					],
+					"transitions": [
+						{"hold": "!q.is_sprinting"},
+						{"default": "!v.akm74u"}
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"hold": {
+					"animations": [
+						{ "weaponbig_sprint_stop": "v.akm74u" },
+						{ "akm74u": "v.akm74u" }
+					],
+					"transitions": [
+						{"base": "q.all_animations_finished"},
+						{"default": "!v.akm74u"}
 					],
 					"blend_transition": 0.1,
 					"blend_via_shortest_path": true

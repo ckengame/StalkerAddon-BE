@@ -1,6 +1,12 @@
 {
 	"format_version": "1.19.0",
 	"sound_definitions": {
+		"generic_draw": {
+			"category": "music",
+			"sounds": [
+				"sounds/guns/generic_draw"
+			]
+		},
 		"item.anabiotic": {
 			"category": "music",
 			"sounds": [
