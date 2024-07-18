@@ -8,7 +8,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/models/artifact/artifact_simple2"
+				"default": "textures/entity/artifact/artifact_simple2"
 			},
 			"geometry": {
 				"default": "geometry.af_compass.01"

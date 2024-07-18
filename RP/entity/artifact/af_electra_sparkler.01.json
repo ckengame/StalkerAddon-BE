@@ -7,7 +7,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/models/artifact/artifact_sopli"
+				"default": "textures/entity/artifact/artifact_sopli"
 			},
 			"geometry": {
 				"default": "geometry.af_electra_sparkler.01"

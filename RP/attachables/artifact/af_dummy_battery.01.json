@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "cken:artifact_battery",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/artifact/artifact_anim_lightning",
+				"default2": "textures/entity/artifact/af_dummy_battery"
+			},
+			"geometry": {
+				"default": "geometry.af_dummy_battery.00",
+				"default2": "geometry.af_dummy_battery.01"
+			},
+			"scripts": {
+				"animate": [
+					{"third_person_main_hand": "!c.is_first_person"},
+					{"first_person_main_hand": "c.is_first_person"}
+				]
+			},
+			"animations": {
+				"third_person_main_hand": "animation.player.art_hand_tp",
+				"first_person_main_hand": "animation.player.art_item_fp"
+			},
+			"render_controllers": [
+				"controller.render.default",
+				"controller.render.default2"
+			]
+		}
+	}
+}

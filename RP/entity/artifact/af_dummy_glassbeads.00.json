@@ -8,7 +8,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/models/artifact/artifact_lavahell1"
+				"default": "textures/entity/artifact/artifact_lavahell1"
 			},
 			"geometry": {
 				"default": "geometry.af_dummy_glassbeads.00"

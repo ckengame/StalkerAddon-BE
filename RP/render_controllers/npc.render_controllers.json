@@ -69,14 +69,8 @@
 				}
 			},
 			"geometry": "geometry.default",
-			"materials": [
-				{
-					"*": "material.default"
-				}
-			],
-			"textures": [
-				"array.skins[query.variant]"
-			]
+			"materials": [{ "*": "material.default" }],
+			"textures": ["array.skins[query.variant]"]
 		}
 	}
 }

@@ -1,17 +1,10 @@
 {
 	"values": [
-		"items/antirad",
-		"items/bint",
-		"items/energy_stalker",
-		"items/hercules",
-		"items/vodka",
 		"anomaly/anomaly_frying",
 		"anomaly/anomaly_fireball",
 		"anomaly/anomaly_jelly",
 		"anomaly/anomaly_voronka",
-		"player",
-		"guns",
-		"start",
-		"barikada"
+		"weapon_register",
+		"wall_detector"
 	]
 }

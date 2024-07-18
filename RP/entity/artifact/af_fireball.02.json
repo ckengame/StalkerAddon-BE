@@ -8,9 +8,9 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/models/artifact/artifact_simple2",
-				"default2": "textures/models/artifact/artifact_lavahell1",
-				"default3": "textures/models/artifact/artifact_lavahell1"
+				"default": "textures/entity/artifact/artifact_simple2",
+				"default2": "textures/entity/artifact/artifact_lavahell1",
+				"default3": "textures/entity/artifact/artifact_lavahell1"
 			},
 			"geometry": {
 				"default": "geometry.af_fireball.00",

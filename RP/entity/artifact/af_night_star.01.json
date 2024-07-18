@@ -9,8 +9,8 @@
 				"default2": "entity_alphablend"
 			},
 			"textures": {
-				"default": "textures/models/artifact/artifact_myasorubka2",
-				"default2": "textures/models/artifact/artifact_myasorubka3"
+				"default": "textures/entity/artifact/artifact_myasorubka2",
+				"default2": "textures/entity/artifact/artifact_myasorubka3"
 			},
 			"geometry": {
 				"default": "geometry.af_night_star.01",

@@ -8,9 +8,9 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/models/artifact/artifact_anim_lightning",
-				"default2": "textures/models/artifact/artifact_sopli2",
-				"default3": "textures/models/artifact/af_dummy_dummy"
+				"default": "textures/entity/artifact/artifact_anim_lightning",
+				"default2": "textures/entity/artifact/artifact_sopli2",
+				"default3": "textures/entity/artifact/af_dummy_dummy"
 			},
 			"geometry": {
 				"default": "geometry.af_dummy_dummy.00",

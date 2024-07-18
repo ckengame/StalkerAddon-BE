@@ -8,8 +8,8 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/models/artifact/artifact_hell1",
-				"default2": "textures/models/artifact/artifact_lighting"
+				"default": "textures/entity/artifact/artifact_hell1",
+				"default2": "textures/entity/artifact/artifact_lighting"
 			},
 			"geometry": {
 				"default": "geometry.af_electra_moonlight.01",

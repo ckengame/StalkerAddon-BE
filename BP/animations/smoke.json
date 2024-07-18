@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.wpn.smoke": {
+			"loop": false,
+			"animation_length": 0.1,
+			"timeline": {
+				"0.0": ["/particle scm:particle_smoke ~~~"],
+				"0.05": ["@s scm:despawn"]
+			}
+		}
+	}
+}

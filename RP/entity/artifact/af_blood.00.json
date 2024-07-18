@@ -8,7 +8,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/models/artifact/artifact_blood"
+				"default": "textures/entity/artifact/artifact_blood"
 			},
 			"geometry": {
 				"default": "geometry.af_blood.00"

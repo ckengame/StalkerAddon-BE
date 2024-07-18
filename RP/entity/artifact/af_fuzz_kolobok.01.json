@@ -9,8 +9,8 @@
 				"default2": "entity_alphablend"
 			},
 			"textures": {
-				"default": "textures/models/artifact/artifact_sopli",
-				"default2": "textures/models/artifact/artifact_mp_green"
+				"default": "textures/entity/artifact/artifact_sopli",
+				"default2": "textures/entity/artifact/artifact_mp_green"
 			},
 			"geometry": {
 				"default": "geometry.af_fuzz_kolobok.01",

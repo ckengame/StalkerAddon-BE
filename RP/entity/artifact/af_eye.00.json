@@ -8,7 +8,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/models/artifact/artifact_eye"
+				"default": "textures/entity/artifact/artifact_eye"
 			},
 			"geometry": {
 				"default": "geometry.af_eye.00"

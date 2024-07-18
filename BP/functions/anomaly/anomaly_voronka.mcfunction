@@ -4,7 +4,7 @@ tag @e[type=cken:anomaly_voronka,scores={voronka=15..},tag=voronka] remove voron
 execute as @e[type=cken:anomaly_voronka,tag=voronka] at @s run scoreboard players add @s voronka 1
 execute as @e[type=cken:anomaly_voronka,tag=!voronka] at @s run scoreboard players set @s voronka 0
 execute as @e[type=cken:anomaly_voronka,scores={voronka=2..},tag=voronka] at @s run kill @e[type=ambullet:bolt,r=6]
-execute as @e[type=cken:anomaly_voronka,scores={voronka=2},tag=voronka] at @s run function anomaly_particle/anomaly_voronka
+execute as @e[type=cken:anomaly_voronka,scores={voronka=2},tag=voronka] at @s run function anomaly/particle/anomaly_voronka
 
 scoreboard objectives add voronka_taleover dummy
 scoreboard objectives add voronka_time3 dummy

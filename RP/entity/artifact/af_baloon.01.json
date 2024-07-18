@@ -8,7 +8,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/models/artifact/artifact_mp_green"
+				"default": "textures/entity/artifact/artifact_mp_green"
 			},
 			"geometry": {
 				"default": "geometry.af_baloon.01"

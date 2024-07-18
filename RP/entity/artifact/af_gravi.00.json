@@ -7,7 +7,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/models/artifact/artifact_myasorubka3"
+				"default": "textures/entity/artifact/artifact_myasorubka3"
 			},
 			"geometry": {
 				"default": "geometry.af_gravi.00"

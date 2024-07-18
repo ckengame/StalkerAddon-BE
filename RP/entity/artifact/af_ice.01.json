@@ -9,8 +9,8 @@
 				"default2": "entity_alphablend"
 			},
 			"textures": {
-				"default": "textures/models/artifact/artifact_sopli2",
-				"default2": "textures/models/artifact/artifact_hell1"
+				"default": "textures/entity/artifact/artifact_sopli2",
+				"default2": "textures/entity/artifact/artifact_hell1"
 			},
 			"geometry": {
 				"default": "geometry.af_ice.01",

@@ -8,7 +8,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/models/artifact/artifact_mincer_meat"
+				"default": "textures/entity/artifact/artifact_mincer_meat"
 			},
 			"geometry": {
 				"default": "geometry.af_mincer_meat.00"

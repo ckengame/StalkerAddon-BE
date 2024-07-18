@@ -8,7 +8,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/models/artifact/prop_elektro"
+				"default": "textures/entity/artifact/prop_elektro"
 			},
 			"geometry": {
 				"default": "geometry.af_psi_field.00"
