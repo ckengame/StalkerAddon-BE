@@ -51,6 +51,12 @@
 					"parent": "rightArm",
 					"pivot": [-5, 15, 0],
 					"rotation": [0, 0, 0],
+					"locators": {
+						"abakan_shoot": {
+							"offset": [200.25, -21, 0],
+							"rotation": [0, -90, 0]
+						}
+					},
 					"poly_mesh": {
 						"normalized_uvs": true,
 						"positions": [

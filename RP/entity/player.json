@@ -436,6 +436,10 @@
 				{ "controller.render.player.walther": "v.walther" },
 				{ "controller.render.player.winch": "v.winch" }
 			],
+			"particle_effects": {
+				"shoot": "scm:particle_shoot",
+				"smoke_impact": "scm:particle_smoke_impact"
+			},
 			"enable_attachables": true
 		}
 	}

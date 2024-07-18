@@ -256,6 +256,18 @@
 						"0.0833": [0, 0, 0]
 					}
 				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "smoke_impact",
+						"locator": "abakan_shoot"
+					},
+					{
+						"effect": "shoot",
+						"locator": "abakan_shoot"
+					}
+				]
 			}
 		},
 		"animation.abakan_draw": {
