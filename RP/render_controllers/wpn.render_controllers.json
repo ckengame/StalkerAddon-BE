@@ -17,7 +17,22 @@
 			"geometry": "geometry.abakan",
 			"materials": [{ "*": "material.default" }],
 			"textures": ["texture.abakan"],
-			"is_hurt_color": {}
+			"is_hurt_color": {},
+			"part_visibility": [
+				{"*": true},
+				{"fire": false}
+			]
+		},
+		"controller.render.player.abakan_shoot": {
+			"geometry": "geometry.abakan",
+			"materials": [{ "*": "material.blend" }],
+			"textures": ["texture.pfx_shot"],
+			"is_hurt_color": {},
+			"ignore_lighting": true,
+			"part_visibility": [
+				{"*": false},
+				{"fire": true}
+			]
 		},
 		"controller.render.player.akm74": {
 			"geometry": "geometry.akm74",

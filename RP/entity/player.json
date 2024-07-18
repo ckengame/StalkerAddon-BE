@@ -6,11 +6,13 @@
 			"materials": {
 				"default": "entity_alphatest",
 				"cape": "entity_alphatest",
-				"animated": "player_animated"
+				"animated": "player_animated",
+				"blend": "entity_alphablend"
 			},
 			"textures": {
 				"default": "textures/entity/steve",
 				"cape": "textures/entity/cape_invisible",
+				"pfx_shot": "textures/particle/pfx_shot",
 
 				"abakan": "textures/models/wpn/abakan",
 				"akm74": "textures/models/wpn/akm74",
@@ -409,6 +411,7 @@
 				{ "controller.render.player.map": "v.map_face_icon" },
 
 				{ "controller.render.player.abakan": "v.abakan" },
+				{ "controller.render.player.abakan_shoot": "v.abakan && q.mark_variant == 1" },
 				{ "controller.render.player.akm74": "v.akm74" },
 				{ "controller.render.player.akm74u": "v.akm74u" },
 				{ "controller.render.player.bm16": "v.bm16" },
