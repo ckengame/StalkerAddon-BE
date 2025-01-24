@@ -1,0 +1,23 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "STALKER BEDROCK ADDON BP",
+		"description": "Authots: Cken",
+		"uuid": "7e30ba32-ba27-487a-898b-57de0fe02761",
+		"version": [2, 0, 0],
+		"min_engine_version": [1, 20, 50]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "f9ec2801-3130-472b-9399-7048bc5de895",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "1afaf74b-cd77-4938-bcca-86b5a88805d9",
+			"version": [2, 0, 0]
+		}
+	]
+}
