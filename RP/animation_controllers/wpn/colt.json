@@ -1,12 +1,22 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.50",
 	"animation_controllers": {
 		"controller.animation.colt": {
 			"initial_state": "default",
 			"states": {
 				"default": {
 					"transitions": [
-						{ "base": "v.colt" }
+						{ "draw": "v.colt" }
+					]
+				},
+				"draw": {
+					"animations": [
+						{ "colt": "v.colt" },
+						{ "colt_draw": "v.colt" }
+					],
+					"transitions": [
+						{ "base": "q.all_animations_finished" },
+						{ "default": "!v.colt" }
 					]
 				},
 				"base": {
@@ -16,9 +26,26 @@
 					"transitions": [
 						{ "aim": "v.colt && q.is_sneaking" },
 						{ "reload": "v.colt && v.reload == true" },
+						{ "sprint": "q.is_sprinting" },
+						{ "barikada": "q.variant == 1" },
 						{ "default": "!v.colt" }
 					],
-					"blend_transition": 0.1,
+					"blend_transition": 0.15,
+					"blend_via_shortest_path": true
+				},
+				"barikada": {
+					"animations": [
+						{ "colt": "v.colt" },
+						{ "weaponbig_barrikada": "v.colt" }
+					],
+					"transitions": [
+						{ "base": "q.variant == 0" },
+						{ "aim": "v.colt && q.is_sneaking" },
+						{ "reload": "v.colt && v.reload == true" },
+						{ "sprint": "q.is_sprinting" },
+						{ "default": "!v.colt" }
+					],
+					"blend_transition": 0.25,
 					"blend_via_shortest_path": true
 				},
 				"aim": {
@@ -30,16 +57,41 @@
 						{ "reload": "v.colt && v.reload == true" },
 						{ "default": "!v.colt" }
 					],
-					"blend_transition": 0.1,
+					"blend_transition": 0.15,
 					"blend_via_shortest_path": true
 				},
 				"reload": {
 					"animations": [
+						{ "colt": "v.colt" },
 						{ "colt_reload": "v.colt" }
 					],
 					"transitions": [
 						{ "base": "v.colt && v.reload == false" },
 						{ "default": "!v.colt" }
+					],
+					"blend_transition": 0.15,
+					"blend_via_shortest_path": true
+				},
+				"sprint": {
+					"animations": [
+						{ "weaponbig_sprint": "v.colt" },
+						{ "colt": "v.colt" }
+					],
+					"transitions": [
+						{"hold": "!q.is_sprinting"},
+						{"default": "!v.colt"}
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"hold": {
+					"animations": [
+						{ "weaponbig_sprint_stop": "v.colt" },
+						{ "colt": "v.colt" }
+					],
+					"transitions": [
+						{"base": "q.all_animations_finished"},
+						{"default": "!v.colt"}
 					],
 					"blend_transition": 0.1,
 					"blend_via_shortest_path": true
