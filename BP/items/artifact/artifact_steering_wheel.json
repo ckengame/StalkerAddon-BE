@@ -1,56 +1,26 @@
 {
-	"format_version": "1.19.10",
-	"minecraft:item": {
-		"description": {
-			"identifier": "cken:artifact_steering_wheel",
-			"category": "Equipment"
-		},
-		"components": {
-			"tag:artifact": {},
-			"minecraft:icon": {
-				"texture": "artifact_steering_wheel"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.equipment"
-			},
-			"minecraft:max_stack_size": 1,
-			"minecraft:render_offsets": {
-				"main_hand": {
-					"first_person": {
-						"scale": [
-							0,
-							0,
-							0
-						]
-					},
-					"third_person": {
-						"scale": [
-							0,
-							0,
-							0
-						]
-					}
-				},
-				"off_hand": {
-					"first_person": {
-						"scale": [
-							0,
-							0,
-							0
-						]
-					},
-					"third_person": {
-						"scale": [
-							0,
-							0,
-							0
-						]
-					}
-				}
-			},
-			"minecraft:entity_placer": {
-				"entity": "cken_artifact:af_control.01"
-			}
-		}
-	}
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cken:artifact_steering_wheel",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "artifact_steering_wheel"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:entity_placer": {
+        "entity": "cken_artifact:af_control.01"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "artifact"
+        ]
+      }
+    }
+  }
 }

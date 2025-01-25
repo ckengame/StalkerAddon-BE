@@ -1,33 +1,17 @@
 {
-	"format_version": "1.16.100",
-	"minecraft:item": {
-		"description": {
-			"identifier": "scm:stripe_bandit",
-			"category": "Items"
-		},
-		"components": {
-			"minecraft:max_stack_size": 16,
-			"minecraft:icon": {
-				"texture": "stripe_bandit"
-			},
-			"minecraft:render_offsets": {
-				"main_hand": {
-					"third_person": {
-						"scale": [
-							0.0125,
-							0.0125,
-							0.0125
-						]
-					},
-					"first_person": {
-						"scale": [
-							0.004749999999997151,
-							0.004749999999997151,
-							0.004749999999997151
-						]
-					}
-				}
-			}
-		}
-	}
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "scm:stripe_bandit",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 16,
+      "minecraft:icon": {
+        "texture": "stripe_bandit"
+      }
+    }
+  }
 }
