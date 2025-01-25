@@ -149,7 +149,7 @@
 					{ "bm16_animation_controller": "v.is_first_person" },
 					{ "colt_animation_controller": "v.is_first_person" },
 					{ "deagle_animation_controller": "v.is_first_person" },
-					{ "fort_animation_controller": "v.fort && v.is_first_person" },
+					{ "fort_animation_controller": "v.is_first_person" },
 					{ "gauss_animation_controller": "v.gauss && v.is_first_person" },
 					{ "groza_animation_controller": "v.groza && v.is_first_person" },
 					{ "hpsa_animation_controller": "v.hpsa && v.is_first_person" },
@@ -287,6 +287,7 @@
 				"fort_shoot": "animation.fort_shoot",
 				"fort_aim": "animation.fort_aim",
 				"fort_reload": "animation.fort_reload",
+				"fort_draw": "animation.fort_draw",
 
 				"gauss_animation_controller": "controller.animation.gauss",
 				"gauss": "animation.gauss",
