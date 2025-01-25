@@ -1,12 +1,22 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.50",
 	"animation_controllers": {
 		"controller.animation.bm16": {
 			"initial_state": "default",
 			"states": {
 				"default": {
 					"transitions": [
-						{ "base": "v.bm16" }
+						{ "draw": "v.bm16" }
+					]
+				},
+				"draw": {
+					"animations": [
+						{ "bm16": "v.bm16" },
+						{ "bm16_draw": "v.bm16" }
+					],
+					"transitions": [
+						{ "base": "q.all_animations_finished" },
+						{ "default": "!v.bm16" }
 					]
 				},
 				"base": {
@@ -16,9 +26,26 @@
 					"transitions": [
 						{ "aim": "v.bm16 && q.is_sneaking" },
 						{ "reload": "v.bm16 && v.reload == true" },
+						{ "sprint": "q.is_sprinting" },
+						{ "barikada": "q.variant == 1" },
 						{ "default": "!v.bm16" }
 					],
-					"blend_transition": 0.1,
+					"blend_transition": 0.15,
+					"blend_via_shortest_path": true
+				},
+				"barikada": {
+					"animations": [
+						{ "bm16": "v.bm16" },
+						{ "weaponbig_barrikada": "v.bm16" }
+					],
+					"transitions": [
+						{ "base": "q.variant == 0" },
+						{ "aim": "v.bm16 && q.is_sneaking" },
+						{ "reload": "v.bm16 && v.reload == true" },
+						{ "sprint": "q.is_sprinting" },
+						{ "default": "!v.bm16" }
+					],
+					"blend_transition": 0.25,
 					"blend_via_shortest_path": true
 				},
 				"aim": {
@@ -30,7 +57,7 @@
 						{ "reload": "v.bm16 && v.reload == true" },
 						{ "default": "!v.bm16" }
 					],
-					"blend_transition": 0.1,
+					"blend_transition": 0.15,
 					"blend_via_shortest_path": true
 				},
 				"reload": {
@@ -40,6 +67,30 @@
 					"transitions": [
 						{ "base": "v.bm16 && v.reload == false" },
 						{ "default": "!v.bm16" }
+					],
+					"blend_transition": 0.15,
+					"blend_via_shortest_path": true
+				},
+				"sprint": {
+					"animations": [
+						{ "weaponbig_sprint": "v.bm16" },
+						{ "bm16": "v.bm16" }
+					],
+					"transitions": [
+						{"hold": "!q.is_sprinting"},
+						{"default": "!v.bm16"}
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"hold": {
+					"animations": [
+						{ "weaponbig_sprint_stop": "v.bm16" },
+						{ "bm16": "v.bm16" }
+					],
+					"transitions": [
+						{"base": "q.all_animations_finished"},
+						{"default": "!v.bm16"}
 					],
 					"blend_transition": 0.1,
 					"blend_via_shortest_path": true

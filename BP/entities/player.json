@@ -56,10 +56,7 @@
 				"abakan": "controller.animation.abakan",
 				"akm74": "controller.animation.akm74",
 				"akm74u": "controller.animation.akm74u",
-				
-				"bm16": "controller.animation.player.bm16",
-				"bm16_reload": "animation.player.bm16_reload",
-				"bm16_shoot": "animation.player.bm16_shoot",
+				"bm16": "controller.animation.bm16",
 				
 				"colt": "controller.animation.player.colt",
 				"colt_reload": "animation.player.colt_reload",

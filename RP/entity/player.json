@@ -146,7 +146,7 @@
 					{ "abakan_animation_controller": "v.is_first_person" },
 					{ "akm74_animation_controller": "v.is_first_person" },
 					{ "akm74u_animation_controller": "v.is_first_person" },
-					{ "bm16_animation_controller": "v.bm16 && v.is_first_person" },
+					{ "bm16_animation_controller": "v.is_first_person" },
 					{ "colt_animation_controller": "v.colt && v.is_first_person" },
 					{ "deagle_animation_controller": "v.deagle && v.is_first_person" },
 					{ "fort_animation_controller": "v.fort && v.is_first_person" },
@@ -266,6 +266,7 @@
 				"bm16_shoot": "animation.bm16_shoot",
 				"bm16_aim": "animation.bm16_aim",
 				"bm16_reload": "animation.bm16_reload",
+				"bm16_draw": "animation.bm16_draw",
 
 				"colt_animation_controller": "controller.animation.colt",
 				"colt": "animation.colt",
