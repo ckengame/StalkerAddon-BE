@@ -1,0 +1,21 @@
+scoreboard players set @s[hasitem={item=scm:ammo_batteries, quantity=1}] gauss 1
+scoreboard players set @s[hasitem={item=scm:ammo_batteries, quantity=2}] gauss 2
+scoreboard players set @s[hasitem={item=scm:ammo_batteries, quantity=3}] gauss 3
+scoreboard players set @s[hasitem={item=scm:ammo_batteries, quantity=4}] gauss 4
+scoreboard players set @s[hasitem={item=scm:ammo_batteries, quantity=5}] gauss 5
+scoreboard players set @s[hasitem={item=scm:ammo_batteries, quantity=6}] gauss 6
+scoreboard players set @s[hasitem={item=scm:ammo_batteries, quantity=7}] gauss 7
+scoreboard players set @s[hasitem={item=scm:ammo_batteries, quantity=8}] gauss 8
+scoreboard players set @s[hasitem={item=scm:ammo_batteries, quantity=9}] gauss 9
+scoreboard players set @s[hasitem={item=scm:ammo_batteries, quantity=10..}] gauss 10
+
+clear @s[hasitem={item=scm:ammo_batteries, quantity=1}] scm:ammo_batteries 0 1
+clear @s[hasitem={item=scm:ammo_batteries, quantity=2}] scm:ammo_batteries 0 2
+clear @s[hasitem={item=scm:ammo_batteries, quantity=3}] scm:ammo_batteries 0 3
+clear @s[hasitem={item=scm:ammo_batteries, quantity=4}] scm:ammo_batteries 0 4
+clear @s[hasitem={item=scm:ammo_batteries, quantity=5}] scm:ammo_batteries 0 5
+clear @s[hasitem={item=scm:ammo_batteries, quantity=6}] scm:ammo_batteries 0 6
+clear @s[hasitem={item=scm:ammo_batteries, quantity=7}] scm:ammo_batteries 0 7
+clear @s[hasitem={item=scm:ammo_batteries, quantity=8}] scm:ammo_batteries 0 8
+clear @s[hasitem={item=scm:ammo_batteries, quantity=9}] scm:ammo_batteries 0 9
+clear @s[hasitem={item=scm:ammo_batteries, quantity=10..}] scm:ammo_batteries 0 10

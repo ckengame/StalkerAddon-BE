@@ -150,7 +150,7 @@
 					{ "colt_animation_controller": "v.is_first_person" },
 					{ "deagle_animation_controller": "v.is_first_person" },
 					{ "fort_animation_controller": "v.is_first_person" },
-					{ "gauss_animation_controller": "v.gauss && v.is_first_person" },
+					{ "gauss_animation_controller": "v.is_first_person" },
 					{ "groza_animation_controller": "v.groza && v.is_first_person" },
 					{ "hpsa_animation_controller": "v.hpsa && v.is_first_person" },
 					{ "l85_animation_controller": "v.l85 && v.is_first_person" },
@@ -294,6 +294,7 @@
 				"gauss_shoot": "animation.gauss_shoot",
 				"gauss_aim": "animation.gauss_aim",
 				"gauss_reload": "animation.gauss_reload",
+				"gauss_draw": "animation.gauss_draw",
 
 				"groza_animation_controller": "controller.animation.groza",
 				"groza": "animation.groza",
