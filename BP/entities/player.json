@@ -59,92 +59,28 @@
 				"bm16": "controller.animation.bm16",
 				"colt": "controller.animation.colt",
 				"deagle": "controller.animation.deagle",
-				
-				"fort": "controller.animation.player.fort",
-				"fort_reload": "animation.player.fort_reload",
-				"fort_shoot": "animation.player.fort_shoot",
-				
-				"gauss": "controller.animation.player.gauss",
-				"gauss_reload": "animation.player.gauss_reload",
-				"gauss_shoot": "animation.player.gauss_shoot",
-				
-				"groza": "controller.animation.player.groza",
-				"groza_reload": "animation.player.groza_reload",
-				"groza_shoot": "animation.player.groza_shoot",
-				
-				"hpsa": "controller.animation.player.hpsa",
-				"hpsa_reload": "animation.player.hpsa_reload",
-				"hpsa_shoot": "animation.player.hpsa_shoot",
-				
-				"l85": "controller.animation.player.l85",
-				"l85_reload": "animation.player.l85_reload",
-				"l85_shoot": "animation.player.l85_shoot",
-				
-				"lr300": "controller.animation.player.lr300",
-				"lr300_reload": "animation.player.lr300_reload",
-				"lr300_shoot": "animation.player.lr300_shoot",
-				
-				"mp5": "controller.animation.player.mp5",
-				"mp5_reload": "animation.player.mp5_reload",
-				"mp5_shoot": "animation.player.mp5_shoot",
-				
-				"pb": "controller.animation.player.pb",
-				"pb_reload": "animation.player.pb_reload",
-				"pb_shoot": "animation.player.pb_shoot",
-				
-				"pkm": "controller.animation.player.pkm",
-				"pkm_reload": "animation.player.pkm_reload",
-				"pkm_shoot": "animation.player.pkm_shoot",
-				
-				"pm": "controller.animation.player.pm",
-				"pm_reload": "animation.player.pm_reload",
-				"pm_shoot": "animation.player.pm_shoot",
-				
-				"prot": "controller.animation.player.prot",
-				"prot_reload": "animation.player.prot_reload",
-				"prot_shoot": "animation.player.prot_shoot",
-				
-				"sig220": "controller.animation.player.sig220",
-				"sig220_reload": "animation.player.sig220_reload",
-				"sig220_shoot": "animation.player.sig220_shoot",
-				
-				"sig550": "controller.animation.player.sig550",
-				"sig550_reload": "animation.player.sig550_reload",
-				"sig550_shoot": "animation.player.sig550_shoot",
-				
-				"spas": "controller.animation.player.spas",
-				"spas_reload": "animation.player.spas_reload",
-				"spas_shoot": "animation.player.spas_shoot",
-				
-				"svd": "controller.animation.player.svd",
-				"svd_reload": "animation.player.svd_reload",
-				"svd_shoot": "animation.player.svd_shoot",
-				
-				"svu": "controller.animation.player.svu",
-				"svu_reload": "animation.player.svu_reload",
-				"svu_shoot": "animation.player.svu_shoot",
-				
-				"toz34": "controller.animation.player.toz34",
-				"toz34_reload": "animation.player.toz34_reload",
-				"toz34_shoot": "animation.player.toz34_shoot",
-				
-				"val": "controller.animation.player.val",
-				"val_reload": "animation.player.val_reload",
-				"val_shoot": "animation.player.val_shoot",
-				
-				"vintorez": "controller.animation.player.vintorez",
-				"vintorez_reload": "animation.player.vintorez_reload",
-				"vintorez_shoot": "animation.player.vintorez_shoot",
-				
-				"walther": "controller.animation.player.walther",
-				"walther_reload": "animation.player.walther_reload",
-				"walther_shoot": "animation.player.walther_shoot",
-				
-				"winch": "controller.animation.player.winch",
-				"winch_reload": "animation.player.winch_reload",
-				"winch_shoot": "animation.player.winch_shoot",
-
-				"guitar": "controller.animation.player.guitar"
+				"fort": "controller.animation.fort",
+				"gauss": "controller.animation.gauss",
+				"groza": "controller.animation.groza",
+				"hpsa": "controller.animation.hpsa",
+				"l85": "controller.animation.l85",
+				"lr300": "controller.animation.lr300",
+				"mp5": "controller.animation.mp5",
+				"pb": "controller.animation.pb",
+				"pkm": "controller.animation.pkm",
+				"pm": "controller.animation.pm",
+				"prot": "controller.animation.prot",
+				"sig220": "controller.animation.sig220",
+				"sig550": "controller.animation.sig550",
+				"spas": "controller.animation.spas",
+				"svd": "controller.animation.svd",
+				"svu": "controller.animation.svu",
+				"toz34": "controller.animation.toz34",
+				"val": "controller.animation.val",
+				"vintorez": "controller.animation.vintorez",
+				"walther": "controller.animation.walther",
+				"winch": "controller.animation.winch",
+				"guitar": "controller.animation.guitar"
 			}
 		},
 

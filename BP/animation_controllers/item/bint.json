@@ -29,7 +29,7 @@
 					"transitions": [ { "default": "(1.0)" } ],
 					"on_entry": [
 						"/stopsound @s item.bandage",
-						"/playanimation @s animation.player.first_person.base_pose",
+						"/playanimation @s animation.first_person.base_pose",
 						"/scoreboard players set @s bint 0"
 					]
 				}

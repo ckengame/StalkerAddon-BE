@@ -1,7 +1,7 @@
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
-		"controller.animation.player.toz34": {
+		"controller.animation.toz34": {
 			"initial_state": "default",
 			"states": {
 				"default": {

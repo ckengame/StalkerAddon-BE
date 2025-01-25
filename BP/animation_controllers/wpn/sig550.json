@@ -1,7 +1,7 @@
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
-		"controller.animation.player.sig550": {
+		"controller.animation.sig550": {
 			"initial_state": "default",
 			"states": {
 				"default": {

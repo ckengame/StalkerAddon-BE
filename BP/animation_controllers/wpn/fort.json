@@ -1,7 +1,7 @@
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
-		"controller.animation.player.fort": {
+		"controller.animation.fort": {
 			"initial_state": "default",
 			"states": {
 				"default": {

@@ -1,7 +1,7 @@
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
-		"controller.animation.player.sig220": {
+		"controller.animation.sig220": {
 			"initial_state": "default",
 			"states": {
 				"default": {
