@@ -1,27 +1,115 @@
 {
-	"format_version": "1.10.0",
+	"format_version": "1.20.80",
 	"animation_controllers": {
-		"controller.animation.player.deagle": {
+		"controller.animation.deagle": {
 			"initial_state": "default",
 			"states": {
 				"default": {
 					"transitions": [
-						{ "reload": "q.scoreboard('deagle') == 0 && q.is_item_name_any('slot.weapon.mainhand', 'scm:deagle') && q.is_using_item" },
-						{ "shoot": "q.scoreboard('deagle') >= 1 && q.is_item_name_any('slot.weapon.mainhand', 'scm:deagle') && q.is_using_item" }
+						{
+							"draw": "q.is_item_name_any('slot.weapon.mainhand', 'scm:deagle')"
+						}
+					]
+				},
+				"draw": {
+					"on_entry": [
+						"v.timer = q.life_time;",
+						"/camerashake add @s 0.056 0.4167 positional",
+						"/playsound generic_draw @s"
+					],
+					"on_exit": [
+						"/camerashake stop @s",
+						"/stopsound @s generic_draw"
+					],
+					"transitions": [
+						{
+							"default": "!q.is_item_name_any('slot.weapon.mainhand', 'scm:deagle')"
+						},
+						{
+							"hold": "(q.life_time - v.timer) >= 0.4167"
+						}
+					]
+				},
+				"hold": {
+					"transitions": [
+						{
+							"default": "!q.is_item_name_any('slot.weapon.mainhand', 'scm:deagle')"
+						},
+						{
+							"reload": "!q.is_sprinting && q.is_using_item && q.scoreboard('deagle') == 0"
+						},
+						{
+							"shoot": "!q.is_sprinting && q.is_using_item && q.scoreboard('deagle') > 0"
+						}
 					]
 				},
 				"reload": {
-					"on_exit": ["@s gun:base", "/stopsound @s deagle.reload"],
-					"animations": ["deagle_reload"],
+					"on_entry": [
+						"/event entity @s[hasitem={item=scm:ammo_45acp, quantity=1..}] gun:reload"
+					],
 					"transitions": [
-						{ "default": "q.all_animations_finished || !q.is_item_name_any('slot.weapon.mainhand', 'scm:deagle') || q.mark_variant != 2" }
+						{
+							"reload_start": "q.mark_variant == 2"
+						},
+						{
+							"hold": "q.mark_variant != 2"
+						}
+					]
+				},
+				"reload_start": {
+					"on_entry": [
+						"v.timer = q.life_time;",
+						"/playsound deagle.reload @s",
+						"/camerashake add @s 0.065 2.2083 positional"
+					],
+					"transitions": [
+						{
+							"reload_great": "(q.life_time - v.timer) >= 2.2083"
+						},
+						{
+							"reload_error": "q.is_sprinting || !q.is_item_name_any('slot.weapon.mainhand', 'scm:deagle')"
+						}
+					]
+				},
+				"reload_great": {
+					"on_entry": [
+						"@s gun:base",
+						"/execute as @s[hasitem={item=scm:ammo_45acp, quantity=1..}] run function wpn/deagle_reload"
+					],
+					"transitions": [
+						{
+							"hold": "(1.0)"
+						}
+					]
+				},
+				"reload_error": {
+					"on_entry": [
+						"@s gun:base",
+						"/stopsound @s deagle.reload",
+						"/camerashake stop @s"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
 					]
 				},
 				"shoot": {
-					"on_entry": ["@s gun:shoot"],
-					"animations": ["deagle_shoot"],
+					"on_entry": [
+						"v.timer = q.life_time;",
+						"@s gun:shoot",
+						"@s ambullet:deagle",
+						"/playsound deagle.shoot @a[r=200] ~~~",
+						"/camerashake add @s 0.15 0.1 rotational",
+						"/scoreboard players remove @s deagle 1"
+					],
 					"transitions": [
-						{ "default": "q.all_animations_finished" }
+						{
+							"default": "!q.is_item_name_any('slot.weapon.mainhand', 'scm:deagle')"
+						},
+						{
+							"hold": "(q.life_time - v.timer) >= 0.3"
+						}
 					]
 				}
 			}

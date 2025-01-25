@@ -1,45 +1,165 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.50",
 	"animation_controllers": {
 		"controller.animation.deagle": {
 			"initial_state": "default",
 			"states": {
 				"default": {
 					"transitions": [
-						{ "base": "v.deagle" }
+						{
+							"draw": "v.deagle"
+						}
+					]
+				},
+				"draw": {
+					"animations": [
+						{
+							"deagle": "v.deagle"
+						},
+						{
+							"deagle_draw": "v.deagle"
+						}
+					],
+					"transitions": [
+						{
+							"base": "q.all_animations_finished"
+						},
+						{
+							"default": "!v.deagle"
+						}
 					]
 				},
 				"base": {
 					"animations": [
-						{ "deagle": "v.deagle" }
+						{
+							"deagle": "v.deagle"
+						}
 					],
 					"transitions": [
-						{ "aim": "v.deagle && q.is_sneaking" },
-						{ "reload": "v.deagle && v.reload == true" },
-						{ "default": "!v.deagle" }
+						{
+							"aim": "v.deagle && q.is_sneaking"
+						},
+						{
+							"reload": "v.deagle && v.reload == true"
+						},
+						{
+							"sprint": "q.is_sprinting"
+						},
+						{
+							"barikada": "q.variant == 1"
+						},
+						{
+							"default": "!v.deagle"
+						}
 					],
-					"blend_transition": 0.1,
+					"blend_transition": 0.15,
+					"blend_via_shortest_path": true
+				},
+				"barikada": {
+					"animations": [
+						{
+							"deagle": "v.deagle"
+						},
+						{
+							"weaponbig_barrikada": "v.deagle"
+						}
+					],
+					"transitions": [
+						{
+							"base": "q.variant == 0"
+						},
+						{
+							"aim": "v.deagle && q.is_sneaking"
+						},
+						{
+							"reload": "v.deagle && v.reload == true"
+						},
+						{
+							"sprint": "q.is_sprinting"
+						},
+						{
+							"default": "!v.deagle"
+						}
+					],
+					"blend_transition": 0.25,
 					"blend_via_shortest_path": true
 				},
 				"aim": {
 					"animations": [
-						{ "deagle_aim": "v.deagle" }
+						{
+							"deagle_aim": "v.deagle"
+						}
 					],
 					"transitions": [
-						{ "base": "v.deagle && !q.is_sneaking" },
-						{ "reload": "v.deagle && v.reload == true" },
-						{ "default": "!v.deagle" }
+						{
+							"base": "v.deagle && !q.is_sneaking"
+						},
+						{
+							"reload": "v.deagle && v.reload == true"
+						},
+						{
+							"default": "!v.deagle"
+						}
 					],
-					"blend_transition": 0.1,
+					"blend_transition": 0.15,
 					"blend_via_shortest_path": true
 				},
 				"reload": {
 					"animations": [
-						{ "deagle_reload": "v.deagle" }
+						{
+							"deagle": "v.deagle"
+						},
+						{
+							"deagle_reload": "v.deagle"
+						}
 					],
 					"transitions": [
-						{ "base": "v.deagle && v.reload == false" },
-						{ "default": "!v.deagle" }
+						{
+							"base": "v.deagle && v.reload == false"
+						},
+						{
+							"default": "!v.deagle"
+						}
+					],
+					"blend_transition": 0.15,
+					"blend_via_shortest_path": true
+				},
+				"sprint": {
+					"animations": [
+						{
+							"weaponbig_sprint": "v.deagle"
+						},
+						{
+							"deagle": "v.deagle"
+						}
+					],
+					"transitions": [
+						{
+							"hold": "!q.is_sprinting"
+						},
+						{
+							"default": "!v.deagle"
+						}
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"hold": {
+					"animations": [
+						{
+							"weaponbig_sprint_stop": "v.deagle"
+						},
+						{
+							"deagle": "v.deagle"
+						}
+					],
+					"transitions": [
+						{
+							"base": "q.all_animations_finished"
+						},
+						{
+							"default": "!v.deagle"
+						}
 					],
 					"blend_transition": 0.1,
 					"blend_via_shortest_path": true

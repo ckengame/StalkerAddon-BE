@@ -148,7 +148,7 @@
 					{ "akm74u_animation_controller": "v.is_first_person" },
 					{ "bm16_animation_controller": "v.is_first_person" },
 					{ "colt_animation_controller": "v.is_first_person" },
-					{ "deagle_animation_controller": "v.deagle && v.is_first_person" },
+					{ "deagle_animation_controller": "v.is_first_person" },
 					{ "fort_animation_controller": "v.fort && v.is_first_person" },
 					{ "gauss_animation_controller": "v.gauss && v.is_first_person" },
 					{ "groza_animation_controller": "v.groza && v.is_first_person" },
@@ -280,6 +280,7 @@
 				"deagle_shoot": "animation.deagle_shoot",
 				"deagle_aim": "animation.deagle_aim",
 				"deagle_reload": "animation.deagle_reload",
+				"deagle_draw": "animation.deagle_draw",
 
 				"fort_animation_controller": "controller.animation.fort",
 				"fort": "animation.fort",

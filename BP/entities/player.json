@@ -58,10 +58,7 @@
 				"akm74u": "controller.animation.akm74u",
 				"bm16": "controller.animation.bm16",
 				"colt": "controller.animation.colt",
-				
-				"deagle": "controller.animation.player.deagle",
-				"deagle_reload": "animation.player.deagle_reload",
-				"deagle_shoot": "animation.player.deagle_shoot",
+				"deagle": "controller.animation.deagle",
 				
 				"fort": "controller.animation.player.fort",
 				"fort_reload": "animation.player.fort_reload",
