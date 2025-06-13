@@ -1,9 +1,16 @@
 {
-	"format_version": "1.8.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "cken:anomaly_jelly",
-			"spawn_egg": {"texture": "anomaly_jelly"}
-		}
-	}
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cken:anomaly_jelly",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/anomaly_jelly"
+      },
+      "geometry": {
+        "default": "geometry.anomaly_jelly"
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
 }
