@@ -11,8 +11,7 @@
       "geometry": {
         "default": "geometry.anomaly_fireball"
       },
-      "render_controllers": [ "controller.render.default" ]
-      // optional: animation_controllers, locators, scripts, attachables, etc.
+      "render_controllers": [ "controller.render.default"
     }
   }
 }
