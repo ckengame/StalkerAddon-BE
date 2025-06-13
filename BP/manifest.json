@@ -2,7 +2,7 @@
 	"format_version": 2,
 	"header": {
 		"name": "STALKER BEDROCK ADDON BP",
-		"description": "Authots: Cken",
+		"description": "Authors: Cken, FrostyHostMC",
 		"uuid": "7e30ba32-ba27-487a-898b-57de0fe02761",
 		"version": [2, 0, 0],
 		"min_engine_version": [1, 21, 82]
