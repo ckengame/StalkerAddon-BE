@@ -3,7 +3,6 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "cken:anomaly_fireball",
-      "min_engine_version": "1.10.0",
       "materials": { "default": "entity_alphatest" },
       "textures": {
         "default": "textures/entity/anomaly_fireball"
@@ -11,7 +10,7 @@
       "geometry": {
         "default": "geometry.anomaly_fireball"
       },
-      "render_controllers": [ "controller.render.default"
+      "render_controllers": [ "controller.render.default" ]
     }
   }
 }
