@@ -1,9 +1,18 @@
 {
-	"format_version": "1.8.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "cken:anomaly_fireball",
-			"spawn_egg": {"texture": "anomaly_fireball"}
-		}
-	}
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cken:anomaly_fireball",
+      "min_engine_version": "1.10.0",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/anomaly_fireball"
+      },
+      "geometry": {
+        "default": "geometry.anomaly_fireball"
+      },
+      "render_controllers": [ "controller.render.default" ]
+      // optional: animation_controllers, locators, scripts, attachables, etc.
+    }
+  }
 }
