@@ -1,30 +1,30 @@
 {
-	"format_version": "1.10.0",
-	"animation_controllers": {
-		"controller.animation.mp5": {
-			"initial_state": "default",
-			"states": {
-				"default": {
-					"transitions": [
-						{ "reload": "q.scoreboard('mp5') == 0 && q.is_item_name_any('slot.weapon.mainhand', 'scm:mp5') && q.is_using_item" },
-						{ "shoot": "q.scoreboard('mp5') >= 1 && q.is_item_name_any('slot.weapon.mainhand', 'scm:mp5') && q.is_using_item" }
-					]
-				},
-				"reload": {
-					"on_exit": ["@s gun:base", "/stopsound @s mp5.reload"],
-					"animations": ["mp5_reload"],
-					"transitions": [
-						{ "default": "q.all_animations_finished || !q.is_item_name_any('slot.weapon.mainhand', 'scm:mp5') || q.mark_variant != 2" }
-					]
-				},
-				"shoot": {
-					"on_entry": ["@s gun:shoot"],
-					"animations": ["mp5_shoot"],
-					"transitions": [
-						{ "default": "q.all_animations_finished" }
-					]
-				}
-			}
-		}
-	}
+  "format_version": "1.21.70",
+  "animation_controllers": {
+    "controller.animation.mp5": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            { "reload": "q.scoreboard('mp5') == 0 && q.is_item_name_any('slot.weapon.mainhand', 'scm:mp5') && q.is_using_item" },
+            { "shoot": "q.scoreboard('mp5') >= 1 && q.is_item_name_any('slot.weapon.mainhand', 'scm:mp5') && q.is_using_item" }
+          ]
+        },
+        "reload": {
+          "on_exit": ["@s gun:base", "/stopsound @s mp5.reload"],
+          "animations": ["mp5_reload"],
+          "transitions": [
+            { "default": "q.all_animations_finished || !q.is_item_name_any('slot.weapon.mainhand', 'scm:mp5') || q.mark_variant != 2" }
+          ]
+        },
+        "shoot": {
+          "on_entry": ["@s gun:shoot"],
+          "animations": ["mp5_shoot"],
+          "transitions": [
+            { "default": "q.all_animations_finished" }
+          ]
+        }
+      }
+    }
+  }
 }

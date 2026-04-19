@@ -1,68 +1,64 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "cken:npc",
-			"materials": {
-				"default": "npc"
-			},
-			"textures": {
-				"npc_1": "textures/entity/npc/army1",
-				"npc_2": "textures/entity/npc/bandit1",
-				"npc_3": "textures/entity/npc/bandit2",
-				"npc_4": "textures/entity/npc/bandit3",
-				"npc_5": "textures/entity/npc/duty1",
-				"npc_6": "textures/entity/npc/duty2",
-				"npc_7": "textures/entity/npc/freedom2",
-				"npc_8": "textures/entity/npc/freedom3",
-				"npc_9": "textures/entity/npc/mercenary1",
-				"npc_10": "textures/entity/npc/mercenary2",
-				"npc_scientist_1": "textures/entity/npc/monolit1",
-				"npc_scientist_2": "textures/entity/npc/stalker1",
-				"npc_scientist_3": "textures/entity/npc/stalker2",
-				"npc_scientist_4": "textures/entity/npc/stalker3",
-				"npc_scientist_5": "textures/entity/npc/targ1",
-				"npc_scientist_6": "textures/entity/npc/targ2",
-				"npc_scientist_7": "textures/entity/npc/targ3",
-				"npc_scientist_8": "textures/entity/npc/targ4",
-				"npc_scientist_9": "textures/entity/npc/targ5",
-				"npc_scientist_10": "textures/entity/npc/targ7",
-				"npc_apiary_1": "textures/entity/npc/targ9",
-				"npc_apiary_2": "textures/entity/npc/targ10",
-				"npc_apiary_3": "textures/entity/npc/targ11",
-				"npc_apiary_4": "textures/entity/npc/targ12",
-				"npc_apiary_5": "textures/entity/npc/targ13",
-				"npc_teacher_1": "textures/entity/npc/targ14",
-				"empty": "textures/empty"
-			},
-			"geometry": {
-				"default": "geometry.npc.custom"
-			},
-			"spawn_egg": {
-				"texture": "spawn_egg",
-				"texture_index": 35
-			},
-			"scripts": {
-				"scale": "0.9375",
-				"animate": [
-					"look_at_target",
-					"move",
-					"bob",
-					{
-						"attack": "variable.has_target&&variable.attack_time>=0"
-					}
-				]
-			},
-			"animations": {
-				"look_at_target": "animation.humanoid.look_at_target.default",
-				"move": "animation.humanoid.move",
-				"bob": "animation.humanoid.bob",
-				"attack": "animation.skeleton.attack"
-			},
-			"render_controllers": [
-				"controller.render.cken:npc"
-			],
-			"enable_attachables": true
-		}
-	}
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cken:npc",
+      "materials": {
+        "default": "npc"
+      },
+      "textures": {
+        "npc_1": "textures/entity/npc/army1",
+        "npc_2": "textures/entity/npc/bandit1",
+        "npc_3": "textures/entity/npc/bandit2",
+        "npc_4": "textures/entity/npc/bandit3",
+        "npc_5": "textures/entity/npc/duty1",
+        "npc_6": "textures/entity/npc/duty2",
+        "npc_7": "textures/entity/npc/freedom2",
+        "npc_8": "textures/entity/npc/freedom3",
+        "npc_9": "textures/entity/npc/mercenary1",
+        "npc_10": "textures/entity/npc/mercenary2",
+        "npc_scientist_1": "textures/entity/npc/monolit1",
+        "npc_scientist_2": "textures/entity/npc/stalker1",
+        "npc_scientist_3": "textures/entity/npc/stalker2",
+        "npc_scientist_4": "textures/entity/npc/stalker3",
+        "npc_scientist_5": "textures/entity/npc/targ1",
+        "npc_scientist_6": "textures/entity/npc/targ2",
+        "npc_scientist_7": "textures/entity/npc/targ3",
+        "npc_scientist_8": "textures/entity/npc/targ4",
+        "npc_scientist_9": "textures/entity/npc/targ5",
+        "npc_scientist_10": "textures/entity/npc/targ7",
+        "npc_apiary_1": "textures/entity/npc/targ9",
+        "npc_apiary_2": "textures/entity/npc/targ10",
+        "npc_apiary_3": "textures/entity/npc/targ11",
+        "npc_apiary_4": "textures/entity/npc/targ12",
+        "npc_apiary_5": "textures/entity/npc/targ13",
+        "npc_teacher_1": "textures/entity/npc/targ14",
+        "empty": "textures/empty"
+      },
+      "geometry": {
+        "default": "geometry.npc.custom"
+      },
+      "scripts": {
+        "scale": 0.9375,
+        "animate": [
+          "look_at_target",
+          "move",
+          "bob",
+          {
+            "attack": "variable.has_target&&variable.attack_time>=0"
+          }
+        ]
+      },
+      "animations": {
+        "look_at_target": "animation.humanoid.look_at_target.default",
+        "move": "animation.humanoid.move",
+        "bob": "animation.humanoid.bob",
+        "attack": "animation.skeleton.attack"
+      },
+      "render_controllers": [
+        "controller.render.cken:npc"
+      ],
+      "enable_attachables": true
+    }
+  }
 }
