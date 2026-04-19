@@ -1,4 +1,4 @@
-# STALFEAR Addon (S.T.A.L.K.E.R. for Minecraft Bedrock)
+# STALKER Addon (S.T.A.L.K.E.R. for Minecraft Bedrock)
 
 A project aimed at recreating and adapting core elements of the S.T.A.L.K.E.R. universe within Minecraft Bedrock Edition.
 
